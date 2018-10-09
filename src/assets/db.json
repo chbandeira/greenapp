@@ -1,0 +1,1215 @@
+{
+	"skills": [
+		{
+			"name": "+1 Action",
+			"content": {
+				"en": {
+					"title": "+1 Action",
+					"description": "The Survivor has an extra Action they may use as they please."
+				},
+				"pt": {
+					"title": "+1 Ação",
+					"description": "O Sobrevivente tem uma Ação extra que pode usar como quiser."
+				}
+			}
+		},
+		{
+			"name": "+1 Damage: [Type]",
+			"content": {
+				"en": {
+					"title": "+1 Damage: [Type]",
+					"description": "The Survivor gets a +1 Damage bonus with the specified type of Combat Action (Magic, Melee, or Ranged)."
+				},
+				"pt": {
+					"title": "+1 Dano: [Tipo]",
+					"description": "O Sobrevivente ganha um bônus de Dano de +1 no tipo de Ação de Combate indicada (Corpo a Corpo, de Alcance ou de Magia)."
+				}
+			}
+		},
+		{
+			"name": "+1 Damage with [Equipment]",
+			"content": {
+				"en": {
+					"title": "+1 Damage with [Equipment]",
+					"description": "The Survivor gets a +1 Damage bonus with the specified Equipment."
+				},
+				"pt": {
+					"title": "+1 Dano com [Equipamento]",
+					"description": "O Sobrevivente ganha um bônus de Dano de +1 com o Equipamento indicado."
+				}
+			}
+		},
+		{
+			"name": "+1 to dice roll: Combat",
+			"content": {
+				"en": {
+					"title": "+1 to dice roll: Combat",
+					"description": "The Survivor adds 1 to the result of each die they roll on a Combat Action (Melee, Ranged, or Magic). The maximum result is always 6."
+				},
+				"pt": {
+					"title": "+1 no dado: Combate",
+					"description": "O Sobrevivente adiciona 1 ao resultado de cada dado rolado em uma Ação de Combate (Corpo a Corpo, de Alcance ou de Magia). O Resultado máximo é sempre 6. "
+				}
+			}
+		},
+		{
+			"name": "+1 to dice roll: Magic",
+			"content": {
+				"en": {
+					"title": "+1 to dice roll: Magic",
+					"description": "The Survivor adds 1 to the result of each die they roll on a Magic Action. The maximum result is always 6."
+				},
+				"pt": {
+					"title": "+1 no dado: Magia",
+					"description": "O Sobrevivente adiciona 1 ao resultado de cada dado rolado em uma Ação de Magia. O Resultado máximo é sempre 6. "
+				}
+			}
+		},
+		{
+			"name": "+1 to dice roll: Melee",
+			"content": {
+				"en": {
+					"title": "+1 to dice roll: Melee",
+					"description": "The Survivor adds 1 to the result of each die they roll on a Melee Action. The maximum result is always 6."
+				},
+				"pt": {
+					"title": "+1 no dado: Corpo a Corpo",
+					"description": "O Sobrevivente adiciona 1 ao resultado de cada dado rolado em Ações Corpo a Corpo. O Resultado máximo é sempre 6. "
+				}
+			}
+		},
+		{
+			"name": "+1 to dice roll: Ranged",
+			"content": {
+				"en": {
+					"title": "+1 to dice roll: Ranged",
+					"description": "The Survivor adds 1 to the result of each die they roll on a Ranged Action. The maximum result is always 6."
+				},
+				"pt": {
+					"title": "+1 no dado: Alcance",
+					"description": "O Sobrevivente adiciona 1 ao resultado de cada dado rolado em Ações de Alcance. O Resultado máximo é sempre 6. "
+				}
+			}
+		},
+		{
+			"name": "+1 die: Combat",
+			"content": {
+				"en": {
+					"title": "+1 die: Combat",
+					"description": "The Survivor’s weapons and Combat spells roll an extra die in Combat (Melee, Ranged, or Magic). Dual weapons and spells each gain a die, for a total of +2 dice per Dual Combat Action."
+				},
+				"pt": {
+					"title": "+1 dado: Combate",
+					"description": "As armas e feitiços de Combate do Sobrevivente rolam um dado extra em Combate (Corpo a Corpo, de Alcance ou de Magia). Armas e feitiços Duplos ganham um dado cada, para um total de +2 dados por Ação de Combate Dupla. "
+				}
+			}
+		},
+		{
+			"name": "+1 die: Magic",
+			"content": {
+				"en": {
+					"title": "+1 die: Magic",
+					"description": "The Survivor’s Combat spells roll an extra die for Magic Actions. Dual Combat spells each gain a die, for a total of +2 dice per Dual Magic Action."
+				},
+				"pt": {
+					"title": "+1 dado: Magia",
+					"description": "Os feitiços de Combate do Sobrevivente rolam um dado extra para Ações de Magia. Feitiços de Combate Duplos ganham um dado cada, para um total de +2 dados por Ação de Magia Dupla. "
+				}
+			}
+		},
+		{
+			"name": "+1 die: Melee",
+			"content": {
+				"en": {
+					"title": "+1 die: Melee",
+					"description": "The Survivor’s Melee weapons roll an extra die for Melee Actions. Dual Melee weapons each gain a die, for a total of +2 dice per Dual Melee Action."
+				},
+				"pt": {
+					"title": "+1 dado: Corpo a Corpo",
+					"description": "As armas Corpo a Corpo do Sobrevivente rolam um dado extra em Ações Corpo a Corpo. Armas Corpo a Corpo Duplas ganham um dado cada, totalizando +2 dados por Ação Corpo a Corpo Dupla. "
+				}
+			}
+		},
+		{
+			"name": "+1 die: Ranged",
+			"content": {
+				"en": {
+					"title": "+1 dado: Alcance",
+					"description": "The Survivor’s Ranged weapons roll an extra die for Ranged Actions. Dual Ranged weapons each gain a die, for a total of +2 dice per Dual Ranged Action."
+				},
+				"pt": {
+					"title": "+1 die: Ranged",
+					"description": "As armas de Alcance do Sobrevivente rolam um dado extra em Ações de Alcance. Armas de Alcance Duplas ganham um dado cada, totalizando +2 dados por Ação de Alcance Dupla. "
+				}
+			}
+		},
+		{
+			"name": "+1 free Combat Action",
+			"content": {
+				"en": {
+					"title": "+1 free Combat Action",
+					"description": "The Survivor has 1 extra free Combat Action. This Action may only be used for Melee, Ranged, or Magic Actions."
+				},
+				"pt": {
+					"title": "+1 Ação de Combate grátis",
+					"description": "O Sobrevivente tem uma Ação de Combate extra grátis. Essa Ação pode ser usada apenas para Ações Corpo a Corpo, de Alcance ou de Magia."
+				}
+			}
+		},
+		{
+			"name": "+1 free Enchantment Action",
+			"content": {
+				"en": {
+					"title": "+1 free Enchantment Action",
+					"description": "The Survivor has 1 extra free Enchantment Action. This Action may only be used for Enchantment Actions."
+				},
+				"pt": {
+					"title": "+1 Ação de Encantamento grátis",
+					"description": "O Sobrevivente tem uma Ação de Encantamento extra grátis. Essa Ação pode ser usada apenas para Ações de Encantamento."
+				}
+			}
+		},
+		{
+			"name": "+1 free Magic Action",
+			"content": {
+				"en": {
+					"title": "+1 free Magic Action",
+					"description": "The Survivor has 1 extra free Magic Action. This Action may only be used for Magic Actions."
+				},
+				"pt": {
+					"title": "+1 Ação de Magia grátis",
+					"description": "O Sobrevivente tem uma Ação de Magia extra grátis. Essa Ação pode ser usada apenas para Ações de Magia."
+				}
+			}
+		},
+		{
+			"name": "+1 free Melee Action",
+			"content": {
+				"en": {
+					"title": "+1 free Melee Action",
+					"description": "The Survivor has 1 extra free Melee Action. This Action may only be used for a Melee Action."
+				},
+				"pt": {
+					"title": "+1 Ação Corpo a Corpo grátis",
+					"description": "O Sobrevivente tem uma Ação Corpo a Corpo extra grátis. Essa Ação pode ser usada apenas para Ações Corpo a Corpo. "
+				}
+			}
+		},
+		{
+			"name": "+1 free Move Action",
+			"content": {
+				"en": {
+					"title": "+1 free Move Action",
+					"description": "The Survivor has 1 extra free Move Action. This Action may only be used as a Move Action."
+				},
+				"pt": {
+					"title": "+1 Ação de Movimento grátis",
+					"description": "O Sobrevivente tem uma Ação de Movimento extra grátis. Essa Ação pode ser usada apenas para Ação de Movimento. "
+				}
+			}
+		},
+		{
+			"name": "+1 free Ranged Action",
+			"content": {
+				"en": {
+					"title": "+1 free Ranged Action",
+					"description": "The Survivor has 1 extra free Ranged Action. This Action may only be used as a Ranged Action."
+				},
+				"pt": {
+					"title": "+1 Ação de Alcance grátis",
+					"description": "O Sobrevivente tem uma Ação de Alcance extra grátis. Essa Ação pode ser usada apenas para Ação de Alcance. "
+				}
+			}
+		},
+		{
+			"name": "+1 free Search Action",
+			"content": {
+				"en": {
+					"title": "+1 free Search Action",
+					"description": "The Survivor has 1 extra free Search Action. This Action may only be used to Search, and the Survivor can still only Search once per Turn."
+				},
+				"pt": {
+					"title": "+1 Ação de Procura grátis",
+					"description": "O Sobrevivente tem uma Ação de Procura extra grátis. Essa Ação pode ser usada apenas para Procura, e o Sobrevivente continua podendo Procurar apenas uma vez por Turno. "
+				}
+			}
+		},
+		{
+			"name": "+1 max Range",
+			"content": {
+				"en": {
+					"title": "+1 max Range",
+					"description": "The Survivor’s Ranged weapons and Combat spells’ maximum Range is increased by 1."
+				},
+				"pt": {
+					"title": "+1 Alcance máx",
+					"description": "O Alcance máximo das armas de Alcance e dos feitiços de Combate do Sobrevivente é aumentado em 1."
+				}
+			}
+		},
+		{
+			"name": "+1 Zone per Move",
+			"content": {
+				"en": {
+					"title": "+1 Zone per Move",
+					"description": "The Survivor can move through 1 extra Zone each time they perform a Move Action. This Skill stacks with other effects benefiting Move Actions. Entering a Zone containing Zombies still ends the Survivor’s Move Action."
+				},
+				"pt": {
+					"title": "+1 Zona por Movimento",
+					"description": "O Sobrevivente pode se mover por uma Zona a mais cada vez que faz uma Ação de Movimento. Essa Habilidade se soma a outros efeitos de Habilidades que beneficiem Ações de Movimento. Entrar em uma Zona com Zumbis encerra a Ação de Movimento do Sobrevivente. "
+				}
+			}
+		},
+		{
+			"name": "2 Zones per Move Action",
+			"content": {
+				"en": {
+					"title": "2 Zones per Move Action",
+					"description": "When the Survivor spends 1 Action to Move, they can Move 1 or 2 Zones instead of 1. Entering a Zone containing Zombies still ends the Survivor’s Move Action."
+				},
+				"pt": {
+					"title": "2 Zonas por Movimento",
+					"description": "Quando o Sobrevivente utiliza uma Ação para se Movimentar, ele pode se mover uma ou duas Zonas ao invés de uma. Entrar em uma Zona com Zumbis encerra a Ação de Movimento do Sobrevivente. "
+				}
+			}
+		},
+		{
+			"name": "Ambidextrous",
+			"content": {
+				"en": {
+					"title": "Ambidextrous",
+					"description": "The Survivor treats all Combat spells, Melee, and Ranged weapons as if they had the Dual symbol."
+				},
+				"pt": {
+					"title": "Ambidestro",
+					"description": "O Sobrevivente trata todas as armas Corpo a Corpo e de Alcance e todos os feitiços de Combate como se tivessem o símbolo de Dupla."
+				}
+			}
+		},
+		{
+			"name": "Barbarian",
+			"content": {
+				"en": {
+					"title": "Barbarian",
+					"description": "When resolving a Melee Action, the Survivor may substitute the Dice number of the Melee weapon(s) they use with the number of Zombies standing in the targeted Zone. Skills affecting the dice value, like +1 die: Melee, still apply"
+				},
+				"pt": {
+					"title": "Bárbaro",
+					"description": "Ao resolver uma Ação Corpo a Corpo, o Sobrevivente pode substituir o número de Dados da(s) arma(s) Corpo a Corpo que estiver usando pelo número de Zumbis em sua Zona. As Habilidades que afetam o número de Dados, como +1 dado: Corpo a Corpo, continuam valendo."
+				}
+			}
+		},
+		{
+			"name": "Battle rage",
+			"content": {
+				"en": {
+					"title": "Battle rage",
+					"description": "The Survivor gains an extra die to roll for subsequent Melee Actions whenever they kill at least 1 Zombie with a Melee Action. The bonus is cumulative if the Survivor gets at least 1 Zombie kill in the subsequent Melee Actions and applies until the end of the Survivor’s Activation."
+				},
+				"pt": {
+					"title": "Ira de Batalha",
+					"description": "O Sobrevivente ganha um dado extra para rolar nas Ações Corpo a Corpo seguintes sempre que ele matar pelo menos 1 Zumbi com uma Ação Corpo a Corpo. O bônus é acumulativo se o Sobrevivente tiver pelo menos 1 morte de Zumbi nas Ações Corpo a Corpo seguintes e se aplica até o final da Ativação do Sobrevivente."
+				},
+				"exclusive": "GH"
+			}
+		},
+		{
+			"name": "Blitz",
+			"content": {
+				"en": {
+					"title": "Blitz",
+					"description": "Each time the Survivor kills the last Zombie in a Zone, they get 1 free Move Action to use immediately."
+				},
+				"pt": {
+					"title": "Blitz",
+					"description": "Cada vez que o Sobrevivente mata o último Zumbi de uma Zona, ele ganha 1 Ação de Movimento grátis para usar imediatamente."
+				}
+			}
+		},
+		{
+			"name": "Bloodlust: Combat",
+			"content": {
+				"en": {
+					"title": "Bloodlust: Combat",
+					"description": "Spend 1 Action with the Survivor: they Move up to 2 Zones to a Zone containing at least 1 Zombie. They then gain 1 free Combat Action (Melee, Ranged, or Magic)."
+				},
+				"pt": {
+					"title": "Louco Por Sangue: Combate",
+					"description": "Gaste uma Ação com o Sobrevivente: ele se move até duas Zonas para uma Zona com pelo menos um Zumbi. Em seguida, ele ganha uma Ação de Combate grátis (Corpo a Corpo, de Alcance ou de Magia)."
+				}
+			}
+		},
+		{
+			"name": "Bloodlust: Magic",
+			"content": {
+				"en": {
+					"title": "Bloodlust: Magic",
+					"description": "Spend 1 Action with the Survivor: they Move up to 2 Zones to a Zone containing at least 1 Zombie. They then gain 1 free Magic Action to use immediately."
+				},
+				"pt": {
+					"title": "Louco Por Sangue: Magia",
+					"description": "Gaste uma Ação com o Sobrevivente: ele se move até duas Zonas para uma Zona com pelo menos um Zumbi. Em seguida, ele ganha uma Ação de Magia grátis para usar imediatamente."
+				}
+			}
+		},
+		{
+			"name": "Bloodlust: Melee",
+			"content": {
+				"en": {
+					"title": "Bloodlust: Melee",
+					"description": "Spend 1 Action with the Survivor: they Move up to 2 Zones to a Zone containing at least 1 Zombie. They then gain 1 free Melee Action to use immediately."
+				},
+				"pt": {
+					"title": "Louco Por Sangue: Corpo a Corpo",
+					"description": "Gaste uma Ação com o Sobrevivente: ele se move até duas Zonas para uma Zona com pelo menos um Zumbi. Em seguida, ele ganha uma Ação Corpo a Corpo grátis para usar imediatamente."
+				}
+			}
+		},
+		{
+			"name": "Bloodlust: Ranged",
+			"content": {
+				"en": {
+					"title": "Bloodlust: Ranged",
+					"description": "Spend 1 Action with the Survivor: they Move up to 2 Zones to a Zone containing at least 1 Zombie. They then gain 1 free Ranged Action to use immediately."
+				},
+				"pt": {
+					"title": "Louco Por Sangue: Alcance",
+					"description": "Gaste uma Ação com o Sobrevivente: ele se move até duas Zonas para uma Zona com pelo menos um Zumbi. Em seguida, ele ganha uma Ação de Alcance grátis para usar imediatamente. "
+				}
+			}
+		},
+		{
+			"name": "Born leader",
+			"content": {
+				"en": {
+					"title": "Born leader",
+					"description": "During the Survivor’s Turn, the Survivor may give 1 free Action to another Survivor to use as they please. This Action must be used during the recipient’s next Turn or it is lost."
+				},
+				"pt": {
+					"title": "Líder Nato",
+					"description": "No Turno do Sobrevivente, ele pode conceder uma Ação grátis para que outro Sobrevivente a use como desejar. Essa Ação tem de ser usada no próximo Turno do Sobrevivente beneficiado ou é perdida."
+				}
+			}
+		},
+		{
+			"name": "Break-in",
+			"content": {
+				"en": {
+					"title": "Break-in",
+					"description": "In order to open doors, the Survivor rolls no dice and needs no Equipment (but still spends an Action to do so). They don’t make Noise while using this Skill. However, other prerequisites still apply (such as taking a designated Objective before a door can be opened). Moreover, the Survivor gains 1 extra free Action that can only be used to open doors."
+				},
+				"pt": {
+					"title": "Invasor",
+					"description": "O Sobrevivente não precisa rolar dados e nem de Equipamentos para abrir portas (mas ainda gasta uma Ação para fazer isso). Ele não faz barulho ao usar esta Habilidade. Porém, outros pré-requisitos ainda se aplicam (tais como pegar um determinado Objetivo antes que uma porta possa ser aberta). Além disso, o Sobrevivente ganha uma Ação extra grátis que pode ser usada apenas para abrir portas."
+				}
+			}
+		},
+		{
+			"name": "Brother in arms: [game effect]",
+			"content": {
+				"en": {
+					"title": "Brother in arms: [game effect]",
+					"description": "The Survivor can use this Skill whenever standing in the same Zone as at least 1 other Survivor. As long as Brother in arms is active, each Survivor in the Zone (including the one with this Skill) benefits from the indicated Skill or game effect."
+				},
+				"pt": {
+					"title": "Companheiro de Batalha: [efeito de jogo]",
+					"description": "O Sobrevivente pode usar esta Habilidade sempre que estiver na mesma Zona que pelo menos 1 outro Sobrevivente. Enquanto o irmão de armas estiver ativo, cada Sobrevivente na Zona (incluindo aquele com essa Habilidade) se beneficiará da Habilidade indicada ou efeito do jogo."
+				},
+				"exclusive": "GH"
+			}
+		},
+		{
+			"name": "Charge",
+			"content": {
+				"en": {
+					"title": "Charge",
+					"description": "The Survivor can use this Skill for free, as often as they please, during each of their Turns: they move up to 2 Zones to a Zone containing at least 1 Zombie. Normal Movement rules still apply. Entering a Zone containing Zombies still ends the Survivor’s Move Action."
+				},
+				"pt": {
+					"title": "Atacar",
+					"description": "O Sobrevivente pode usar essa Habilidade de graça, quantas vezes quiser, em cada um dos seus Turnos: ele se move até duas Zonas para uma Zona que tenha pelo menos um Zumbi. Regras de Movimento Normal continuam valendo. Entrar em uma Zona com Zumbis encerra a Ação de Movimento do Sobrevivente."
+				}
+			}
+		},
+		{
+			"name": "Collector: [Zombie type]",
+			"content": {
+				"en": {
+					"title": "Collector: [Zombie type]",
+					"description": "The Survivor gains double the experience each time they kill a Zombie of the specified type."
+				},
+				"pt": {
+					"title": "Colecionador: [tipo do Zumbi]",
+					"description": "O Sobrevivente ganha o dobro de experiência sempre que matar um Zumbi do tipo indicado."
+				}
+			}
+		},
+		{
+			"name": "Destiny",
+			"content": {
+				"en": {
+					"title": "Destiny",
+					"description": "The Survivor can use this Skill once per Turn when they reveal an Equipment card they drew. They can ignore and discard that card, then draw another Equipment card."
+				},
+				"pt": {
+					"title": "Destino",
+					"description": "O Sobrevivente pode usar esta Habilidade uma vez por Turno ao revelar uma carta de Equipamento comprada. Você pode ignorar e descartar a carta, e comprar outra carta de Equipamento."
+				}
+			}
+		},
+		{
+			"name": "Double casting",
+			"content": {
+				"en": {
+					"title": "Double casting",
+					"description": "Every time the Survivor performs an Enchantment Action, they can select an extra target for the same Enchantment for free. First, designate both targets, then resolve one application after the other, in any order."
+				},
+				"pt": {
+					"title": "Duplo Lançamento",
+					"description": "Toda vez que o Sobrevivente realiza uma Ação de Encantamento, ele pode selecionar um alvo extra para o mesmo Encantamento gratuitamente. Primeiro escolhe os dois alvos e em seguida, resolver uma aplicação após o outro, em qualquer ordem."
+				},
+				"exclusive": "GH"
+			}
+		},
+		{
+			"name": "Free reload",
+			"content": {
+				"en": {
+					"title": "Free reload",
+					"description": "The Survivor reloads reloadable weapons (Hand Crossbows, for example) for free."
+				},
+				"pt": {
+					"title": "Recarga grátis",
+					"description": "O Sobrevivente recarrega armas recarregáveis (Bestas de Mão, Besta Orc, etc.) sem gastar uma Ação."
+				}
+			}
+		},
+		{
+			"name": "Frenzy: Combat",
+			"content": {
+				"en": {
+					"title": "Frenzy: Combat",
+					"description": "All weapons and Combat spells the Survivor carries gain +1 die per Wound the Survivor suffers. Dual weapons and spells each gain a die, for a total of +2 dice per Wound and per Dual Combat Action (Melee, Ranged, or Magic)."
+				},
+				"pt": {
+					"title": "Furor: Combate",
+					"description": "Todas as armas e feitiços de Combate do Sobrevivente ganham +1 dado por Ferimento que o Sobrevivente sofrer. Armas Duplas ganham um dado cada, totalizando +2 dados por Ferimento e por Ação de Combate Dupla (Corpo a Corpo, de Alcance ou de Magia)."
+				}
+			}
+		},
+		{
+			"name": "Frenzy: Magic",
+			"content": {
+				"en": {
+					"title": "Frenzy: Magic",
+					"description": "Combat spells the Survivor carries gain +1 die per Wound the Survivor suffers. Dual Combat spells each gain a die, for a total of +2 dice per Wound and per Dual Magic Action."
+				},
+				"pt": {
+					"title": "Furor: Magia",
+					"description": "Os feitiços de Combate do Sobrevivente ganham +1 dado por Ferimento que o Sobrevivente receber. Feitiços de Combate Duplos ganham um dado cada, totalizando +2 dados por Ferimento e por Ação de Magia Dupla."
+				}
+			}
+		},
+		{
+			"name": "Frenzy: Melee",
+			"content": {
+				"en": {
+					"title": "Frenzy: Melee",
+					"description": "Melee weapons the Survivor carries gain +1 die per Wound the Survivor suffers. Dual Melee weapons each gain a die, for a total of +2 dice per Wound and per Dual Melee Action."
+				},
+				"pt": {
+					"title": "Furor: Corpo a Corpo",
+					"description": "As armas Corpo a Corpo do Sobrevivente ganham +1 dado por Ferimento que o Sobrevivente sofrer. Armas Corpo a Corpo Duplas ganham um dado cada, totalizando +2 dados por Ferimento e por Ação Corpo a Corpo Dupla."
+				}
+			}
+		},
+		{
+			"name": "Frenzy: Ranged",
+			"content": {
+				"en": {
+					"title": "Frenzy: Ranged",
+					"description": "Ranged weapons the Survivor carries gain +1 die per Wound the Survivor suffers. Dual Ranged weapons each gain a die, for a total of +2 dice per Wound and per Dual Ranged Action."
+				},
+				"pt": {
+					"title": "Furor: Alcance",
+					"description": "As armas de Alcance do Sobrevivente ganham +1 dado por Ferimento que o Sobrevivente sofrer. Armas de Alcance Duplas ganham um dado cada, totalizando +2 dados por Ferimento e por Ação de Alcance Dupla. "
+				}
+			}
+		},
+		{
+			"name": "Hit & Run",
+			"content": {
+				"en": {
+					"title": "Hit & Run",
+					"description": "The Survivor can use this Skill for free, just after they resolved a Magic, Melee, or Ranged Action resulting in at least 1 Zombie kill. They can then resolve a free Move Action. The Survivor benefits from the effects of the Slippery Skill for this Move Action."
+				},
+				"pt": {
+					"title": "Bate e corre",
+					"description": "O Sobrevivente pode usar esta Habilidade gratuitamente logo após resolver uma Ação de Magia, Corpo a Corpo ou de Alcance que resultou na morte de pelo menos um Zumbi. Ele pode resolver uma Ação de Movimento grátis. O Sobrevivente não gasta Ações extras para fazer essa Ação de Movimento grátis se houver Zumbis em sua Zona."
+				}
+			}
+		},
+		{
+			"name": "Hold Your Nose",
+			"content": {
+				"en": {
+					"title": "Hold Your Nose",
+					"description": "This Skill can be used once per Turn. The Survivor gets a free Search Action in the Zone if they have eliminated a Zombie (even in a Street Zone or Vault - see Zombicide: Black Plague) in the same Game Round. This Action may only be used to Search, and the Survivor can still only Search once per Turn."
+				},
+				"pt": {
+					"title": "Prenda a respiração",
+					"description": "Esta Habilidade pode ser usada uma vez por Turno. O Sobrevivente ganha uma Ação de Procura grátis na mesma Zona se tiver eliminado um Zumbi (mesmo que seja em uma Zona de rua ou de Cripta) na mesma Rodada. Essa Ação pode ser usada apenas para Procura, e o Sobrevivente continua podendo Procurar apenas uma vez por Turno."
+				}
+			}
+		},
+		{
+			"name": "Ironclad: [Zombie type]",
+			"content": {
+				"en": {
+					"title": "Ironclad: [Zombie type]",
+					"description": "The Survivor ignores all Wounds coming from Zombies having the indicated keyword in its name (such as “Walker”, “Runner”, etc.). “Ironclad: Walker” works with Orc Walkers, for example."
+				},
+				"pt": {
+					"title": "Encouraçado: [tipo de Zumbi]",
+					"description": "O Sobrevivente ignora todos os Ferimentos causados por Zumbis do tipo indicado (tais como “Lerdo”, “Corredor”, etc.)."
+				}
+			}
+		},
+		{
+			"name": "Iron Hide",
+			"content": {
+				"en": {
+					"title": "Iron Hide",
+					"description": "The Survivor can make Armor rolls with a 5+ Armor value, even when they are not wearing armor on their Body slot. When wearing armor, the Survivor adds 1 to the result of each die they roll for Armor rolls. The maximum result is always 6."
+				},
+				"pt": {
+					"title": "Pele de Ferro",
+					"description": "O Sobrevivente pode fazer rolagens de Armadura com valor 5+ de Armadura, mesmo se não estiver usando uma armadura em seu Corpo. Quando estiver usando armadura, o Sobrevivente adiciona 1 ao resultado de cada dado em rolagens de Armadura. O Resultado máximo é sempre 6."
+				}
+			}
+		},
+		{
+			"name": "Iron Rain",
+			"content": {
+				"en": {
+					"title": "Iron Rain",
+					"description": "When resolving a Ranged Action, the Survivor may substitute the Dice number of the Ranged weapon(s) they use with the number of Zombies standing in the targeted Zone. Skills affecting the dice value, like +1 die: Ranged, still apply."
+				},
+				"pt": {
+					"title": "Chuva de ferro",
+					"description": "Ao resolver uma Ação de Alcance, o Sobrevivente pode substituir o número dos Dados da(s) arma(s) de Combate que ele usar pelo número de Zumbis que estão na Zona alvejada. As Habilidades que afetam o valor dos dados, tal como +1 dado: Alcance, continuam valendo."
+				}
+			}
+		},
+		{
+			"name": "Is That All You’ve Got?",
+			"content": {
+				"en": {
+					"title": "Is That All You’ve Got?",
+					"description": "You can use this Skill any time the Survivor is about to get Wounded. Discard 1 Equipment card in your Survivor’s inventory for each Wound they’re about to receive. Negate 1 Wound per discarded Equipment card."
+				},
+				"pt": {
+					"title": "Isso é tudo que você tem?",
+					"description": "Você pode usar esta Habilidade a qualquer momento em que o Sobrevivente for ganhar algum Ferimento. Descarte uma carta de Equipamento do inventário do seu Sobrevivente para cada Ferimento que ele está prestes a receber. Negue um Ferimento por carta de Equipamento descartada."
+				}
+			}
+		},
+		{
+			"name": "Jump",
+			"content": {
+				"en": {
+					"title": "Jump",
+					"description": "The Survivor can use this Skill once during each of their Turns. The Survivor spends 1 Action: they move 2 Zones into a Zone to which they have Line Of Sight. Movement related Skills (like +1 Zone per Move Action or Slippery) are ignored, but Movement penalties (like having Zombies in the starting Zone) apply. Ignore everything in the intervening Zone."
+				},
+				"pt": {
+					"title": "Pulo",
+					"description": "O Sobrevivente pode usar esta Habilidade uma vez por Ativação. O Sobrevivente gasta uma Ação: Ele se move duas Zonas até uma Zona em seu Campo de Visão. Habilidades relacionadas ao Movimento (como +1 Zona por Ação de Movimento ou Liso) são ignoradas, mas penalidades de Movimento (como Zumbis na Zona inicial) se aplicam. Ignore qualquer coisa na Zona intermediária."
+				}
+			}
+		},
+		{
+			"name": "Lifesaver",
+			"content": {
+				"en": {
+					"title": "Lifesaver",
+					"description": "The Survivor can use this Skill, for free, once during each of their Turns. Select a Zone containing at least 1 Zombie at Range 1 from your Survivor. Choose Survivors in the selected Zone to be dragged to your Survivor’s Zone without penalty. This is not a Move Action. A Survivor can decline the rescue and stay in the selected Zone if their controller chooses. Both Zones need to share a clear path. A Survivor can’t cross closed doors or walls and can’t be extracted into or out of a Vault (see Zombicide: Black Plague). They can cross Barriers and Hedges, though."
+				},
+				"pt": {
+					"title": "Salva-vidas",
+					"description": "O Sobrevivente pode usar esta Habilidade de graça uma vez em cada um dos seus Turnos. Selecione uma Zona com pelo menos um Zumbi a um Alcance de 1 de seu Sobrevivente. Escolha Sobreviventes na Zona selecionada para serem arrastados em direção à Zona do seu Sobrevivente sem penalidades. Isso não é considerado um Movimento. Um Sobrevivente pode recusar o resgate e optar por permanecer na Zona escolhida se quem o controla assim desejar. As Zonas devem estar ligadas por um caminho livre. Um Sobrevivente não pode atravessar portas fechadas ou paredes e não pode ser retirado de uma Cripta ou empurrado para dentro de uma Cripta.",
+					"note": {
+						"gh": "Eles podem atravessar Barreiras e Arbustos, no entanto."
+					}
+				}
+			}
+		},
+		{
+			"name": "Lock it down",
+			"content": {
+				"en": {
+					"title": "Lock it down",
+					"description": "At the cost of one Action, the Survivor can close an open door in his Zone. Opening or destroying it again later does not trigger a new Zombie Spawn."
+				},
+				"pt": {
+					"title": "Trancar",
+					"description": "Pelo custo de uma Ação, o Sobrevivente pode fechar uma porta aberta em sua Zona. Abri-la ou destruí-la mais tarde não resulta em uma nova Entrada de Zumbis."
+				},
+				"exclusive": "BP"
+			}
+		},
+		{
+			"name": "Loud",
+			"content": {
+				"en": {
+					"title": "Loud",
+					"description": "Once during each of his Turns, the Survivor can make a huge amount of noise! Until this Survivor’s next Turn, the Zone he used this Skill in is considered to have the highest number of Noise tokens on the entire board. If different Survivors have this Skill, only the last one who used it applies the effects"
+				},
+				"pt": {
+					"title": "Barulhento",
+					"description": "Uma vez em cada um dos seus Turnos, o Sobrevivente pode fazer uma quantidade absurda de barulho! Até o próximo Turno desse Sobrevivente, a Zona em que ele usou esta Habilidade é considerada como a que tem o maior número de fichas de Barulho no tabuleiro. Se mais de um Sobrevivente possui esta Habilidade, apenas o último que a usou aplica os seus efeitos."
+				},
+				"exclusive": "BP"
+			}
+		},
+		{
+			"name": "Low Profile",
+			"content": {
+				"en": {
+					"title": "Low Profile",
+					"description": "The Survivor can’t get hit by Survivors’ Magic and Ranged Actions (Siege Actions still apply). Ignore them when casting a Combat spell or shooting in the Zone they stand in. Game effects that kill everything in the targeted Zone, like Dragon Fire, still kill them, though."
+				},
+				"pt": {
+					"title": "Escondido",
+					"description": "O Sobrevivente não pode ser alvejado por Ações de Alcance ou de Magia de outros Sobreviventes. Ignore-o ao lançar um feitiço de Combate ou atirar contra a Zona em que ele esteja. Efeitos de jogo que matam tudo na Zona alvo, como Fogo de Dragão, ainda o matam.",
+					"note": {
+						"gh": "Ações de Cerco ainda se aplicam."
+					}
+				}
+			}
+		},
+		{
+			"name": "Lucky",
+			"content": {
+				"en": {
+					"title": "Lucky",
+					"description": "The Survivor can re-roll once all the dice for each Action (or Armor roll) they take. The new result takes the place of the previous one. This Skill stacks with the effects of other Skills and Equipment that allows re-rolls."
+				},
+				"pt": {
+					"title": "Sortudo",
+					"description": "O Sobrevivente pode rerrolar uma vez todos os dados para cada Ação (ou rolagem de Armadura) que faz. O novo resultado é o que vale. Esta Habilidade é cumulativa com os efeitos de outras Habilidades e de Equipamentos que permitem rerrolagens."
+				}
+			}
+		},
+		{
+			"name": "Mana Rain",
+			"content": {
+				"en": {
+					"title": "Mana Rain",
+					"description": "When resolving a Magic Action, the Survivor may substitute the Dice number of the Combat spell(s) they use with the number of Zombies standing in the targeted Zone. Skills affecting the dice value, like +1 die: Magic, still apply."
+				},
+				"pt": {
+					"title": "Chuva de Mana",
+					"description": "Ao resolver uma Ação de Magia, o Sobrevivente pode substituir o número dos Dados do(s) feitiço(s) de Combate que ele usar pelo número de Zumbis que estão na Zona alvejada. As Habilidades que afetam o número de Dados, como +1 dado: Magia, continuam valendo."
+				}
+			}
+		},
+		{
+			"name": "Marksman",
+			"content": {
+				"en": {
+					"title": "Marksman",
+					"description": "The Survivor may freely choose the targets of all their Magic and Ranged Actions. Misses don’t hit Survivors."
+				},
+				"pt": {
+					"title": "Atirador",
+					"description": "O Sobrevivente pode escolher livremente os alvos de todas as suas Ações de Magia e de Alcance. Falhas não acertam os Sobreviventes."
+				}
+			}
+		},
+		{
+			"name": "Matching Set!",
+			"content": {
+				"en": {
+					"title": "Matching Set!",
+					"description": "When a Survivor performs a Search Action and draws an Equipment card with the Dual symbol, they can immediately take a second card of the same type from the Equipment deck. Shuffle the deck afterward."
+				},
+				"pt": {
+					"title": "Dupla Letal!",
+					"description": "Quando um Sobrevivente faz uma Ação de Procura e compra uma carta de Equipamento com o símbolo de Dupla, ele pode imediatamente pegar uma segunda carta do mesmo tipo do baralho de Equipamento. Embaralhe as cartas em seguida."
+				}
+			}
+		},
+		{
+			"name": "Point-Blank",
+			"content": {
+				"en": {
+					"title": "Point-Blank",
+					"description": "The Survivor can perform Ranged and Magic Actions in their own Zone, no matter the minimum Range. When resolving a Magic or Ranged Action at Range 0, the Survivor freely chooses the targets and can kill any type of Zombies. Their Combat spells and Ranged weapons still need to inflict enough Damage to kill the targets. Misses don’t hit Survivors."
+				},
+				"pt": {
+					"title": "À queima-roupa",
+					"description": "O Sobrevivente pode resolver Ações de Alcance e de Magia em sua Zona, seja qual for o Alcance mínimo. Ao resolver uma Ação de Magia ou de Alcance a um Alcance de 0, o Sobrevivente escolhe livremente os alvos e pode matar qualquer tipo de Zumbi. Suas armas de Alcance e feitiços de Combate ainda precisam causar Dano suficiente para matar seus alvos. Falhas não acertam os Sobreviventes. "
+				}
+			}
+		},
+		{
+			"name": "Reaper: Combat",
+			"content": {
+				"en": {
+					"title": "Reaper: Combat",
+					"description": "Use this Skill when assigning hits while resolving a Melee, Ranged, or Magic Action. 1 of these hits can freely kill 1 additional identical Zombie in the same Zone. Only a single additional Zombie can be killed per Action when using this Skill. The Survivor gains the experience for the additional Zombie."
+				},
+				"pt": {
+					"title": "Letal: Combate",
+					"description": "Use esta Habilidade quando atribuir acertos ao resolver uma Ação de Combate (Corpo a Corpo, de Alcance ou de Magia). Um desses acertos pode matar gratuitamente um Zumbi extra idêntico na mesma Zona. Apenas um Zumbi extra pode ser morto a cada Ação ao usar esta Habilidade. O Sobrevivente ganha experiência pelo Zumbi extra."
+				}
+			}
+		},
+		{
+			"name": "Reaper: Magic",
+			"content": {
+				"en": {
+					"title": "Reaper: Magic",
+					"description": "Use this Skill when assigning hits while resolving a Magic Action. 1 of these hits can freely kill an additional identical Zombie in the same Zone. Only a single additional Zombie can be killed per Action when using this Skill. The Survivor gains the experience for the additional Zombie."
+				},
+				"pt": {
+					"title": "Letal: Magia",
+					"description": "Use esta Habilidade quando atribuir acertos ao resolver uma Ação de Magia. Um desses acertos pode matar gratuitamente um Zumbi extra idêntico na mesma Zona. Apenas um Zumbi extra pode ser morto a cada Ação ao usar esta Habilidade. O Sobrevivente ganha experiência pelo Zumbi extra."
+				}
+			}
+		},
+		{
+			"name": "Reaper: Melee",
+			"content": {
+				"en": {
+					"title": "Reaper: Melee",
+					"description": "Use this Skill when assigning hits while resolving a Melee Action. 1 of these hits can freely kill an additional identical Zombie in the same Zone. Only a single additional Zombie can be killed per Action when using this Skill. The Survivor gains the experience for the additional Zombie."
+				},
+				"pt": {
+					"title": "Letal: Corpo a Corpo",
+					"description": "Use esta Habilidade quando atribuir acertos ao resolver uma Ação Corpo a Corpo. Um desses acertos pode matar gratuitamente um Zumbi extra idêntico na mesma Zona. Apenas um Zumbi extra pode ser morto a cada Ação ao usar esta Habilidade. O Sobrevivente ganha experiência pelo Zumbi extra."
+				}
+			}
+		},
+		{
+			"name": "Reaper: Ranged",
+			"content": {
+				"en": {
+					"title": "Reaper: Ranged",
+					"description": "Use this Skill when assigning hits while resolving a Ranged Action. 1 of these hits can freely kill an additional identical Zombie in the same Zone. Only a single additional Zombie can be killed per Action when using this Skill. The Survivor gains the experience for the additional Zombie."
+				},
+				"pt": {
+					"title": "Letal: Alcance",
+					"description": "Use esta Habilidade quando atribuir acertos ao resolver uma Ação de Alcance. Um desses acertos pode matar gratuitamente um Zumbi extra idêntico na mesma Zona. Apenas um Zumbi extra pode ser morto a cada Ação ao usar esta Habilidade. O Sobrevivente ganha experiência pelo Zumbi extra."
+				}
+			}
+		},
+		{
+			"name": "Regeneration",
+			"content": {
+				"en": {
+					"title": "Regeneration",
+					"description": "At the end of each Game Round, remove all Wounds the Survivor received. Regeneration doesn’t work if the Survivor has been eliminated."
+				},
+				"pt": {
+					"title": "Regeneração",
+					"description": "Ao final de cada Rodada, descarte todos os Ferimentos que o Sobrevivente recebeu. A Habilidade Regeneração não funciona se o Sobrevivente foi eliminado."
+				}
+			}
+		},
+		{
+			"name": "Roll 6: +1 die Combat",
+			"content": {
+				"en": {
+					"title": "Roll 6: +1 die Combat",
+					"description": "You may roll an additional die for each 6 rolled on any Melee, Ranged, or Magic Action. Keep on rolling additional dice as long as you keep getting 6. Game effects that allow re-rolls (the Plenty Of Arrows Equipment card, for example) must be used before rolling any additional dice for this Skill."
+				},
+				"pt": {
+					"title": "Resultado 6: +1 dado em Combate",
+					"description": "Você pode rolar um dado extra para cada “6” rolado em Ações de Combate (Corpo a Corpo, de Alcance ou de Magia). Continue a rolar dados extras até parar de rolar “6”. Efeitos de jogo que permitem rerrolagens (por exemplo, a carta de Equipamento Muitas Flechas) devem ser usados antes de rolar dados extras por causa desta Habilidade."
+				}
+			}
+		},
+		{
+			"name": "Roll 6: +1 die Magic",
+			"content": {
+				"en": {
+					"title": "Roll 6: +1 die Magic",
+					"description": "You may roll an additional die for each 6 rolled on a Magic Action. Keep on rolling additional dice as long as you keep getting 6. Game effects that allow re-rolls must be used before rolling any additional dice for this Skill."
+				},
+				"pt": {
+					"title": "Resultado 6: +1 dado em Combate de Magia",
+					"description": "Você pode rolar um dado extra para cada “6” rolado em uma Ação de Magia. Continue a rolar dados extras até parar de rolar “6”. Efeitos de jogo que permitem rerrolagens devem ser usados antes de rolar dados extras por causa desta Habilidade."
+				}
+			}
+		},
+		{
+			"name": "Roll 6: +1 die Melee",
+			"content": {
+				"en": {
+					"title": "Roll 6: +1 die Melee",
+					"description": "You may roll an additional die for each 6 rolled on a Melee Action. Keep on rolling additional dice as long as you keep getting 6. Game effects that allow re-rolls must be used before rolling any additional dice for this Skill."
+				},
+				"pt": {
+					"title": "Resultado 6: +1 dado em Combate Corpo a Corpo",
+					"description": "Você pode rolar um dado extra para cada “6” rolado em uma Ação Corpo a Corpo. Continue a rolar dados extras até parar de rolar “6”. Efeitos de jogo que permitem rerrolagens devem ser usados antes de rolar dados extras por causa desta Habilidade."
+				}
+			}
+		},
+		{
+			"name": "Roll 6: +1 die Ranged",
+			"content": {
+				"en": {
+					"title": "Roll 6: +1 die Ranged",
+					"description": "You may roll an additional die for each 6 rolled on a Ranged Action. Keep on rolling additional dice as long as you keep getting 6. Game effects that allow re-rolls must be used before rolling any additional dice for this Skill."
+				},
+				"pt": {
+					"title": "Resultado 6: +1 dado em Combate de Alcance",
+					"description": "Você pode rolar um dado extra para cada “6” rolado em uma Ação de Alcance. Continue a rolar dados extras até parar de rolar “6”. Efeitos de jogo que permitem rerrolagens (por exemplo, a carta de Equipamento Muitas Flechas) devem ser usados antes de rolar dados extras por causa desta Habilidade."
+				}
+			}
+		},
+		{
+			"name": "Rotten",
+			"content": {
+				"en": {
+					"title": "Rotten",
+					"description": "At the end of their Turn, if the Survivor has not resolved any Combat Action (Melee, Ranged, or Magic), not Fired a Siege Engine, and not produced a Noise token, place a Rotten token next to their base. As long as they have this token, they are totally ignored by all Zombies and are not considered a Noise token. Zombies don’t attack them and will even walk past them. The Survivor loses their Rotten token if they resolve any kind of Combat Action (Melee, Ranged, or Magic), Fire a Siege Engine, or makes noise. Even with the Rotten token, the Survivor still has to spend extra Actions to move out of a Zone crowded with Zombies."
+				},
+				"pt": {
+					"title": "Apodrecido",
+					"description": "Ao final do seu Turno, se o Sobrevivente não fez nenhuma Ação de Combate (Corpo a Corpo, de Alcance ou de Magia), não Disparar um Mecanismo de Cerco (para Green Horde), e não produziu uma ficha de Barulho, coloque uma ficha de Apodrecido próxima à sua base. Enquanto tiver essa ficha, ele é totalmente ignorado por todos os tipos de Zumbi e não é considerado como uma ficha de Barulho. Os Zumbis não o atacam e até passam direto por ele. O Sobrevivente perde sua ficha de Apodrecido se fizer qualquer Ação de Combate (Corpo a Corpo, de Alcance ou de Magia), Disparar um Mecanismo de Cerco (para Green Horde), ou fizer barulho. Mesmo com a ficha de Apodrecido, o Sobrevivente ainda tem de gastar Ações extras para sair de uma Zona com Zumbis.",
+					"note": {
+						"gh": "Disparar ou não um Mecanismo de Cerco"
+					}
+				}
+			}
+		},
+		{
+			"name": "Scavenger",
+			"content": {
+				"en": {
+					"title": "Scavenger",
+					"description": "The Survivor can Search in any Zone free of Zombies. This includes street Zones, Waterhole Zones, etc."
+				},
+				"pt": {
+					"title": "Catador",
+					"description": "O Sobrevivente pode Procurar em qualquer Zona. Zonas de rua, Zonas de Cripta, etc.",
+					"note": {
+						"gh": "Zonas de Poço de água"
+					}
+				}
+			}
+		},
+		{
+			"name": "Search: +1 card",
+			"content": {
+				"en": {
+					"title": "Search: +1 card",
+					"description": "Draw 1 extra card when Searching with this Survivor."
+				},
+				"pt": {
+					"title": "Procura: +1 carta",
+					"description": "Compre uma carta extra ao Procurar com o Sobrevivente."
+				}
+			}
+		},
+		{
+			"name": "Shove",
+			"content": {
+				"en": {
+					"title": "Shove",
+					"description": "The Survivor can use this Skill, for free, once during each of their Turns. Select a Zone at Range 1 from your Survivor. All Zombies standing in your Survivor’s Zone are pushed to the selected Zone. This is not a Movement. Both Zones need to share a clear path. A Zombie can’t cross closed doors, ramparts (see the Wulfsburg expansion), or walls, but can be shoved in or out of a Vault (see Black Plague), a Waterhole Zone, and through a Barrier or Hedge."
+				},
+				"pt": {
+					"title": "Empurrão",
+					"description": "O Sobrevivente pode usar esta Habilidade de graça uma vez em cada um dos seus Turnos. Selecione uma Zona a um Alcance de 1 de seu Sobrevivente. Todos os Zumbis na Zona do Sobrevivente são empurrados para a Zona selecionada. Isso não é considerado um Movimento. As Zonas devem estar ligadas por um caminho livre. Um Zumbi não pode atravessar portas fechadas, muralhas (consulte a expansão Wulfsburg) ou paredes, mas pode ser empurrado para dentro ou fora de uma Cripta.",
+					"note": {
+						"gh": "Pode ser empurrado para dentro ou para fora de uma Zona de Poço de água e através de uma Barreira ou Arbusto."
+					}
+				}
+			}
+		},
+		{
+			"name": "Slippery",
+			"content": {
+				"en": {
+					"title": "Slippery",
+					"description": "The Survivor does not spend extra Actions when they perform a Move Action out of a Zone containing Zombies. Entering a Zone containing Zombies still ends the Survivor’s Move Action."
+				},
+				"pt": {
+					"title": "Liso",
+					"description": "O Sobrevivente não gasta Ações extrasao fazer uma Ação de Movimento através de uma Zona com Zumbis. Entrar em uma Zona com Zumbis encerra a Ação de Movimento do Sobrevivente."
+				}
+			}
+		},
+		{
+			"name": "Spellbook",
+			"content": {
+				"en": {
+					"title": "Spellbook",
+					"description": "All Combat spells and Enchantments in the Survivor’s Backpack are considered equipped in Hand. With this Skill, a Survivor could effectively be considered as having several Combat spells and Enchantments cards equipped in Hand. For obvious reasons, they can only use 2 identical Dual Combat Spells at any given time. Choose any combination of 2 before resolving Actions or rolls involving the Survivor."
+				},
+				"pt": {
+					"title": "Livro de Feitiços",
+					"description": "Considera-se que todos os feitiços de Combate e Encantamentos que estão no Inventário do Sobrevivente estão equipados na Mão. Com esta Habilidade, considera-se que o Sobrevivente tem diversas cartas de feitiços e Encantamentos equipados em suas Mãos. Por motivos óbvios, ele apenas pode usar dois Feitiços de Combate Duplos idênticos a qualquer momento. Escolha qualquer combinação de dois feitiços antes de fazer Ações ou rolar dados que envolvam o Sobrevivente."
+				}
+			}
+		},
+		{
+			"name": "Spellcaster",
+			"content": {
+				"en": {
+					"title": "Spellcaster",
+					"description": "The Survivor has 1 extra free Action. This Action may only be used for a Magic Action or an Enchantment Action."
+				},
+				"pt": {
+					"title": "Feiticeiro",
+					"description": "O Sobrevivente tem uma Ação extra grátis. Essa Ação pode ser usada apenas para uma Ação de Magia ou de Encantamento."
+				}
+			}
+		},
+		{
+			"name": "Sprint",
+			"content": {
+				"en": {
+					"title": "Sprint",
+					"description": "The Survivor can use this Skill once during each of their Turns. Spend 1 Move Action with the Survivor: they may move 2 or 3 Zones instead of 1. Entering a Zone containing Zombies still ends the Survivor’s Move Action."
+				},
+				"pt": {
+					"title": "Corrida",
+					"description": "O Sobrevivente pode usar esta Habilidade uma vez em cada um dos seus Turnos. Gaste uma Ação de Movimento com o Sobrevivente: Ele pode se mover duas ou três Zonas em vez de apenas uma. Entrar em uma Zona com Zumbis encerra a Ação de Movimento do Sobrevivente."
+				}
+			}
+		},
+		{
+			"name": "Super Strength",
+			"content": {
+				"en": {
+					"title": "Super Strength",
+					"description": "Consider the Damage value of Meleeweapons used by the Survivor to be 3."
+				},
+				"pt": {
+					"title": "Superforça",
+					"description": "Considere que o Dano das armas Corpo a Corpo usadas pelo Sobrevivente é 3."
+				}
+			}
+		},
+		{
+			"name": "Starts with a [Equipment]",
+			"content": {
+				"en": {
+					"title": "Starts with a [Equipment]",
+					"description": "The Survivor begins the game with the indicated Equipment. Its card is automatically assigned to them during Setup."
+				},
+				"pt": {
+					"title": "O Sobrevivente começa a partida com o Equipamento indicado. A carta é automaticamente entregue a ele na Preparação.",
+					"description": "Começa com um [Equipamento]"
+				}
+			}
+		},
+		{
+			"name": "Steady Hand",
+			"content": {
+				"en": {
+					"title": "Steady Hand",
+					"description": "The Survivor can ignore other Survivors of their choosing when missing with a Magic or Ranged Action. The Skill does not apply to game effects killing everything in the targeted Zone (such as a Dragon Fire, for example)."
+				},
+				"pt": {
+					"title": "Mão firme",
+					"description": "O Sobrevivente ignora outros Sobreviventes à sua escolha ao falhar com uma Ação de Magia ou de Alcance. Esta Habilidade não se aplica a uma arma de Alcance que mata tudo na Zona alvejada (tal como o Fogo de Dragão, por exemplo)."
+				}
+			}
+		},
+		{
+			"name": "Swordmaster",
+			"content": {
+				"en": {
+					"title": "Swordmaster",
+					"description": "The Survivor treats all Melee weapons as if they had the Dual symbol."
+				},
+				"pt": {
+					"title": "Mestre Espadachim",
+					"description": "O Sobrevivente trata todas as armas Corpo a Corpo como se tivessem o símbolo de Dupla."
+				}
+			}
+		},
+		{
+			"name": "Tactician",
+			"content": {
+				"en": {
+					"title": "Tactician",
+					"description": "The Survivor’s Turn can be resolved anytime during the Players’ Phase, before or after any other Survivor’s Turn. If several Survivors benefit from this Skill at the same time, choose their Turn order."
+				},
+				"pt": {
+					"title": "Estrategista",
+					"description": "O Turno do Sobrevivente pode ser resolvido a qualquer momento durante a Fase dos Jogadores, antes ou depois do Turno de outro Sobrevivente. Se vários companheiros de grupo se beneficiam desta Habilidade ao mesmo tempo, os jogadores do grupo escolhem a ordem dos seus Turnos."
+				}
+			}
+		},
+		{
+			"name": "Taunt",
+			"content": {
+				"en": {
+					"title": "Taunt",
+					"description": "The Survivor can use this Skill, for free, once during each of their Turns. Select a Zone your Survivor can see. All Zombies standing in the selected Zone immediately gain an extra Activation: they try to reach the taunting Survivor by any means available. Taunted Zombies ignore all other Survivors. They do not attack them and leave the Zone they are standing in if needed to reach the taunting Survivor."
+				},
+				"pt": {
+					"title": "Provocar",
+					"description": "O Sobrevivente pode usar esta Habilidade de graça uma vez em cada um dos seus Turnos. Selecione uma Zona no Campo de Visão do Sobrevivente. Todos os Zumbis na Zona escolhida ganham imediatamente uma Ativação extra: eles tentam alcançar o Sobrevivente provocador de toda a forma possível. Zumbis provocados ignoram todos os outros Sobreviventes. Eles não os atacam e passam direto por suas Zonas se isso for necessário para chegar ao Sobrevivente provocador."
+				}
+			}
+		},
+		{
+			"name": "Tough",
+			"content": {
+				"en": {
+					"title": "Tough",
+					"description": "The Survivor ignores the first Wound they receive from a single Zombie every Zombies’ Phase."
+				},
+				"pt": {
+					"title": "Durão",
+					"description": "O Sobrevivente ignora o primeiro Ferimento que recebe de um único Zumbi a cada Fase dos Zumbis."
+				}
+			}
+		},
+		{
+			"name": "Transmutation",
+			"content": {
+				"en": {
+					"title": "Transmutation",
+					"description": "The Survivor can use this Skill as often as they please, during each of their Turns. Spend 1 Action and discard an Equipment card from your inventory: draw a new Equipment card. The Survivor can reorganize their Inventory for free. This is not a Search Action. \"Aaahh!!\" cards are resolved as usual."
+				},
+				"pt": {
+					"title": "Transmutação",
+					"description": "O Sobrevivente pode usar esta Habilidade quantas vezes quiser, durante cada um dos seus turnos. Gaste 1 Ação e descarte uma carta de Equipamento do seu inventário: compre uma nova carta de Equipamento. O Sobrevivente pode reorganizar seu Inventário gratuitamente. Esta não é uma ação de pesquisa. Cartas \"Aaahh !!\" São resolvidos como de costume."
+				},
+				"exclusive": "GH"
+			}
+		},
+		{
+			"name": "Trick Shot",
+			"content": {
+				"en": {
+					"title": "Trick Shot",
+					"description": "When the Survivor is equipped with Dual Combat spells or Ranged weapons, they can aim at different Zones with each spell/weapon in the same Action."
+				},
+				"pt": {
+					"title": "Agilidade",
+					"description": "Quando o Sobrevivente está equipado com armas Duplas de Alcance ou feitiços de Combate Duplos, ele pode alvejar Zonas diferentes com cada arma/feitiço na mesma Ação."
+				}
+			}
+		},
+		{
+			"name": "Zombie Link",
+			"content": {
+				"en": {
+					"title": "Zombie Link",
+					"description": "The Survivor plays an extra Turn each time an Extra Activation card is drawn from the Zombie pile. They play before the extra-activated Zombies. If several Survivors benefit from this Skill at the same time, choose their Turn order."
+				},
+				"pt": {
+					"title": "Conexão com Zumbis",
+					"description": "O Sobrevivente tem um Turno extra sempre que uma carta de Ativação Extra é comprada do baralho de Zumbis. Ele joga antes dos Zumbis que serão ativados. Se vários companheiros de grupo se beneficiam desta Habilidade ao mesmo tempo, os jogadores do grupo escolhem a ordem dos seus Turnos."
+				}
+			}
+		}
+	],
+	"characters": [
+		{
+			"name": "Rolf",
+			"card": {
+				"blue": "Bloodlust: Melee",
+				"yellow": "+1 Action",
+				"orange": [
+					"+1 free Melee Action",
+					"Jump"
+				],
+				"red": [
+					"+1 free Combat Action",
+					"Battle rage",
+					"Shove"
+				]
+			}
+		},
+		{
+			"name": "Seli",
+			"card": {
+				"blue": "Jump",
+				"yellow": "+1 Action",
+				"orange": [
+					"+1 free Melee Action",
+					"Hit & Run"
+				],
+				"red": [
+					"+1 free Move Action ",
+					"Roll 6: +1 die Combat",
+					"Zombie Link"
+				]
+			}
+		},
+		{
+			"name": "Berin",
+			"card": {
+				"blue": "Shove",
+				"yellow": "+1 Action",
+				"orange": [
+					"+1 die: Melee",
+					"+1 free Melee Action"
+				],
+				"red": [
+					"+1 Damage: Melee",
+					"+1 free Combat Action",
+					"Bloodlust: Melee"
+				]
+			}
+		},
+		{
+			"name": "Megan",
+			"card": {
+				"blue": "Double casting",
+				"yellow": "+1 Action",
+				"orange": [
+					"+1 free Melee Action",
+					"Spellbook"
+				],
+				"red": [
+					"+1 free Combat Action",
+					"+1 to dice roll: Magic",
+					"+1 to dice roll: Melee"
+				]
+			}
+		},
+		{
+			"name": "Asim",
+			"card": {
+				"blue": "Taunt",
+				"yellow": "+1 Action",
+				"orange": [
+					"+1 free Melee Action",
+					"+1 free Move Action"
+				],
+				"red": [
+					"+1 to dice roll: Melee",
+					"Bloodlust: Melee",
+					"Reaper: Combat"
+				]
+			}
+		},
+		{
+			"name": "Johannes",
+			"card": {
+				"blue": "Transmutation",
+				"yellow": "+1 Action",
+				"orange": [
+					"+1 free Ranged Action",
+					"+1 to dice roll: Ranged"
+				],
+				"red": [
+					"+1 free Ranged Action",
+					"+1 max Range",
+					"Reaper: Ranged"
+				]
+			}
+		}
+	]
+}

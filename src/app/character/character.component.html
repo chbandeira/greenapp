@@ -1,0 +1,66 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Survivals</li>
+  </ol>
+</nav>
+
+<form [formGroup]="formSurvivals" novalidate>
+  <div class="form-group d-flex flex-row mb-3 mr-2 ml-2">
+    <select class="form-control mr-1" id="comboboxSurvivals" formControlName="comboboxSurvivals">
+      <option></option>
+      <option *ngFor="let name of comboboxSurvivals" value="{{name}}">{{name}}</option>
+    </select>
+    <button type="button" class="btn btn-success" [class.disabled]="isComboboxSurvivalClean()" (click)="addSurvival()">Add</button>
+  </div>
+</form>
+
+<ul class="nav nav-tabs bg-light">
+  <li *ngFor="let character of survivals; let i = index" class="nav-item">
+    <a class="nav-link btn-outline-dark" [class.active]="i == 0" [attr.id]="'character' + i + '-tab'" data-toggle="pill"
+      [attr.href]="'#' + 'character' + i" [attr.aria-controls]="'character' + i" aria-selected="true">{{character.name}}</a>
+  </li>
+</ul>
+<div class="tab-content bg-dark">
+  <div *ngFor="let character of survivals; let i = index" class="tab-pane fade" [class.active]="i == 0" [class.show]="i == 0"
+    [attr.id]="'character' + i" [attr.aria-labelledby]="'character' + i + '-tab'">
+
+    <div class="card-body">
+
+      <div class="d-flex flex-row-reverse mb-2">
+        <button type="button" class="btn btn-danger" (click)="removeSurvival(character)">Remove {{character.name}}</button>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header bg-primary text-white">
+          <i class="fas fa-dice-one"></i> 0 - 6
+        </div>
+        <zga-skill [skillContent]="character.card.skillBlue" [settings]="settings"></zga-skill>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header bg-warning text-white">
+          <i class="fas fa-dice-two mr-1"></i> 7 - 18
+        </div>
+        <zga-skill [skillContent]="character.card.skillYellow" [settings]="settings"></zga-skill>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header bg-warning-color-dark text-white">
+          <i class="fas fa-dice-three"></i> 19 - 42
+        </div>
+        <div *ngFor="let skill of character.card.skillOrange">
+          <zga-skill [skillContent]="skill" [settings]="settings"></zga-skill>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-header bg-danger  text-white">
+          <i class="fas fa-dice-four"></i> 43+
+        </div>
+        <div *ngFor="let skill of character.card.skillRed">
+          <zga-skill [skillContent]="skill" [settings]="settings"></zga-skill>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

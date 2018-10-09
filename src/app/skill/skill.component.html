@@ -1,0 +1,20 @@
+<div class="card-body text-dark">
+  <h6 class="card-title"><input type="checkbox">
+    <ng-template [ngIf]="settings.skillTitleLanguage == 'pt'" [ngIfElse]="title">
+      {{skillContent?.pt.title}}
+    </ng-template>
+    <ng-template #title>
+      {{skillContent?.en.title}} 
+    </ng-template>
+    <span *ngIf="skillContent?.exclusive == 'GH'" class="badge badge-pill badge-success">GH</span>
+    <span *ngIf="skillContent?.exclusive == 'BP'" class="badge badge-pill badge-brown-darken-1">BP</span>
+  </h6>
+  <p class="card-text">
+    <ng-template [ngIf]="settings.skillDescriptionLanguage == 'pt'" [ngIfElse]="description">
+      {{skillContent?.pt.description}}
+    </ng-template>
+    <ng-template #description>
+      {{skillContent?.en.description}}
+    </ng-template>
+  </p>
+</div>
