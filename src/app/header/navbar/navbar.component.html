@@ -9,11 +9,17 @@
 
   <div class="navbar-collapse collapse" id="navbarMenu">
     <div class="navbar-nav ml-auto" data-toggle="collapse" data-target=".navbar-collapse.show">
-      <a routerLink="characters" class="nav-link active">
-        <i class="fas fa-angry"></i> Survivals
+      <a routerLink="character" class="nav-link active">
+        <i class="fas fa-angry"></i>
+        {{lang.survivals}}
       </a>
       <a routerLink="settings" class="nav-link active">
-        <i class="fas fa-cog"></i> Settings
+        <i class="fas fa-cog"></i>
+        {{lang.settings}}
+      </a>
+      <a routerLink="about" class="nav-link active">
+        <i class="fas fa-info-circle"></i>
+        {{lang.about}}
       </a>
     </div>
   </div>

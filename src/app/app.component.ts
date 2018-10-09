@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { SettingsService } from './settings/settings.service';
+import { Settings } from './settings/settings.model';
 
 @Component({
   selector: 'zga-root',
@@ -6,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'zombicide-green-app';
+  
+  personalSettings: Settings;
+
+  constructor(private settingsService: SettingsService) { }
+
+  ngOnInit() {
+    this.personalSettings = this.settingsService.personalSettings();
+  }
 }

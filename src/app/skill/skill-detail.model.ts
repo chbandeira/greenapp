@@ -1,4 +1,4 @@
-export interface SkillDetail {
-    title: string;
-    description: string;
+export class SkillDetail {
+    title: string = "";
+    description: string = "";
 }

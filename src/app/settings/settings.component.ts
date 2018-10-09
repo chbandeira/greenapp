@@ -14,7 +14,20 @@ export class SettingsComponent implements OnInit {
 
   formSettings: FormGroup;
 
-  private saved: boolean = false;
+  saved: boolean = false;
+
+  lang = {
+    "settings": "Settings",
+    "appLanguage": "App Language",
+    "skillTitleLanguage": "Skill title language",
+    "skillDescriptionLanguage": "Skill description language",
+    "english": "English",
+    "portuguese": "Portuguese",
+    "save": "Save",
+    "cancel": "Cancel",
+    "msg": "Settings was saved!",
+    "update": "Update"
+  }
 
   constructor(
     private settingsService: SettingsService,
@@ -26,7 +39,22 @@ export class SettingsComponent implements OnInit {
       appLanguage: this.personalSettings.appLanguage,
       skillTitleLanguage: this.personalSettings.skillTitleLanguage,
       skillDescriptionLanguage: this.personalSettings.skillDescriptionLanguage
-    })
+    });
+
+    if (this.personalSettings.appLanguage == 'pt') {
+      this.lang = {
+        "settings": "Configurações",
+        "appLanguage": "Idioma do App",
+        "skillTitleLanguage": "Idioma do título da habilidade",
+        "skillDescriptionLanguage": "Idioma da descrição da habilidade",
+        "english": "Inglês",
+        "portuguese": "Português",
+        "save": "Salvar",
+        "cancel": "Cancelar",
+        "msg": "As configurações foram salvas!",
+        "update": "Atualizar"
+      }
+    }
   }
 
   save() {

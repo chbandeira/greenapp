@@ -14,6 +14,7 @@ import { SettingsService } from './settings/settings.service';
 import { SkillService } from './skill/skill.service';
 import { CharacterService } from './character/character.service';
 import { CharacterComponent } from './character/character.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CharacterComponent } from './character/character.component';
     HomeComponent,
     CharacterComponent,
     SettingsComponent,
-    SkillComponent
+    SkillComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,6 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item active" aria-current="page">Survivals</li>
+    <li class="breadcrumb-item active" aria-current="page">{{lang.survivals}}</li>
   </ol>
 </nav>
 
@@ -10,7 +10,7 @@
       <option></option>
       <option *ngFor="let name of comboboxSurvivals" value="{{name}}">{{name}}</option>
     </select>
-    <button type="button" class="btn btn-success" [class.disabled]="isComboboxSurvivalClean()" (click)="addSurvival()">Add</button>
+    <button type="button" class="btn btn-success" [class.disabled]="isComboboxSurvivalClean()" (click)="addSurvival()">{{lang.add}}</button>
   </div>
 </form>
 
@@ -27,21 +27,21 @@
     <div class="card-body">
 
       <div class="d-flex flex-row-reverse mb-2">
-        <button type="button" class="btn btn-danger" (click)="removeSurvival(character)">Remove {{character.name}}</button>
+        <button type="button" class="btn btn-danger" (click)="removeSurvival(character)">{{lang.remove}} {{character.name}}</button>
       </div>
 
       <div class="card mb-2">
         <div class="card-header bg-primary text-white">
           <i class="fas fa-dice-one"></i> 0 - 6
         </div>
-        <zga-skill [skillContent]="character.card.skillBlue" [settings]="settings"></zga-skill>
+        <zga-skill [skillContent]="character.card.skillBlue" [personalSettings]="personalSettings"></zga-skill>
       </div>
 
       <div class="card mb-2">
         <div class="card-header bg-warning text-white">
           <i class="fas fa-dice-two mr-1"></i> 7 - 18
         </div>
-        <zga-skill [skillContent]="character.card.skillYellow" [settings]="settings"></zga-skill>
+        <zga-skill [skillContent]="character.card.skillYellow" [personalSettings]="personalSettings"></zga-skill>
       </div>
 
       <div class="card mb-2">
@@ -49,7 +49,7 @@
           <i class="fas fa-dice-three"></i> 19 - 42
         </div>
         <div *ngFor="let skill of character.card.skillOrange">
-          <zga-skill [skillContent]="skill" [settings]="settings"></zga-skill>
+          <zga-skill [skillContent]="skill" [personalSettings]="personalSettings"></zga-skill>
         </div>
       </div>
 
@@ -58,7 +58,7 @@
           <i class="fas fa-dice-four"></i> 43+
         </div>
         <div *ngFor="let skill of character.card.skillRed">
-          <zga-skill [skillContent]="skill" [settings]="settings"></zga-skill>
+          <zga-skill [skillContent]="skill" [personalSettings]="personalSettings"></zga-skill>
         </div>
       </div>
     </div>

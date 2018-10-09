@@ -3,6 +3,7 @@ import { map } from 'rxjs/operators';
 import { Character } from './character.model';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../environments/environment';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,8 +12,8 @@ export class CharacterService {
 
   constructor(private http: HttpClient) { }
 
-  characters() {
-    return this.http.get<Character[]>(environment.db).pipe(
+  characters(): Observable<Character[]> {
+    return this.http.get(environment.db).pipe(
       map(data => data['characters'])
     )
   }

@@ -15,12 +15,18 @@ export class CharacterComponent implements OnInit {
 
   formSurvivals: FormGroup;
 
-  settings: Settings;
+  personalSettings: Settings;
 
   characters: Character[];
 
   survivals: Character[];
   comboboxSurvivals: string[] = [];
+
+  lang = {
+    "survivals": "Survivals",
+    "add": "Add",
+    "remove": "Remove"
+  }
 
   constructor(
     private characterService: CharacterService,
@@ -30,9 +36,17 @@ export class CharacterComponent implements OnInit {
 
   ngOnInit() {
     this.clearComboboxSurvivals();
-    this.settings = this.settingsService.personalSettings();
+    this.personalSettings = this.settingsService.personalSettings();
     this.loadCharacters();
     this.survivals = this.characterService.personalSurvivals();
+
+    if (this.personalSettings.appLanguage == 'pt') {
+      this.lang = {
+        "survivals": "Sobreviventes",
+        "add": "Adicionar",
+        "remove": "Remover"
+      }
+    }
   }
 
   private loadCharacters() {
