@@ -9,20 +9,20 @@ import { Settings } from '../settings/settings.model';
 })
 export class HomeComponent implements OnInit {
 
-  personalSettings: Settings;
+  localSettings: Settings;
 
   lang = {
     "text1": "App for Zombicide Green Horde (and Black Plague too).",
     "text2": "Go to the Settings in the menu above to configure the language.",
-    "text3": "See your Survival(s) in the menu above."
+    "text3": "See your Survivor(s) in the menu above."
   }
 
   constructor(private settingsService: SettingsService) { }
 
   ngOnInit() {
-    this.personalSettings = this.settingsService.personalSettings();
+    this.localSettings = this.settingsService.localSettings();
 
-    if (this.personalSettings.appLanguage == 'pt') {
+    if (this.localSettings.appLanguage == 'pt') {
       this.lang = {
         "text1": "App para Zombicide Green Horde (e Black Plague também).",
         "text2": "Vá para as Configurações no menu acima para configurar o idioma.",

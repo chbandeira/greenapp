@@ -10,7 +10,7 @@ import { FormGroup, FormBuilder } from "@angular/forms";
 })
 export class SettingsComponent implements OnInit {
 
-  personalSettings: Settings;
+  localSettings: Settings;
 
   formSettings: FormGroup;
 
@@ -34,14 +34,14 @@ export class SettingsComponent implements OnInit {
     private formBuilder: FormBuilder) { }
 
   ngOnInit() {
-    this.personalSettings = this.settingsService.personalSettings();
+    this.localSettings = this.settingsService.localSettings();
     this.formSettings = this.formBuilder.group({
-      appLanguage: this.personalSettings.appLanguage,
-      skillTitleLanguage: this.personalSettings.skillTitleLanguage,
-      skillDescriptionLanguage: this.personalSettings.skillDescriptionLanguage
+      appLanguage: this.localSettings.appLanguage,
+      skillTitleLanguage: this.localSettings.skillTitleLanguage,
+      skillDescriptionLanguage: this.localSettings.skillDescriptionLanguage
     });
 
-    if (this.personalSettings.appLanguage == 'pt') {
+    if (this.localSettings.appLanguage == 'pt') {
       this.lang = {
         "settings": "Configurações",
         "appLanguage": "Idioma do App",
@@ -58,7 +58,7 @@ export class SettingsComponent implements OnInit {
   }
 
   save() {
-    this.settingsService.savePersonalSettings(this.formSettings.value);
+    this.settingsService.saveLocalSettings(this.formSettings.value);
     this.saved = true;
   }
 

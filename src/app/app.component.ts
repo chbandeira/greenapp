@@ -9,11 +9,11 @@ import { Settings } from './settings/settings.model';
 })
 export class AppComponent {
   
-  personalSettings: Settings;
+  localSettings: Settings;
 
   constructor(private settingsService: SettingsService) { }
 
   ngOnInit() {
-    this.personalSettings = this.settingsService.personalSettings();
+    this.localSettings = this.settingsService.localSettings();
   }
 }

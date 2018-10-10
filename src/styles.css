@@ -7,10 +7,30 @@
 .bg-brown-lighten-4 {
     background-color: #d7ccc8;
 }
-.badge-brown-darken-1 {
-    background-color: #6d4c41;
-    color: white;
-}
 .bg-warning-color-dark {
     background-color: #FF8800!important;
+}
+.badge-bp {
+    color: #fff;
+    background-color: #6d4c41;
+}
+.badge-gh {
+    color: #fff;
+    background-color: #558b2f;
+}
+.badge-hb {
+    color: #fff;
+    background-color: #1b5e20;
+}
+.badge-us {
+    color: #fff;
+    background-color: #0099CC;
+}
+.badge-sg {
+    color: #fff;
+    background-color: #f57f17;
+}
+.badge-h1 {
+    color: #fff;
+    background-color: #ff4444;
 }

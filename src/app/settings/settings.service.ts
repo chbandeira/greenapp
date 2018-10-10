@@ -8,16 +8,16 @@ export class SettingsService {
 
   constructor() { }
 
-  personalSettings(): Settings {
+  localSettings(): Settings {
     let settings: Settings = JSON.parse(localStorage.getItem('settings'));
     if (!settings) {
       settings = new Settings();
-      this.savePersonalSettings(settings);
+      this.saveLocalSettings(settings);
     }
     return settings;
   }
 
-  savePersonalSettings(settings: Settings) {
+  saveLocalSettings(settings: Settings) {
     localStorage.setItem('settings', JSON.stringify(settings));
   }
 }

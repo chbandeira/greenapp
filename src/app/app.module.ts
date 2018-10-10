@@ -12,8 +12,8 @@ import { SettingsComponent } from './settings/settings.component';
 import { SkillComponent } from './skill/skill.component';
 import { SettingsService } from './settings/settings.service';
 import { SkillService } from './skill/skill.service';
-import { CharacterService } from './character/character.service';
-import { CharacterComponent } from './character/character.component';
+import { SurvivorService } from './survivor/survivor.service';
+import { SurvivorComponent } from './survivor/survivor.component';
 import { AboutComponent } from './about/about.component';
 
 @NgModule({
@@ -21,7 +21,7 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    CharacterComponent,
+    SurvivorComponent,
     SettingsComponent,
     SkillComponent,
     AboutComponent
@@ -32,7 +32,7 @@ import { AboutComponent } from './about/about.component';
     ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [SettingsService, CharacterService, SkillService],
+  providers: [SettingsService, SurvivorService, SkillService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

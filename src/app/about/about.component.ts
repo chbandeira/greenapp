@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Settings } from '../settings/settings.model';
 import { SettingsService } from '../settings/settings.service';
-import { CharacterService } from '../character/character.service';
-import { Character } from '../character/character.model';
+import { SurvivorService } from '../survivor/survivor.service';
+import { Survivor } from '../survivor/survivor.model';
 
 @Component({
   selector: 'zga-about',
@@ -11,25 +11,25 @@ import { Character } from '../character/character.model';
 })
 export class AboutComponent implements OnInit {
 
-  personalSettings: Settings;
-  characters: Character[];
-  listSurvivals: string;
+  localSettings: Settings;
+  survivors: Survivor[];
+  nameSurvivors: string;
 
   lang = {
     "about": "About",
     "versionapp": "APP Version",
     "text1": "This application was developed to speed up reading the abilities of each survivor who is in the board games Zombicide Green Horde and Zombicide Black Plague.",
-    "text2": "Settings and survival information are saved directly in the local storage of the device browser.",
+    "text2": "Settings and survivor information are saved directly in the local storage of the device browser.",
     "by": "Developed by",
     "icons": "Icons",
-    "text3": "If you'd like to include any official survival that are not in the App, please send an email with the data as shown in the example:",
+    "text3": "If you'd like to include any official survivor that are not in the App, please send an email with the data as shown in the example:",
     "text4": "List of all the survivors available on the App:",
     "example": "Example"
   }
 
   sample = `
   "name": "Rolf",
-  "card": {
+  "level": {
     "blue": "Bloodlust: Melee",
     "yellow": "+1 Action",
     "orange": [
@@ -47,16 +47,16 @@ export class AboutComponent implements OnInit {
 
   constructor(
     private settingsService: SettingsService,
-    private characterService: CharacterService) { }
+    private survivorService: SurvivorService) { }
 
   ngOnInit() {
 
-    this.personalSettings = this.settingsService.personalSettings();
+    this.localSettings = this.settingsService.localSettings();
 
-    this.characterService.characters()
-      .subscribe(data => this.fillNameSurvivals(data)); 
+    this.survivorService.survivors()
+      .subscribe(data => this.fillNameSurvivors(data)); 
 
-    if (this.personalSettings.appLanguage == 'pt') {
+    if (this.localSettings.appLanguage == 'pt') {
       this.lang = {
         "about": "Sobre",
         "versionapp": "Versão do APP",
@@ -71,9 +71,9 @@ export class AboutComponent implements OnInit {
     }
   }
 
-  private fillNameSurvivals(characters: Character[]) {
-    let listSurvivals: string[] = [];
-    characters.forEach(character => listSurvivals.push(character['name']));
-    this.listSurvivals = listSurvivals.sort().join(", ");
+  private fillNameSurvivors(survivors: Survivor[]) {
+    let nameSurvivors: string[] = [];
+    survivors.forEach(survivor => nameSurvivors.push(survivor['name']));
+    this.nameSurvivors = nameSurvivors.sort().join(", ");
   }
 }

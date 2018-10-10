@@ -8,10 +8,10 @@ import { Settings } from 'src/app/settings/settings.model';
 })
 export class NavbarComponent implements OnInit {
 
-  @Input() personalSettings: Settings;
+  @Input() localSettings: Settings;
 
   lang = {
-    "survivals": "Survivals",
+    "survivors": "Survivors",
     "settings": "Settings",
     "about": "About"
   };  
@@ -19,9 +19,9 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    if (this.personalSettings.appLanguage == 'pt') {
+    if (this.localSettings.appLanguage == 'pt') {
       this.lang = {
-        "survivals": "Sobreviventes",
+        "survivors": "Sobreviventes",
         "settings": "Configurações",
         "about": "Sobre"
       }; 
