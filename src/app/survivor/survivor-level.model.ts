@@ -1,4 +1,4 @@
-import { SkillContent } from "../skill/skill-content.model";
+import { SkillContent } from '../skill/skill-content.model';
 
 export interface SurvivorLevel {
     blue: string[];

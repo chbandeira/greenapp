@@ -26,41 +26,36 @@ export class SkillComponent implements OnInit {
 
     this.skillDetail = new SkillDetail();
 
-    this.localSettings.skillTitleLanguage == 'en' ?
+    this.localSettings.skillTitleLanguage === 'en' ?
       this.skillDetail.title = this.skillContent.en.title :
       this.skillDetail.title = this.skillContent.pt.title;
 
-    this.localSettings.skillDescriptionLanguage == 'en' ?
+    this.localSettings.skillDescriptionLanguage === 'en' ?
       this.skillDetail.description = this.skillContent.en.description :
       this.skillDetail.description = this.skillContent.pt.description;
   }
 
   isChecked(): boolean {
-    if (this.colorLevel == 'blue') return true;
+    if (this.colorLevel === 'blue') { return true; }
 
-    let survivorLocalSkills: LocalSkills = this.skillService.loadSurvivalLocalSkills(this.survivorName);
+    const survivorLocalSkills: LocalSkills = this.skillService.loadSurvivalLocalSkills(this.survivorName);
     return survivorLocalSkills.skillLevels.some(item => {
-      return item.color == this.colorLevel && item.skills.includes(this.skillContent.en.title);
+      return item.color === this.colorLevel && item.skill === this.skillContent.en.title;
     });
   }
 
   isDisabled(): boolean {
-    return this.colorLevel == 'blue';
-  }
-
-  skillLevel(): SkillLevel {
-    let skillLevel: SkillLevel = new SkillLevel();
-    skillLevel.color = this.colorLevel;
-    skillLevel.skills.push(this.skillContent.en.title);
-    return skillLevel;
+    return this.colorLevel === 'blue';
   }
 
   checkSkill(event) {
+    const skillLevel: SkillLevel = new SkillLevel();
+    skillLevel.color = this.colorLevel;
+    skillLevel.skill = this.skillContent.en.title;
     if (event.target.checked) {
-      this.skillService.saveLocalSkill(this.survivorName, this.skillLevel());
-    }
-    else {
-      this.skillService.deleteLocalSkill(this.survivorName, this.skillLevel());
+      this.skillService.saveLocalSkill(this.survivorName, skillLevel);
+    } else {
+      this.skillService.deleteLocalSkill(this.survivorName, skillLevel);
     }
   }
 }

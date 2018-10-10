@@ -5,8 +5,8 @@ export class Settings {
     skillDescriptionLanguage: string;
 
     constructor() {
-        this.appLanguage = "en";
-        this.skillTitleLanguage = "en";
-        this.skillDescriptionLanguage = "en";
+        this.appLanguage = 'en';
+        this.skillTitleLanguage = 'en';
+        this.skillDescriptionLanguage = 'en';
     }
 }

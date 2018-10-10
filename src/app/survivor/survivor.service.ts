@@ -18,7 +18,7 @@ export class SurvivorService {
   survivors(): Observable<Survivor[]> {
     return this.http.get(environment.db).pipe(
       map(data => data['survivors'])
-    )
+    );
   }
 
   localSurvivors(): Survivor[] {
@@ -31,8 +31,8 @@ export class SurvivorService {
   }
 
   save(survivor: Survivor) {
-    let survivors: Survivor[] = JSON.parse(localStorage.getItem('survivors'));
-    let survivorToSave = JSON.parse(JSON.stringify(survivor));
+    const survivors: Survivor[] = JSON.parse(localStorage.getItem('survivors'));
+    const survivorToSave = JSON.parse(JSON.stringify(survivor));
     survivorToSave.skillBlue = [];
     survivorToSave.skillYellow = [];
     survivorToSave.skillOrange = [];
@@ -46,4 +46,8 @@ export class SurvivorService {
     localStorage.setItem('survivors', JSON.stringify(survivors));
   }
 
+  resetLocalSurvivors() {
+    localStorage.setItem('survivors', JSON.stringify([]));
+    this.skillService.resetLocalSkills();
+  }
 }

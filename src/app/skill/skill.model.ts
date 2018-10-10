@@ -1,4 +1,4 @@
-import { SkillDetail } from "./skill-detail.model";
+import { SkillDetail } from './skill-detail.model';
 
 export interface Skill {
     name: string;

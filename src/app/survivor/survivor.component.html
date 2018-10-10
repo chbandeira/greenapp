@@ -1,6 +1,6 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item active" aria-current="page">{{lang.survivors}}</li>
+    <li class="breadcrumb-item active" aria-current="page">{{lang?.survivors}}</li>
   </ol>
 </nav>
 
@@ -10,7 +10,7 @@
       <option></option>
       <option *ngFor="let name of comboboxSurvivors" value="{{name}}">{{name}}</option>
     </select>
-    <button type="button" class="btn btn-success" [class.disabled]="isComboboxSurvivorClean()" (click)="addSurvivor()">{{lang.add}}</button>
+    <button type="button" class="btn btn-success" [class.disabled]="isComboboxSurvivorClean()" (click)="addSurvivor()">{{lang?.add}}</button>
   </div>
 </form>
 
@@ -34,7 +34,7 @@
         <span *ngIf="survivor.box.code == 'US'" class="badge badge-pill badge-us">{{survivor.box.name}}</span>
         <span *ngIf="survivor.box.code == 'H1'" class="badge badge-pill badge-h1">{{survivor.box.name}}</span>
         <button type="button" class="btn btn-danger" (click)="removeSurvivor(survivor)">
-          {{lang.remove}}
+          {{lang?.remove}}
           {{survivor.name}}
         </button>
       </div>

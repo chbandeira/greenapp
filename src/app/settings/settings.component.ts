@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Settings } from './settings.model';
 import { SettingsService } from './settings.service';
-import { FormGroup, FormBuilder } from "@angular/forms";
+import { FormGroup, FormBuilder } from '@angular/forms';
+import { SurvivorService } from '../survivor/survivor.service';
+import { LangService } from '../core/lang.service';
 
 @Component({
   selector: 'zga-settings',
@@ -14,23 +16,14 @@ export class SettingsComponent implements OnInit {
 
   formSettings: FormGroup;
 
-  saved: boolean = false;
+  saved = false;
 
-  lang = {
-    "settings": "Settings",
-    "appLanguage": "App Language",
-    "skillTitleLanguage": "Skill title language",
-    "skillDescriptionLanguage": "Skill description language",
-    "english": "English",
-    "portuguese": "Portuguese",
-    "save": "Save",
-    "cancel": "Cancel",
-    "msg": "Settings was saved!",
-    "update": "Update"
-  }
+  lang: any;
 
   constructor(
     private settingsService: SettingsService,
+    private survivorService: SurvivorService,
+    private langService: LangService,
     private formBuilder: FormBuilder) { }
 
   ngOnInit() {
@@ -38,27 +31,22 @@ export class SettingsComponent implements OnInit {
     this.formSettings = this.formBuilder.group({
       appLanguage: this.localSettings.appLanguage,
       skillTitleLanguage: this.localSettings.skillTitleLanguage,
-      skillDescriptionLanguage: this.localSettings.skillDescriptionLanguage
+      skillDescriptionLanguage: this.localSettings.skillDescriptionLanguage,
+      textReset: 'no'
     });
-
-    if (this.localSettings.appLanguage == 'pt') {
-      this.lang = {
-        "settings": "Configurações",
-        "appLanguage": "Idioma do App",
-        "skillTitleLanguage": "Idioma do título da habilidade",
-        "skillDescriptionLanguage": "Idioma da descrição da habilidade",
-        "english": "Inglês",
-        "portuguese": "Português",
-        "save": "Salvar",
-        "cancel": "Cancelar",
-        "msg": "As configurações foram salvas!",
-        "update": "Atualizar"
-      }
-    }
+    this.langService.props(this.localSettings.appLanguage)
+      .subscribe(data => this.lang = data);
   }
 
   save() {
-    this.settingsService.saveLocalSettings(this.formSettings.value);
+    this.localSettings.appLanguage = this.formSettings.value['appLanguage'];
+    this.localSettings.skillTitleLanguage = this.formSettings.value['skillTitleLanguage'];
+    this.localSettings.skillDescriptionLanguage = this.formSettings.value['skillDescriptionLanguage'];
+
+    this.settingsService.saveLocalSettings(this.localSettings);
+    if (this.formSettings.value['textReset'] === 'yes') {
+      this.survivorService.resetLocalSurvivors();
+    }
     this.saved = true;
   }
 

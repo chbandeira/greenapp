@@ -1,26 +1,26 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item active" aria-current="page">{{lang.about}}</li>
+    <li class="breadcrumb-item active" aria-current="page">{{lang?.about}}</li>
   </ol>
 </nav>
 <div class="m-3">
   <p class="lead">
-    {{lang.versionapp}}: {{version}} <br />
+    {{lang?.versionapp}}: {{version}} <br />
   </p>
   <p class="lead">
-    {{lang.text1}}
+    {{lang?.text1}}
   </p>
   <p class="lead">
-    {{lang.text2}}
+    {{lang?.text2}}
   </p>
   <p class="lead">
-    {{lang.text3}}
+    {{lang?.text3}}
   </p>
   <pre>
-    {{sample}}
+{{sample | json}}
   </pre>
   <p class="lead">
-    {{lang.text4}} <strong>{{nameSurvivors}}.</strong>
+    {{lang?.text4}} <strong>{{nameSurvivors}}.</strong>
   </p>
   <p class="lead">
     <span class="badge badge-pill badge-gh">GH</span> Green Horde<br />
@@ -31,10 +31,10 @@
     <span class="badge badge-pill badge-us">US</span> Ultimate Survivors<br />
   </p>
   <p class="lead">
-    {{lang.icons}}: <a href="https://www.fontawesome.com/" target="_blank">fontawesome.com</a>
+    {{lang?.icons}}: <a href="https://www.fontawesome.com/" target="_blank">fontawesome.com</a>
   </p>
   <p class="lead">
-    {{lang.by}} Charlles Bandeira <br />
+    {{lang?.by}} Charlles Bandeira <br />
     <a href="mailto:charlles_df@hotmail.com">charlles_df@hotmail.com</a>
   </p>
 </div>

@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output } from '@angular/core';
 import { Settings } from 'src/app/settings/settings.model';
+import { LangService } from 'src/app/core/lang.service';
 
 @Component({
   selector: 'zga-navbar',
@@ -10,22 +11,12 @@ export class NavbarComponent implements OnInit {
 
   @Input() localSettings: Settings;
 
-  lang = {
-    "survivors": "Survivors",
-    "settings": "Settings",
-    "about": "About"
-  };  
+  lang: any;
 
-  constructor() { }
+  constructor(private langService: LangService) { }
 
   ngOnInit() {
-    if (this.localSettings.appLanguage == 'pt') {
-      this.lang = {
-        "survivors": "Sobreviventes",
-        "settings": "Configurações",
-        "about": "Sobre"
-      }; 
-    }
+    this.langService.props(this.localSettings.appLanguage)
+      .subscribe(data => this.lang = data);
   }
-
 }

@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  db: '../../assets/db.json'
+  db: '../../assets/db.json',
+  lang_en: '../../assets/lang_en.json',
+  lang_pt: '../../assets/lang_pt.json'
 };
 
 /*

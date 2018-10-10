@@ -1,4 +1,4 @@
 export class SkillDetail {
-    title: string = "";
-    description: string = "";
+    title = '';
+    description = '';
 }

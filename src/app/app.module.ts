@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from "@angular/forms";
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './header/navbar/navbar.component';
@@ -15,6 +15,7 @@ import { SkillService } from './skill/skill.service';
 import { SurvivorService } from './survivor/survivor.service';
 import { SurvivorComponent } from './survivor/survivor.component';
 import { AboutComponent } from './about/about.component';
+import { LangService } from './core/lang.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { AboutComponent } from './about/about.component';
     ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [SettingsService, SurvivorService, SkillService],
+  providers: [SettingsService, SurvivorService, SkillService, LangService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

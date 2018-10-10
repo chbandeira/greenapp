@@ -1,4 +1,4 @@
 export class SkillLevel {
     color: string;
-    skills: string[] = [];
+    skill: string;
 }
