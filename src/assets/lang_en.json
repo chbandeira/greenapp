@@ -25,5 +25,8 @@
     "yes": "Yes",
     "no": "No",
     "add": "Add",
-    "remove": "Remove"
+    "remove": "Remove",
+    "print": "Print",
+    "text7": "You can download each file for a maximum of 4 survivors. It only works directly from the PC.",
+    "downloadPdf": "Download PDF"
 }

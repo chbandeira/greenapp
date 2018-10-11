@@ -32,22 +32,27 @@ export class SurvivorService {
 
   save(survivor: Survivor) {
     const survivors: Survivor[] = JSON.parse(localStorage.getItem('survivors'));
-    const survivorToSave = JSON.parse(JSON.stringify(survivor));
-    survivorToSave.skillBlue = [];
-    survivorToSave.skillYellow = [];
-    survivorToSave.skillOrange = [];
-    survivorToSave.skillRed = [];
-    survivors.push(survivorToSave);
+    survivors.push(this.cleanSkillsToSave(JSON.parse(JSON.stringify(survivor))));
     localStorage.setItem('survivors', JSON.stringify(survivors));
     this.skillService.saveSurvivorLocalSkill(survivor.name);
   }
 
   saveAll(survivors: Survivor[]) {
-    localStorage.setItem('survivors', JSON.stringify(survivors));
+    const survivorsToSave = JSON.parse(JSON.stringify(survivors));
+    survivorsToSave.forEach(survivor => this.cleanSkillsToSave(survivor));
+    localStorage.setItem('survivors', JSON.stringify(survivorsToSave));
   }
 
   resetLocalSurvivors() {
     localStorage.setItem('survivors', JSON.stringify([]));
     this.skillService.resetLocalSkills();
+  }
+
+  private cleanSkillsToSave(survivorToSave: Survivor) {
+    survivorToSave.level.skillBlue = [];
+    survivorToSave.level.skillYellow = [];
+    survivorToSave.level.skillOrange = [];
+    survivorToSave.level.skillRed = [];
+    return survivorToSave;
   }
 }

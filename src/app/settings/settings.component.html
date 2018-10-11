@@ -1,5 +1,6 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page">{{lang?.settings}}</li>
   </ol>
 </nav>
@@ -43,13 +44,11 @@
   <div class="form-group">
     <h6>{{lang?.reset}}</h6>
     <div class="form-check form-check-inline" (click)="changeStatus()">
-      <input class="form-check-input" type="radio" formControlName="textReset" id="textResetNo"
-        value="no">
+      <input class="form-check-input" type="radio" formControlName="textReset" id="textResetNo" value="no">
       <label class="form-check-label" for="textResetNo">{{lang?.no}}</label>
     </div>
     <div class="form-check form-check-inline" (click)="changeStatus()">
-      <input class="form-check-input" type="radio" formControlName="textReset" id="textResetYes"
-        value="yes">
+      <input class="form-check-input" type="radio" formControlName="textReset" id="textResetYes" value="yes">
       <label class="form-check-label" for="textResetYes">{{lang?.yes}} <i class="fas fa-exclamation-triangle text-warning"></i></label>
     </div>
   </div>

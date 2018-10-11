@@ -1,0 +1,46 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{lang?.print}}</li>
+  </ol>
+</nav>
+
+<div class="container">
+
+  <div class="m-2"><i class="fas fa-exclamation-triangle text-warning"></i> {{lang?.text7}}</div>
+
+  <div *ngFor="let group of groupSurvivors; let i = index">
+    <hr />
+    <button *ngIf="survivors.length > 0" class="btn btn-info ml-2 mb-2" (click)="download(i)">{{lang?.downloadPdf}}
+      {{i+1}}</button>
+
+    <div class="p-2 a4 row" [id]="'content' + i">
+
+      <div *ngFor="let survivor of group" class="col-6">
+
+        <strong>{{survivor.name}}</strong>
+        <div *ngFor="let skill of survivor.level.skillBlue" class="font-skill text-justify">
+          <zga-print-skill [colorLevel]="'blue'" [skillContent]="skill" [localSettings]="localSettings"></zga-print-skill>
+        </div>
+
+        <div *ngFor="let skill of survivor.level.skillYellow" class="font-skill text-justify">
+          <zga-print-skill [colorLevel]="'yellow'" [skillContent]="skill" [localSettings]="localSettings"></zga-print-skill>
+        </div>
+
+        <div *ngFor="let skill of survivor.level.skillOrange" class="font-skill text-justify">
+          <zga-print-skill [colorLevel]="'orange'" [skillContent]="skill" [localSettings]="localSettings"></zga-print-skill>
+        </div>
+
+        <div *ngFor="let skill of survivor.level.skillRed" class="font-skill text-justify">
+          <zga-print-skill [colorLevel]="'red'" [skillContent]="skill" [localSettings]="localSettings"></zga-print-skill>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+</div>

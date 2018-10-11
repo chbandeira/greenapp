@@ -1,5 +1,6 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page">{{lang?.survivors}}</li>
   </ol>
 </nav>
@@ -21,8 +22,8 @@
   </li>
 </ul>
 <div class="tab-content bg-dark">
-  <div *ngFor="let survivor of survivorsSelected; let i = index" class="tab-pane fade" [class.active]="i == 0" [class.show]="i == 0"
-    [attr.id]="'survivor' + i" [attr.aria-labelledby]="'survivor' + i + '-tab'">
+  <div *ngFor="let survivor of survivorsSelected; let i = index" class="tab-pane fade" [class.active]="i == 0"
+    [class.show]="i == 0" [attr.id]="'survivor' + i" [attr.aria-labelledby]="'survivor' + i + '-tab'">
 
     <div class="card-body">
 
@@ -67,7 +68,7 @@
       </div>
 
       <div class="card mb-2">
-        <div class="card-header bg-danger  text-white">
+        <div class="card-header bg-danger text-white">
           <i class="fas fa-dice-four"></i> 43+
         </div>
         <div *ngFor="let skill of survivor.level.skillRed">

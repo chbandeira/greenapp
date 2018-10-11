@@ -25,5 +25,8 @@
     "yes": "Sim",
     "no": "Não",
     "add": "Adicionar",
-    "remove": "Remover"
+    "remove": "Remover",
+    "print": "Imprimir",
+    "text7": "Você pode baixar cada arquivo para no máximo 4 sobreviventes. Só funciona diretamente do PC.",
+    "downloadPdf": "Baixar PDF"
 }

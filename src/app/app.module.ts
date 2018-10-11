@@ -16,6 +16,8 @@ import { SurvivorService } from './survivor/survivor.service';
 import { SurvivorComponent } from './survivor/survivor.component';
 import { AboutComponent } from './about/about.component';
 import { LangService } from './core/lang.service';
+import { PrintComponent } from './print/print.component';
+import { PrintSkillComponent } from './print/print-skill/print-skill.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { LangService } from './core/lang.service';
     SurvivorComponent,
     SettingsComponent,
     SkillComponent,
-    AboutComponent
+    AboutComponent,
+    PrintComponent,
+    PrintSkillComponent
   ],
   imports: [
     BrowserModule,
