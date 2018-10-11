@@ -7,7 +7,6 @@ import { SettingsService } from '../settings/settings.service';
 import * as jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import { LangService } from '../core/lang.service';
-import { Observable, of  } from 'rxjs';
 
 @Component({
   selector: 'zga-print',
@@ -35,9 +34,11 @@ export class PrintComponent implements OnInit {
         this.lang = data;
         this.setPrintOptionOnlySurvivorsSaved();
       });
-    this.survivors = this.survivorService.localSurvivors();
-    this.survivors.forEach(survivor => this.loadSkillsSurvivor(survivor));
-    this.sliceGroupOfSurvivors();
+    this.survivorService.localSurvivors()
+      .subscribe(data => {
+        this.survivors = data;
+        this.sliceGroupOfSurvivors();
+      });
   }
 
   private setPrintOptionAllSurvivors() {
@@ -56,7 +57,7 @@ export class PrintComponent implements OnInit {
 
   downloadPdf() {
     const doc = new jsPDF();
-    let i = 0;
+    const i = 0;
     this.savePdf(i, doc);
   }
 
@@ -85,11 +86,13 @@ export class PrintComponent implements OnInit {
   }
 
   addOnlySurvivorsSaved() {
-    this.survivors = this.survivorService.localSurvivors();
-    this.survivors.forEach(survivor => this.loadSkillsSurvivor(survivor));
-    this.groupSurvivors = [];
-    this.sliceGroupOfSurvivors();
-    this.setPrintOptionOnlySurvivorsSaved();
+    this.survivorService.localSurvivors()
+      .subscribe(data => {
+        this.survivors = data;
+        this.groupSurvivors = [];
+        this.sliceGroupOfSurvivors();
+        this.setPrintOptionOnlySurvivorsSaved();
+      });
   }
 
   private loadSkillsSurvivor(survivor: Survivor) {

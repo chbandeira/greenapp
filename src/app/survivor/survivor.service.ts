@@ -3,7 +3,7 @@ import { map } from 'rxjs/operators';
 import { Survivor } from './survivor.model';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../environments/environment';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { SkillService } from '../skill/skill.service';
 
 @Injectable({
@@ -21,13 +21,40 @@ export class SurvivorService {
     );
   }
 
-  localSurvivors(): Survivor[] {
+  localSurvivors(): Observable<Survivor[]> {
     let survivors: Survivor[] = JSON.parse(localStorage.getItem('survivors'));
     if (!survivors) {
       survivors = [];
       localStorage.setItem('survivors', JSON.stringify(survivors));
     }
-    return survivors;
+    survivors.forEach(survivor => this.loadSkillsSurvivor(survivor));
+    return of(survivors);
+  }
+
+  loadSkillsSurvivor(survivor: Survivor) {
+    if (!survivor.level.skillBlue) { survivor.level.skillBlue = []; }
+    this.skillService.skills(survivor.level.blue)
+      .subscribe(dataDetail => dataDetail
+        .forEach(detail => survivor.level.skillBlue
+          .push(detail['content'])));
+
+    if (!survivor.level.skillYellow) { survivor.level.skillYellow = []; }
+    this.skillService.skills(survivor.level.yellow)
+      .subscribe(dataDetail => dataDetail
+        .forEach(detail => survivor.level.skillYellow
+          .push(detail['content'])));
+
+    if (!survivor.level.skillOrange) { survivor.level.skillOrange = []; }
+    this.skillService.skills(survivor.level.orange)
+      .subscribe(dataDetail => dataDetail
+        .forEach(detail => survivor.level.skillOrange
+          .push(detail['content'])));
+
+    if (!survivor.level.skillRed) { survivor.level.skillRed = []; }
+    this.skillService.skills(survivor.level.red)
+      .subscribe(dataDetail => dataDetail
+        .forEach(detail => survivor.level.skillRed
+          .push(detail['content'])));
   }
 
   save(survivor: Survivor) {

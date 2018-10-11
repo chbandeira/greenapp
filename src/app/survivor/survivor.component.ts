@@ -41,13 +41,10 @@ export class SurvivorComponent implements OnInit {
         this.survivors.forEach(survivor => this.comboboxSurvivors.push(survivor['name']));
         this.comboboxSurvivors.sort();
       });
-    this.survivorsSelected = this.survivorService.localSurvivors();
-    this.survivorsSelected.forEach(survivorSelected => this.loadSkillsSurvivor(survivorSelected));
+    this.survivorService.localSurvivors()
+      .subscribe(data => this.survivorsSelected = data);
     this.langService.props(this.localSettings.appLanguage)
       .subscribe(data => this.lang = data);
-
-    // remover
-    this.testLoadSkillsSurvivor();
   }
 
   private clearComboboxSurvivors() {
@@ -65,7 +62,7 @@ export class SurvivorComponent implements OnInit {
       if (survivor && !survivorFound) {
         this.survivorsSelected.push(survivor);
         this.survivorService.save(survivor);
-        this.loadSkillsSurvivor(survivor);
+        this.survivorService.loadSkillsSurvivor(survivor);
       }
       this.clearComboboxSurvivors();
     }
@@ -79,96 +76,5 @@ export class SurvivorComponent implements OnInit {
 
   isComboboxSurvivorClean(): boolean {
     return this.formSurvivors.value['comboboxSurvivors'] === '';
-  }
-
-  private loadSkillsSurvivor(survivor: Survivor) {
-    if (!survivor.level.skillBlue) { survivor.level.skillBlue = []; }
-    this.skillService.skills(survivor.level.blue)
-      .subscribe(dataDetail => dataDetail
-        .forEach(detail => survivor.level.skillBlue
-          .push(detail['content'])));
-
-    if (!survivor.level.skillYellow) { survivor.level.skillYellow = []; }
-    this.skillService.skills(survivor.level.yellow)
-      .subscribe(dataDetail => dataDetail
-        .forEach(detail => survivor.level.skillYellow
-          .push(detail['content'])));
-
-    if (!survivor.level.skillOrange) { survivor.level.skillOrange = []; }
-    this.skillService.skills(survivor.level.orange)
-      .subscribe(dataDetail => dataDetail
-        .forEach(detail => survivor.level.skillOrange
-          .push(detail['content'])));
-
-    if (!survivor.level.skillRed) { survivor.level.skillRed = []; }
-    this.skillService.skills(survivor.level.red)
-      .subscribe(dataDetail => dataDetail
-        .forEach(detail => survivor.level.skillRed
-          .push(detail['content'])));
-  }
-
-  // remover
-  private testLoadSkillsSurvivor() {
-
-    console.log('testing...');
-
-    this.survivorService.survivors()
-      .subscribe(data => data.forEach(survivor => {
-        if (!survivor.level.skillBlue) { survivor.level.skillBlue = []; }
-        this.skillService.skills(survivor.level.blue)
-          .subscribe(dataDetail => {
-            const skillFound: string[] = [];
-            dataDetail
-              .forEach(detail => {
-                skillFound.push(detail['name']);
-                survivor.level.skillBlue.push(detail['content']);
-              });
-            survivor.level.blue.forEach(value => {
-              if (!skillFound.includes(value)) { console.log(value); }
-            });
-          });
-
-        if (!survivor.level.skillYellow) { survivor.level.skillYellow = []; }
-        this.skillService.skills(survivor.level.yellow)
-          .subscribe(dataDetail => {
-            const skillFound: string[] = [];
-            dataDetail
-              .forEach(detail => {
-                skillFound.push(detail['name']);
-                survivor.level.skillYellow.push(detail['content']);
-              });
-            survivor.level.yellow.forEach(value => {
-              if (!skillFound.includes(value)) { console.log(value); }
-            });
-          });
-
-        if (!survivor.level.skillOrange) { survivor.level.skillOrange = []; }
-        this.skillService.skills(survivor.level.orange)
-          .subscribe(dataDetail => {
-            const skillFound: string[] = [];
-            dataDetail
-              .forEach(detail => {
-                skillFound.push(detail['name']);
-                survivor.level.skillOrange.push(detail['content']);
-              });
-            survivor.level.orange.forEach(value => {
-              if (!skillFound.includes(value)) { console.log(value); }
-            });
-          });
-
-        if (!survivor.level.skillRed) { survivor.level.skillRed = []; }
-        this.skillService.skills(survivor.level.red)
-          .subscribe(dataDetail => {
-            const skillFound: string[] = [];
-            dataDetail
-              .forEach(detail => {
-                skillFound.push(detail['name']);
-                survivor.level.skillRed.push(detail['content']);
-              });
-            survivor.level.red.forEach(value => {
-              if (!skillFound.includes(value)) { console.log(value); }
-            });
-          });
-      }));
   }
 }
