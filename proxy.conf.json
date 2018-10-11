@@ -1,0 +1,20 @@
+{
+    "/wiki/*": {
+        "target": "http://zbp.wikia.com/wiki",
+        "secure": false,
+        "pathRewrite": {
+            "^/wiki": ""
+        },
+        "changeOrigin": true,
+        "logLevel": "debug"
+    },
+    "/zomb/*": {
+        "target": "https://zombicide.com/pt-br/pg",
+        "secure": true,
+        "pathRewrite": {
+            "^/zomb": ""
+        },
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}

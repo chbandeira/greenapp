@@ -31,5 +31,8 @@
     "text8": "You need to add survivors.",
     "downloadPdf": "Download PDF",
     "text9": "All survivors",
-    "text10": "Only saved survivors"
+    "text10": "Only saved survivors",
+    "infoNotFound": "Information not found!",
+    "wiki": "Wiki",
+    "loading": "Loading..."
 }

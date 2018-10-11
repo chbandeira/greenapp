@@ -1301,7 +1301,7 @@
 			}
 		},
 		{
-			"name": "Ann",
+			"name": "Ann (Ultimate)",
 			"level": {
 				"blue": [
 					"Bloodlust: Melee",
@@ -1323,6 +1323,275 @@
 			"box": {
 				"name": "Ultimate Survivors",
 				"code": "US"
+			}
+		},
+		{
+			"name": "Baldric (Ultimate)",
+			"level": {
+				"blue": [
+					"+1 die: Combat",
+					"Spellcaster"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"+1 free Combat Action",
+					"Spellbook"
+				],
+				"red": [
+					"+1 die: Magic",
+					"+1 free Combat Action",
+					"+1 to dice roll: Combat"
+				]
+			},
+			"box": {
+				"name": "Ultimate Survivors",
+				"code": "US"
+			}
+		},
+		{
+			"name": "Samson (Ultimate)",
+			"level": {
+				"blue": [
+					"Charge",
+					"Iron Hide"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"+1 to dice roll: Combat",
+					"Barbarian"
+				],
+				"red": [
+					"+1 Damage: Melee",
+					"+1 free Combat Action",
+					"Roll 6: +1 die Melee"
+				]
+			},
+			"box": {
+				"name": "Ultimate Survivors",
+				"code": "US"
+			}
+		},
+		{
+			"name": "Nelly (Ultimate)",
+			"level": {
+				"blue": [
+					"+1 free Move Action",
+					"Lifesaver"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"Bloodlust: Melee",
+					"Shove"
+				],
+				"red": [
+					"+1 free Combat Action",
+					"+1 to dice roll: Combat",
+					"+1 Zone per Move"
+				]
+			},
+			"box": {
+				"name": "Ultimate Survivors",
+				"code": "US"
+			}
+		},
+		{
+			"name": "Clovis (Ultimate)",
+			"level": {
+				"blue": [
+					"+1 die: Melee",
+					"Taunt"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"+1 free Melee Action",
+					"Brother in arms: +1 free Combat Action"
+				],
+				"red": [
+					"+1 to dice roll: Combat",
+					"Brother in arms: +1 free Combat Action",
+					"Hit & Run"
+				]
+			},
+			"box": {
+				"name": "Ultimate Survivors",
+				"code": "US"
+			}
+		},
+		{
+			"name": "Silas (Ultimate)",
+			"level": {
+				"blue": [
+					"+1 max Range",
+					"+1 to dice roll: Ranged"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"+1 free Ranged Action",
+					"Marksman"
+				],
+				"red": [
+					"+1 free Combat Action",
+					"Iron Rain",
+					"Roll 6: +1 die Ranged"
+				]
+			},
+			"box": {
+				"name": "Ultimate Survivors",
+				"code": "US"
+			}
+		},
+		{
+			"name": "Ann",
+			"level": {
+				"blue": [
+					"Bloodlust: Melee"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"+1 free Magic Action",
+					"+1 free Melee Action"
+				],
+				"red": [
+					"+1 free Combat Action",
+					"+1 to dice roll: Combat",
+					"Roll 6: +1 die Combat"
+				]
+			},
+			"box": {
+				"name": "Black Plague",
+				"code": "BP"
+			}
+		},
+		{
+			"name": "Baldric",
+			"level": {
+				"blue": [
+					"Spellcaster"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"+1 free Magic Action",
+					"Spellbook"
+				],
+				"red": [
+					"+1 die: Magic",
+					"+1 free Combat Action",
+					"+1 to dice roll: Melee"
+				]
+			},
+			"box": {
+				"name": "Black Plague",
+				"code": "BP"
+			}
+		},
+		{
+			"name": "Samson",
+			"level": {
+				"blue": [
+					"Iron Hide"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"+1 die: Combat",
+					"+1 to dice roll: Melee"
+				],
+				"red": [
+					"+1 Damage: Melee",
+					"+1 free Combat Action",
+					"Barbarian"
+				]
+			},
+			"box": {
+				"name": "Black Plague",
+				"code": "BP"
+			}
+		},
+		{
+			"name": "Nelly",
+			"level": {
+				"blue": [
+					"+1 free Move Action"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"Bloodlust: Melee",
+					"Slippery"
+				],
+				"red": [
+					"+1 free Combat Action",
+					"+1 to dice roll: Combat",
+					"Hit & Run"
+				]
+			},
+			"box": {
+				"name": "Black Plague",
+				"code": "BP"
+			}
+		},
+		{
+			"name": "Clovis",
+			"level": {
+				"blue": [
+					"+1 die: Melee"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"+1 free Melee Action",
+					"Swordmaster"
+				],
+				"red": [
+					"+1 free Combat Action",
+					"+1 to dice roll: Combat",
+					"Hit & Run"
+				]
+			},
+			"box": {
+				"name": "Black Plague",
+				"code": "BP"
+			}
+		},
+		{
+			"name": "Silas",
+			"level": {
+				"blue": [
+					"+1 to dice roll: Ranged"
+				],
+				"yellow": [
+					"+1 Action"
+				],
+				"orange": [
+					"+1 free Ranged Action",
+					"Point-Blank"
+				],
+				"red": [
+					"+1 die: Ranged",
+					"+1 free Combat Action",
+					"Iron Rain"
+				]
+			},
+			"box": {
+				"name": "Black Plague",
+				"code": "BP"
 			}
 		}
 	]

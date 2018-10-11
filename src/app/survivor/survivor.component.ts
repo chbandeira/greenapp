@@ -6,6 +6,7 @@ import { Settings } from '../settings/settings.model';
 import { SurvivorService } from './survivor.service';
 import { SkillService } from '../skill/skill.service';
 import { LangService } from '../core/lang.service';
+import { WikiService } from '../core/wiki.service';
 
 @Component({
   selector: 'zga-survivor',
@@ -15,21 +16,20 @@ import { LangService } from '../core/lang.service';
 export class SurvivorComponent implements OnInit {
 
   formSurvivors: FormGroup;
-
   localSettings: Settings;
-
   survivors: Survivor[];
-
   survivorsSelected: Survivor[];
   comboboxSurvivors: string[] = [];
-
   lang: any;
+  backgroundInfoSurvivor1: string;
+  backgroundInfoSurvivor2: string;
 
   constructor(
     private survivorService: SurvivorService,
     private skillService: SkillService,
     private settingsService: SettingsService,
     private langService: LangService,
+    private wikiService: WikiService,
     private formBuilder: FormBuilder) { }
 
   ngOnInit() {
@@ -44,7 +44,11 @@ export class SurvivorComponent implements OnInit {
     this.survivorService.localSurvivors()
       .subscribe(data => this.survivorsSelected = data);
     this.langService.props(this.localSettings.appLanguage)
-      .subscribe(data => this.lang = data);
+      .subscribe(data => {
+        this.lang = data;
+        this.backgroundInfoSurvivor1 = this.lang['loading'];
+        this.backgroundInfoSurvivor2 = '';
+      });
   }
 
   private clearComboboxSurvivors() {
@@ -77,4 +81,26 @@ export class SurvivorComponent implements OnInit {
   isComboboxSurvivorClean(): boolean {
     return this.formSurvivors.value['comboboxSurvivors'] === '';
   }
+
+  backgroundSurvivor(survivorName: string) {
+    this.wikiService.background(survivorName).subscribe(
+      data => {
+        const htmlObject = document.createElement('div');
+        htmlObject.innerHTML = data;
+        const elements = htmlObject.getElementsByClassName('article-content mw-content ember-view')[0].getElementsByTagName('p');
+        this.backgroundInfoSurvivor1 = this.lang['infoNotFound'];
+        this.backgroundInfoSurvivor2 = this.lang['infoNotFound'];
+        if (elements[0]) {
+          this.backgroundInfoSurvivor1 = elements[0].textContent;
+        }
+        if (elements[1]) {
+          this.backgroundInfoSurvivor2 = elements[1].textContent;
+        }
+      },
+      error => {
+        this.backgroundInfoSurvivor1 = this.lang['infoNotFound'];
+        this.backgroundInfoSurvivor2 = '';
+      });
+  }
+
 }
