@@ -11,7 +11,9 @@
       <option></option>
       <option *ngFor="let name of comboboxSurvivors" value="{{name}}">{{name}}</option>
     </select>
-    <button type="button" class="btn btn-success" [class.disabled]="isComboboxSurvivorClean()" (click)="addSurvivor()">{{lang?.add}}</button>
+    <button type="button" class="btn btn-success" [class.disabled]="isComboboxSurvivorClean()" (click)="addSurvivor()">
+      {{lang?.add}}
+    </button>
   </div>
 </form>
 

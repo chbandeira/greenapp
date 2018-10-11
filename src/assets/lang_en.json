@@ -1,12 +1,12 @@
 {
     "about": "About",
     "versionapp": "APP Version",
-    "text1": "This application was developed to speed up reading the abilities of each survivor who is in the board games Zombicide Green Horde and Zombicide Black Plague.",
+    "text1": "This application was designed to make it easier to read the abilities of each survivor the player is using on the games Zombicide Green Horde and Zombicide Black Plague.",
     "text2": "Settings and survivors information are saved directly to the local storage of device browser.",
     "by": "Developed by",
     "icons": "Icons",
-    "text3": "If you would like to include any official survivor that are not in the App, please send an email with the data as shown in the example:",
-    "text4": "List of all the survivors available on the App:",
+    "text3": "If you would like to include any official survivor that are not in this App, please send an email with the data as shown in the example:",
+    "text4": "List of all the survivors available:",
     "example": "Example",
     "survivors": "Survivors",
     "settings": "Settings",
@@ -27,6 +27,9 @@
     "add": "Add",
     "remove": "Remove",
     "print": "Print",
-    "text7": "You can download each file for a maximum of 4 survivors. It only works directly from the PC.",
-    "downloadPdf": "Download PDF"
+    "text7": "It may only work directly from the PC.",
+    "text8": "You need to add survivors.",
+    "downloadPdf": "Download PDF",
+    "text9": "All survivors",
+    "text10": "Only saved survivors"
 }

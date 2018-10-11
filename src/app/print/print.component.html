@@ -5,15 +5,29 @@
   </ol>
 </nav>
 
-<div class="container">
+<div class="container" style="overflow-x: auto;">
 
   <div class="m-2"><i class="fas fa-exclamation-triangle text-warning"></i> {{lang?.text7}}</div>
 
-  <div *ngFor="let group of groupSurvivors; let i = index">
-    <hr />
-    <button *ngIf="survivors.length > 0" class="btn btn-info ml-2 mb-2" (click)="download(i)">{{lang?.downloadPdf}}
-      {{i+1}}</button>
+  <div class="btn-group btn-group-toggle m-2" data-toggle="buttons">
+    <label class="btn btn-secondary active" (click)="addOnlySurvivorsSaved()">
+      <input type="radio" name="options" id="option1" autocomplete="off" checked>
+      {{lang?.text10}}
+    </label>
+    <label class="btn btn-secondary" (click)="addAllSurvivors()">
+      <input type="radio" name="options" id="option2" autocomplete="off" > 
+      {{lang?.text9}}
+    </label>
+  </div>
+  <button *ngIf="survivors.length > 0" class="btn btn-info m-2" (click)="downloadPdf()">{{lang?.downloadPdf}}</button>
 
+  <div *ngIf="survivors.length === 0" class="m-2"><i class="fas fa-exclamation-triangle text-warning"></i>
+    {{lang?.text8}}
+  </div>
+  <div class="m-2">{{printOption}}:</div>
+
+  <div *ngFor="let group of groupSurvivors; let i = index">
+    <hr>
     <div class="p-2 a4 row" [id]="'content' + i">
 
       <div *ngFor="let survivor of group" class="col-6">

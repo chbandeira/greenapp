@@ -7,6 +7,7 @@ import { SettingsService } from '../settings/settings.service';
 import * as jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import { LangService } from '../core/lang.service';
+import { Observable, of  } from 'rxjs';
 
 @Component({
   selector: 'zga-print',
@@ -19,6 +20,7 @@ export class PrintComponent implements OnInit {
   survivors: Survivor[];
   localSettings: Settings;
   lang: any;
+  printOption: string;
 
   constructor(
     private survivorService: SurvivorService,
@@ -29,29 +31,65 @@ export class PrintComponent implements OnInit {
   ngOnInit() {
     this.localSettings = this.settingsService.localSettings();
     this.langService.props(this.localSettings.appLanguage)
-      .subscribe(data => this.lang = data);
+      .subscribe(data => {
+        this.lang = data;
+        this.setPrintOptionOnlySurvivorsSaved();
+      });
     this.survivors = this.survivorService.localSurvivors();
     this.survivors.forEach(survivor => this.loadSkillsSurvivor(survivor));
     this.sliceGroupOfSurvivors();
   }
 
+  private setPrintOptionAllSurvivors() {
+    this.printOption = this.lang['text9'];
+  }
+
+  private setPrintOptionOnlySurvivorsSaved() {
+    this.printOption = this.lang['text10'];
+  }
+
   private sliceGroupOfSurvivors() {
-    if (this.survivors.length > 4) {
-      this.groupSurvivors.push(this.survivors.slice(0, 4));
-      // TODO better than this
-      if (this.survivors.slice(4, 8).length > 0) { this.groupSurvivors.push(this.survivors.slice(4, 8)); }
-      if (this.survivors.slice(8, 12).length > 0) { this.groupSurvivors.push(this.survivors.slice(8, 12)); }
-    } else {
-      this.groupSurvivors.push(this.survivors);
+    for (let i = 0; i < this.survivors.length; i = i + 4) {
+      this.groupSurvivors.push(this.survivors.slice(i, i + 4));
     }
   }
 
-  download(i: number) {
+  downloadPdf() {
+    const doc = new jsPDF();
+    let i = 0;
+    this.savePdf(i, doc);
+  }
+
+  savePdf(i: number, doc: jsPDF) {
     html2canvas(document.querySelector('#content' + i)).then(canvas => {
-      const doc = new jsPDF();
       doc.addImage(canvas.toDataURL('image/png'), 'JPEG', 0, 0);
-      doc.save('my_survivors.pdf');
+      i++;
+      if (i < this.groupSurvivors.length) {
+        doc.addPage();
+        this.savePdf(i, doc);
+      } else {
+        doc.save(this.printOption + '.pdf');
+      }
     });
+  }
+
+  addAllSurvivors() {
+    this.survivorService.survivors()
+      .subscribe(data => {
+        this.survivors = data;
+        this.survivors.forEach(survivor => this.loadSkillsSurvivor(survivor));
+        this.groupSurvivors = [];
+        this.sliceGroupOfSurvivors();
+        this.setPrintOptionAllSurvivors();
+      });
+  }
+
+  addOnlySurvivorsSaved() {
+    this.survivors = this.survivorService.localSurvivors();
+    this.survivors.forEach(survivor => this.loadSkillsSurvivor(survivor));
+    this.groupSurvivors = [];
+    this.sliceGroupOfSurvivors();
+    this.setPrintOptionOnlySurvivorsSaved();
   }
 
   private loadSkillsSurvivor(survivor: Survivor) {

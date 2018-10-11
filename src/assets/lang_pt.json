@@ -5,8 +5,8 @@
     "text2": "As configurações e informações de sobreviventes são salvas diretamente no armazenamento local do navegador do dispositivo.",
     "by": "Desenvolvido por",
     "icons": "Ícones",
-    "text3": "Caso queira incluir algum sobrevivente oficial que não está no App, envie um email com os dados como mostrado no exemplo:",
-    "text4": "Lista de todos os sobreviventes disponíveis no App:",
+    "text3": "Caso queira incluir algum sobrevivente oficial que não está neste App, envie um email com os dados como mostrado no exemplo:",
+    "text4": "Lista de todos os sobreviventes disponíveis:",
     "example": "Exemplo",
     "survivors": "Sobreviventes",
     "settings": "Configurações",
@@ -27,6 +27,9 @@
     "add": "Adicionar",
     "remove": "Remover",
     "print": "Imprimir",
-    "text7": "Você pode baixar cada arquivo para no máximo 4 sobreviventes. Só funciona diretamente do PC.",
-    "downloadPdf": "Baixar PDF"
+    "text7": "Talvez só funcione diretamente do PC.",
+    "text8": "Você precisa adicionar sobreviventes.",
+    "downloadPdf": "Baixar PDF",
+    "text9": "Todos os sobreviventes",
+    "text10": "Apenas sobreviventes salvos"
 }
