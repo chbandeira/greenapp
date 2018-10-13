@@ -41,6 +41,9 @@ export class BackgroundComponent implements OnInit {
   }
 
   searchBackgroundOnWiki(name: string, survivor: Survivor, attempts: number) {
+    if (!this.background) {
+      this.background = new Background();
+    }
     this.wikiService.background(name).subscribe(
       data => {
         let fragment;
