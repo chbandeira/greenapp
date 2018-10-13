@@ -41,6 +41,6 @@ export class AboutComponent implements OnInit {
         this.sample = survivor;
       }
     });
-    this.nameSurvivors = nameSurvivors.sort().join(', ');
+    this.nameSurvivors = `(${nameSurvivors.length}) ` + nameSurvivors.sort().join(', ');
   }
 }

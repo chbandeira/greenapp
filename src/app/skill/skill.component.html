@@ -6,6 +6,7 @@
     <span *ngIf="skillContent?.exclusive == 'BP'" class="badge badge-pill badge-bp">BP</span>
   </h6>
   <p class="card-text">
-    {{skillDetail.description}}
+    {{skillDetail.description}} <br />
+    <strong *ngIf="skillDetail.gameEffect">{{lang.gameEffect}}:</strong> {{skillDetail.gameEffect}}
   </p>
 </div>

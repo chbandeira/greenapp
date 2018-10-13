@@ -1,3 +1,8 @@
 <span class="badge text-white" style="font-size: 11px;" [class.bg-primary]="colorLevel === 'blue'" [class.bg-warning]="colorLevel === 'yellow'"
-  [class.bg-warning-color-dark]="colorLevel === 'orange'" [class.bg-danger]="colorLevel === 'red'">{{skillDetail.title}}</span>
-<span> {{skillDetail.description}}</span>
+  [class.bg-warning-color-dark]="colorLevel === 'orange'" [class.bg-danger]="colorLevel === 'red'">
+  {{skillDetail.title}}
+</span>
+<span> 
+  {{skillDetail.description}}
+  <strong *ngIf="skillDetail.gameEffect">{{lang.gameEffect}}:</strong> {{skillDetail.gameEffect}} 
+</span>

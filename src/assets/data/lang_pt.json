@@ -27,12 +27,14 @@
     "add": "Adicionar",
     "remove": "Remover",
     "print": "Imprimir",
-    "text7": "Talvez só funcione diretamente do PC.",
+    "text7": "Cuidado! Baixar todos os sobreviventes pode ser mais que 100 MB. Baixar o PDF talvez só funcione diretamente do PC.",
     "text8": "Você precisa adicionar sobreviventes.",
     "downloadPdf": "Baixar PDF",
     "text9": "Todos os sobreviventes",
     "text10": "Apenas sobreviventes salvos",
     "infoNotFound": "Informações não encontradas!",
     "wiki": "Wiki",
-    "loading": "Carregando..."
+    "loading": "Carregando...",
+    "close": "Fechar",
+    "gameEffect": "Efeito do jogo"
 }

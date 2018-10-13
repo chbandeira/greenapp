@@ -27,12 +27,14 @@
     "add": "Add",
     "remove": "Remove",
     "print": "Print",
-    "text7": "It may only work directly from the PC.",
+    "text7": "Watch out! Downloading all survivors can be more than 100 MB. Downloading the PDF may work only directly from your PC.",
     "text8": "You need to add survivors.",
     "downloadPdf": "Download PDF",
     "text9": "All survivors",
     "text10": "Only saved survivors",
     "infoNotFound": "Information not found!",
     "wiki": "Wiki",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "close": "Close",
+    "gameEffect": "Game effect"
 }

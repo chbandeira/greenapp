@@ -9,7 +9,7 @@
   <div class="form-group d-flex flex-row mb-3 mr-2 ml-2">
     <select class="form-control mr-1" id="comboboxSurvivors" formControlName="comboboxSurvivors">
       <option></option>
-      <option *ngFor="let name of comboboxSurvivors" value="{{name}}">{{name}}</option>
+      <option *ngFor="let survivor of comboboxSurvivors" value="{{survivor.name}}">{{survivor.name}} ({{survivor.box}})</option>
     </select>
     <button type="button" class="btn btn-success" [class.disabled]="isComboboxSurvivorClean()" (click)="addSurvivor()">
       {{lang?.add}}
@@ -28,46 +28,14 @@
     [class.show]="i == 0" [attr.id]="'survivor' + i" [attr.aria-labelledby]="'survivor' + i + '-tab'">
 
     <div class="card-body">
-
       <div class="d-flex justify-content-between align-items-center mb-2">
-        <button type="button" data-toggle="modal" [attr.data-target]="'#modalCenter'+i" class="btn" [class.badge-gh]="survivor.box.code == 'GH'"
-          [class.badge-hb]="survivor.box.code == 'HB'" [class.badge-bp]="survivor.box.code == 'BP'" [class.badge-sg]="survivor.box.code == 'SG'"
-          [class.badge-us]="survivor.box.code == 'US'" [class.badge-h1]="survivor.box.code == 'H1'" (click)="backgroundSurvivor(survivor.name)">
-          {{survivor.box.code}}
-          <i class="fas fa-info-circle"></i>
-        </button>
+
+        <zga-background [survivor]="survivor" [index]="i" [lang]="lang"></zga-background>
+
         <button type="button" class="btn btn-danger" (click)="removeSurvivor(survivor)">
           {{lang?.remove}}
           {{survivor.name}}
         </button>
-
-        <!-- Modal -->
-        <div class="modal fade" [attr.id]="'modalCenter'+i" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modalCenterTitle">{{survivor.name}}</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <p><em>{{backgroundInfoSurvivor1}}</em></p>
-                <p>{{backgroundInfoSurvivor2}}</p>
-              </div>
-              <div class="modal-footer d-flex justify-content-between">
-                <span *ngIf="survivor.box.code == 'GH'" class="badge badge-pill badge-gh">{{survivor.box.name}}</span>
-                <span *ngIf="survivor.box.code == 'HB'" class="badge badge-pill badge-hb">{{survivor.box.name}}</span>
-                <span *ngIf="survivor.box.code == 'BP'" class="badge badge-pill badge-bp">{{survivor.box.name}}</span>
-                <span *ngIf="survivor.box.code == 'SG'" class="badge badge-pill badge-sg">{{survivor.box.name}}</span>
-                <span *ngIf="survivor.box.code == 'H1'" class="badge badge-pill badge-h1">{{survivor.box.name}}</span>
-                <span *ngIf="survivor.box.code == 'US'" class="badge badge-pill badge-us">{{survivor.box.name}}</span>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
       <div class="card mb-2">
@@ -75,7 +43,7 @@
           <i class="fas fa-dice-one"></i> 0 - 6
         </div>
         <div *ngFor="let skill of survivor.level.skillBlue">
-          <zga-skill [colorLevel]="'blue'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings"></zga-skill>
+          <zga-skill [colorLevel]="'blue'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings" [lang]="lang"></zga-skill>
         </div>
       </div>
 
@@ -84,7 +52,7 @@
           <i class="fas fa-dice-two mr-1"></i> 7 - 18
         </div>
         <div *ngFor="let skill of survivor.level.skillYellow">
-          <zga-skill [colorLevel]="'yellow'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings"></zga-skill>
+          <zga-skill [colorLevel]="'yellow'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings" [lang]="lang"></zga-skill>
         </div>
       </div>
 
@@ -93,7 +61,7 @@
           <i class="fas fa-dice-three"></i> 19 - 42
         </div>
         <div *ngFor="let skill of survivor.level.skillOrange">
-          <zga-skill [colorLevel]="'orange'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings"></zga-skill>
+          <zga-skill [colorLevel]="'orange'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings" [lang]="lang"></zga-skill>
         </div>
       </div>
 
@@ -102,7 +70,7 @@
           <i class="fas fa-dice-four"></i> 43+
         </div>
         <div *ngFor="let skill of survivor.level.skillRed">
-          <zga-skill [colorLevel]="'red'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings"></zga-skill>
+          <zga-skill [colorLevel]="'red'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings" [lang]="lang"></zga-skill>
         </div>
       </div>
     </div>

@@ -18,6 +18,10 @@ import { AboutComponent } from './about/about.component';
 import { LangService } from './core/lang.service';
 import { PrintComponent } from './print/print.component';
 import { PrintSkillComponent } from './print/print-skill/print-skill.component';
+import { BackgroundComponent } from './background/background.component';
+import { BackgroundService } from './background/background.service';
+import { WikiService } from './core/wiki.service';
+import { BadgeComponent } from './shared/badge/badge.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,9 @@ import { PrintSkillComponent } from './print/print-skill/print-skill.component';
     SkillComponent,
     AboutComponent,
     PrintComponent,
-    PrintSkillComponent
+    PrintSkillComponent,
+    BackgroundComponent,
+    BadgeComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +43,14 @@ import { PrintSkillComponent } from './print/print-skill/print-skill.component';
     ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [SettingsService, SurvivorService, SkillService, LangService],
+  providers: [
+    SettingsService,
+    SurvivorService,
+    SkillService,
+    LangService,
+    BackgroundService,
+    WikiService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,3248 @@
+{
+    "survivors": [
+        {
+            "name": "Rolf",
+            "level": {
+                "blue": [
+                    "Bloodlust: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Jump"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Battle rage",
+                    "Shove"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Seli",
+            "level": {
+                "blue": [
+                    "Jump"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Hit & run"
+                ],
+                "red": [
+                    "+1 free Move Action",
+                    "Roll 6: +1 die Combat",
+                    "Zombie link"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Berin",
+            "level": {
+                "blue": [
+                    "Shove"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Melee",
+                    "+1 free Melee Action"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 free Combat Action",
+                    "Bloodlust: Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Megan",
+            "level": {
+                "blue": [
+                    "Double casting"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Spellbook"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Magic",
+                    "+1 to dice roll: Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Asim",
+            "level": {
+                "blue": [
+                    "Taunt"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "+1 free Move Action"
+                ],
+                "red": [
+                    "+1 to dice roll: Melee",
+                    "Bloodlust: Melee",
+                    "Reaper: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Johannes",
+            "level": {
+                "blue": [
+                    "Transmutation"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Ranged Action",
+                    "+1 to dice roll: Ranged"
+                ],
+                "red": [
+                    "+1 free Ranged Action",
+                    "+1 max Range",
+                    "Reaper: Ranged"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Ryan John",
+            "level": {
+                "blue": [
+                    "Lucky",
+                    "Roll 6: +1 die Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "Born leader"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "Barbarian",
+                    "Bloodlust: Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Hyld",
+            "level": {
+                "blue": [
+                    "Starts with a Norse Shield"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Melee",
+                    "+1 to dice roll: Melee"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "Born leader",
+                    "Lifesaver"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Hyg",
+            "level": {
+                "blue": [
+                    "Brother in arms: +1 die: Combat"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Bloodlust: Melee",
+                    "Born leader"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "Brother in arms: +1 free Melee Action",
+                    "Swordmaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Gannicus",
+            "level": {
+                "blue": [
+                    "Taunt"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Shove"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 free Melee Action",
+                    "+1 free Move Action"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Badger",
+            "codename": "'Badger' Brummuin",
+            "level": {
+                "blue": [
+                    "+1 free Melee Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Regeneration",
+                    "Swordmaster"
+                ],
+                "red": [
+                    "+1 die: Melee",
+                    "+1 to dice roll: Melee",
+                    "Ironclad: Abomination"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Billy",
+            "level": {
+                "blue": [
+                    "Lifesaver"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Bloodlust: Melee",
+                    "+1 to dice roll: Melee"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "Reaper: Melee",
+                    "Roll 6: +1 die Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Lividia",
+            "codename": "Warchief Lividia",
+            "level": {
+                "blue": [
+                    "+1 free Combat Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Marksman"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Move Action",
+                    "Lifesaver"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Anton Guffen",
+            "level": {
+                "blue": [
+                    "Iron hide"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Magic Action",
+                    "+1 Zone per Move"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Point-blank",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Sir Schwarz",
+            "level": {
+                "blue": [
+                    "Is that all you've got?"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Regeneration"
+                ],
+                "red": [
+                    "+1 to dice roll: Melee",
+                    "Charge",
+                    "Iron hide"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Liam",
+            "level": {
+                "blue": [
+                    "Zombie link"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 Damage: Melee",
+                    "Slippery"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 free Move Action",
+                    "Rotten"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Countess Ordelia",
+            "level": {
+                "blue": [
+                    "Born leader"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Brother in arms: +1 free Move Action",
+                    "Reaper: Ranged"
+                ],
+                "red": [
+                    "+1 to dice roll: Ranged",
+                    "Brother in arms: +1 free Combat Action",
+                    "Taunt"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "The Deathmaster",
+            "level": {
+                "blue": [
+                    "Reaper: Melee",
+                    "Taunt"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Bloodlust: Melee",
+                    "+1 to dice roll: Melee"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "Barbarian",
+                    "Super strength"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Grayson Grüber",
+            "level": {
+                "blue": [
+                    "+1 free Magic Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Spellbook",
+                    "Spellcaster"
+                ],
+                "red": [
+                    "+1 Damage: Magic",
+                    "+1 free Combat Action",
+                    "+1 free Enchantment Action"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Spearhead",
+            "level": {
+                "blue": [
+                    "Jump"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Ambidextrous",
+                    "Iron rain"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "Frenzy: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Ultimate Baldric",
+            "level": {
+                "blue": [
+                    "+1 die: Combat",
+                    "Spellcaster"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Combat Action",
+                    "Spellbook"
+                ],
+                "red": [
+                    "+1 die: Magic",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Ultimate Ann",
+            "level": {
+                "blue": [
+                    "Bloodlust: Melee",
+                    "Iron hide"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Spellcaster"
+                ],
+                "red": [
+                    "+1 Damage: Combat",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Ultimate Clovis",
+            "level": {
+                "blue": [
+                    "+1 die: Melee",
+                    "Taunt"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Brother in arms: +1 free Combat Action"
+                ],
+                "red": [
+                    "+1 to dice roll: Combat",
+                    "Brother in arms: +1 free Combat Action",
+                    "Hit & run"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Ultimate Nelly",
+            "level": {
+                "blue": [
+                    "+1 free Move Action",
+                    "Lifesaver"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Bloodlust: Melee",
+                    "Shove"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Combat",
+                    "+1 Zone per Move"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Ultimate Samson",
+            "level": {
+                "blue": [
+                    "Charge",
+                    "Iron hide"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Combat",
+                    "Barbarian"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 free Combat Action",
+                    "Roll 6: +1 die Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Ultimate Silas",
+            "level": {
+                "blue": [
+                    "+1 max Range",
+                    "+1 to dice roll: Ranged"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Ranged Action",
+                    "Marksman"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Iron rain",
+                    "Roll 6: +1 die Ranged"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Zee",
+            "level": {
+                "blue": [
+                    "+1 free Enchantment Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Spellbook",
+                    "Spellcaster"
+                ],
+                "red": [
+                    "+1 free Magic Action",
+                    "Double casting",
+                    "Ironclad: Abomination"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Lorentz",
+            "level": {
+                "blue": [
+                    "+1 max Range"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Ranged Action",
+                    "Marksman"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 free Move Action",
+                    "+1 to dice roll: Ranged"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Fylguria",
+            "level": {
+                "blue": [
+                    "Jump"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Magic Action",
+                    "Born leader"
+                ],
+                "red": [
+                    "+1 free Magic Action",
+                    "+1 free Move Action",
+                    "Mana rain"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Princess Ayla",
+            "level": {
+                "blue": [
+                    "Super strength"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Lifesaver"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Melee",
+                    "Shove"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Asmodeus",
+            "level": {
+                "blue": [
+                    "Starts with a Curved Dagger"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Melee",
+                    "Slippery"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "Rotten",
+                    "Taunt"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "The Marquis",
+            "codename": "The Marquis De Roget",
+            "level": {
+                "blue": [
+                    "Jump",
+                    "Swordmaster"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Melee",
+                    "Born leader"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Earl Jaimie",
+            "codename": "Earl Jaimie The Spoiler of Dhüm",
+            "level": {
+                "blue": [
+                    "Zombie link"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Born leader",
+                    "Double casting"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Magic",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Zanzibar",
+            "codename": "The Great Zanzibar",
+            "level": {
+                "blue": [
+                    "Spellbook",
+                    "Spellcaster"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Magic Action",
+                    "Born leader"
+                ],
+                "red": [
+                    "Roll 6: +1 die Magic",
+                    "Double casting",
+                    "Mana rain"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "North the Halfling",
+            "level": {
+                "blue": [
+                    "+1 free Search Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Combat",
+                    "Slippery"
+                ],
+                "red": [
+                    "+1 free Move Action",
+                    "Lucky"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Brannog",
+            "codename": "Brannog Steelgreaves",
+            "level": {
+                "blue": [
+                    "Starts with a Dwarven Hammer"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Bloodlust: Melee",
+                    "Iron hide"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Ironclad: Walker",
+                    "Tough"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Finarton",
+            "codename": "Finarton The Giant",
+            "level": {
+                "blue": [
+                    "Giant",
+                    "Throw"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Reach",
+                    "Slippery"
+                ],
+                "red": [
+                    "+1 to dice roll: Melee",
+                    "Barbarian",
+                    "Battle rage"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Brix Moonshine",
+            "codename": "Lord Brix Moonshine",
+            "level": {
+                "blue": [
+                    "Brother in arms: Search: +1 card",
+                    "Taunt"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Magic Action",
+                    "+1 free Melee Action"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Barbarian",
+                    "Mana rain"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Katelyn",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Doran",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Solveig",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Kabral",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Johrgrund",
+            "level": {
+                "blue": [
+                    "Hit & run"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Melee",
+                    "Charge"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Frenzy: Combat",
+                    "Reaper: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Ruff Ghanor",
+            "level": {
+                "blue": [
+                    "Shove"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "Iron hide"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Lucky",
+                    "Reaper: Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Korin",
+            "level": {
+                "blue": [
+                    "Starts with a Sword"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Combat Action",
+                    "Lifesaver"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Iron hide",
+                    "Super strength"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "The Prior",
+            "level": {
+                "blue": [
+                    "+1 Damage: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Enchantment Action",
+                    "+1 free Melee Action"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Iron hide",
+                    "Lifesaver"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Cul’Nar",
+            "level": {
+                "blue": [
+                    "Zombie link"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Shove"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Melee",
+                    "Bloodlust: Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Jorvak",
+            "level": {
+                "blue": [
+                    "Ironclad: Zombie Wolfz"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "+1 free Move Action"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Melee",
+                    "Reaper: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Gurbak",
+            "level": {
+                "blue": [
+                    "Taunt"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Hit & run"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "Reaper: Combat",
+                    "Super strength"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Sha’Keel",
+            "level": {
+                "blue": [
+                    "+1 free Move Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Ranged Action",
+                    "Swordmaster"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Antha the Witch",
+            "level": {
+                "blue": [
+                    "Destiny"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Magic",
+                    "Spellcaster"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Magic"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Lady Grimm",
+            "level": {
+                "blue": [
+                    "Shove"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Change"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "Is that all you've got?"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Redcap Rodney",
+            "level": {
+                "blue": [
+                    "+1 Damage: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Reaper: Melee"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Melee",
+                    "Zombie link"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Cadence",
+            "level": {
+                "blue": [
+                    "Marksman"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Ranged",
+                    "+1 free Ranged Action"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Ranged"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Genevieve",
+            "level": {
+                "blue": [
+                    "+1 Damage: Ranged"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Ranged",
+                    "+1 free Ranged Action"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Ranged"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Inquisitor Mizar",
+            "level": {
+                "blue": [
+                    "+1 free Magic Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Combat Action",
+                    "Spellbook"
+                ],
+                "red": [
+                    "Lucky",
+                    "Marksman",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Klom",
+            "level": {
+                "blue": [
+                    "Barbarian"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "Super strength"
+                ],
+                "red": [
+                    "Bloodlust: Melee",
+                    "Regeneration",
+                    "Shove"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Lord Bazak",
+            "level": {
+                "blue": [
+                    "+1 to dice roll: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Iron hide"
+                ],
+                "red": [
+                    "Bloodlust: Melee",
+                    "Roll 6: +1 die Melee",
+                    "Shove"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "The Blackheart",
+            "level": {
+                "blue": [
+                    "Zombie link"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Magic",
+                    "Is that all you've got?"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Reaper: Combat",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Cyrine",
+            "level": {
+                "blue": [
+                    "Starts with Dragon Aura"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Enchantment Action",
+                    "+1 free Magic Action"
+                ],
+                "red": [
+                    "+1 die: Magic",
+                    "Spellbook",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Carol Black-Oak",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Tola",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Cardinal Birmbauer",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Kendra",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Bjorn",
+            "level": {
+                "blue": [
+                    "Tough"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "Reaper: Melee"
+                ],
+                "red": [
+                    "+1 die: Melee",
+                    "+1 free Combat Action",
+                    "Iron hide"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Khaz Maghur",
+            "level": {
+                "blue": [
+                    "+1 max Range"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Ranged",
+                    "+1 to dice roll: Ranged"
+                ],
+                "red": [
+                    "+1 Damage: Ranged",
+                    "+1 free Combat Action",
+                    "Iron rain"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Orobox",
+            "level": {
+                "blue": [
+                    "+1 Damage: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Frenzy: Combat",
+                    "Shove"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Combat",
+                    "Bloodlust: Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Lugh",
+            "level": {
+                "blue": [
+                    "Reaper: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Iron hide"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "Super strength"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Eileen",
+            "level": {
+                "blue": [
+                    "+1 to dice roll: Ranged"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Ranged",
+                    "Marksman"
+                ],
+                "red": [
+                    "+1 Damage: Ranged",
+                    "+1 free Combat Action",
+                    "+1 free Move Action"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Myrinia",
+            "level": {
+                "blue": [
+                    "+1 free Search Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Combat",
+                    "+1 free Melee Action"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Hit & run",
+                    "Zombie link"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Osvith",
+            "level": {
+                "blue": [
+                    "+1 die: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "Lifesaver"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 free Combat Action",
+                    "Bloodlust: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Kador",
+            "level": {
+                "blue": [
+                    "Spellbook"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Enchantment Action",
+                    "+1 free Magic Action"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Magic",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Sylvia",
+            "codename": "Captain Sylvia Samedi",
+            "level": {
+                "blue": [
+                    "Taunt"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Swordmaster",
+                    "Reaper: Melee"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Julian",
+            "codename": "Julian the Thief",
+            "level": {
+                "blue": [
+                    "Hold your nose"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 Damage: Melee",
+                    "Hit & run"
+                ],
+                "red": [
+                    "Hit & run",
+                    "Jump",
+                    "Reaper: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Paul",
+            "codename": "Paul the Huntsman",
+            "level": {
+                "blue": [
+                    "+1 die: Combat"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "+1 to dice roll: Ranged"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "+1 free Move Action",
+                    "+1 free Ranged Action"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Piper",
+            "codename": "Piper the Werewolf",
+            "level": {
+                "blue": [
+                    "Starts with a Dagger"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Melee",
+                    "+1 free Combat Action"
+                ],
+                "red": [
+                    "+1 free Move Action",
+                    "+1 to dice roll: Combat",
+                    "Hit & run"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Gregoire",
+            "codename": "Gregoire of the Deep Woods",
+            "level": {
+                "blue": [
+                    "Ironclad: Zombie Wolfz"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 Damage: Melee",
+                    "+1 to dice roll: Melee"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Bloodlust: Combat",
+                    "Regeneration"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Sigrun",
+            "level": {
+                "blue": [
+                    "Hit & run"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Move Action",
+                    "Charge"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 free Combat Action",
+                    "+1 Zone per Move"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Rocco",
+            "level": {
+                "blue": [
+                    "Starts with a Crossbow"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Enchantment Action",
+                    "+1 max Range"
+                ],
+                "red": [
+                    "+1 die: Ranged",
+                    "+1 to dice roll: Ranged",
+                    "Hit & run"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Thomas",
+            "level": {
+                "blue": [
+                    "+1 free Enchantment Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Spellcaster"
+                ],
+                "red": [
+                    "+1 die: Melee",
+                    "+1 free Magic Action",
+                    "+1 to dice roll: Magic"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Kelsey",
+            "level": {
+                "blue": [
+                    "+1 free Enchantment Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Double casting",
+                    "Spellbook"
+                ],
+                "red": [
+                    "+1 max Range",
+                    "+1 to dice roll: Magic",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Cassius",
+            "level": {
+                "blue": [
+                    "Battle rage"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Swordmaster"
+                ],
+                "red": [
+                    "+1 die: Melee",
+                    "Ironclad: Fatty",
+                    "Iron hide"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Jeanne",
+            "level": {
+                "blue": [
+                    "Born leader"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Bloodlust: Melee",
+                    "Brother in arms: +1 die: Combat"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 free Combat Action",
+                    "Brother in arms: +1 die: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Clovis",
+            "level": {
+                "blue": [
+                    "+1 die: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Swordmaster"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Combat",
+                    "Hit & run"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Baldric",
+            "level": {
+                "blue": [
+                    "Spellcaster"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Magic Action",
+                    "Spellbook"
+                ],
+                "red": [
+                    "+1 die: Magic",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Nelly",
+            "level": {
+                "blue": [
+                    "+1 free Move Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Bloodlust: Melee",
+                    "Slippery"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Combat",
+                    "Hit & run"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Silas",
+            "level": {
+                "blue": [
+                    "+1 to dice roll: Ranged"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Ranged Action",
+                    "Point-blank"
+                ],
+                "red": [
+                    "+1 die: Ranged",
+                    "+1 free Combat Action",
+                    "Iron rain"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Samson",
+            "level": {
+                "blue": [
+                    "Iron hide"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Combat",
+                    "+1 to dice roll: Melee"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 free Combat Action",
+                    "Barbarian"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Ann",
+            "level": {
+                "blue": [
+                    "Bloodlust: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Magic Action",
+                    "+1 free Melee Action"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Combat",
+                    "Roll 6: +1 die Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Tucker",
+            "codename": "Father Tucker",
+            "level": {
+                "blue": [
+                    "Shove"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Lucky",
+                    "Spellcaster"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "Free reload"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Glynda",
+            "codename": "Glynda Battlestout",
+            "level": {
+                "blue": [
+                    "Tough"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Iron hide"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Gowan",
+            "level": {
+                "blue": [
+                    "Regeneration"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Melee"
+                ],
+                "red": [
+                    "Ironclad: Fatty",
+                    "Ironclad: Runner",
+                    "Ironclad: Walker"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Arnaud",
+            "codename": "Lord Arnaud",
+            "level": {
+                "blue": [
+                    "+1 free Search Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Melee",
+                    "+1 free Move Action"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Iron hide",
+                    "Reaper: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Lucas",
+            "level": {
+                "blue": [
+                    "Born leader"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "Reaper: Combat"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Ironclad: Walker",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "James",
+            "level": {
+                "blue": [
+                    "Search: +1 card"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 max Range",
+                    "Spellcaster"
+                ],
+                "red": [
+                    "+1 to dice roll: Combat",
+                    "Reaper: Combat",
+                    "Spellbook"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "King Mortimer",
+            "level": {
+                "blue": [
+                    "Starts with a Great Sword"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Combat Action",
+                    "Born leader"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 to dice roll: Combat",
+                    "Charge"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Danton",
+            "level": {
+                "blue": [
+                    "Taunt"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Bloodlust: Melee",
+                    "Born leader"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "+1 to dice roll: Melee",
+                    "Hit & run"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "William",
+            "level": {
+                "blue": [
+                    "Tough"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Combat Action",
+                    "Lifesaver"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Bloodlust: Melee",
+                    "Hit & run"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Troy",
+            "level": {
+                "blue": [
+                    "Free reload"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Combat",
+                    "Iron hide"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "+1 free Ranged Action",
+                    "Spellbook"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Evil Troy",
+            "level": {
+                "blue": [
+                    "Free reload"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Combat",
+                    "Zombie link"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "Rotten",
+                    "Spellbook"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Lord Falstaff",
+            "level": {
+                "blue": [
+                    "Bloodlust: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "Reaper: Melee"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Regeneration",
+                    "Super strength"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Xuxa",
+            "level": {
+                "blue": [
+                    "Super strength"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Combat",
+                    "Charge"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Barbarian",
+                    "Shove"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Ygraine",
+            "level": {
+                "blue": [
+                    "+1 to dice roll: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "+1 free Move Action"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "Bloodlust: Melee",
+                    "Hit & run"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Green Horde",
+                "code": "GH"
+            }
+        },
+        {
+            "name": "Morgan",
+            "level": {
+                "blue": [
+                    "+1 die: Combat"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Magic",
+                    "+1 die: Melee"
+                ],
+                "red": [
+                    "Roll 6: +1 die Magic",
+                    "Roll 6: +1 die Melee",
+                    "Spellbook"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Scowl",
+            "level": {
+                "blue": [
+                    "+1 to dice roll: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Hit & run"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "Jump"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Sir Montalban",
+            "level": {
+                "blue": [
+                    "Hit & run"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Move Action",
+                    "+1 free Melee Action"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 free Move Action",
+                    "Iron hide"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Bob",
+            "level": {
+                "blue": [
+                    "Lucky"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Magic Action",
+                    "Hit & run"
+                ],
+                "red": [
+                    "+1 to dice roll: Magic",
+                    "Rotten",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Sir Gilbert",
+            "level": {
+                "blue": [
+                    "Iron hide"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Bloodlust: Melee",
+                    "Hit & run"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "+1 to dice roll: Melee",
+                    "Barbarian"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Lady Faye",
+            "level": {
+                "blue": [
+                    "+1 free Move Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Lucky"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "Iron hide",
+                    "Reaper: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Sir Beauregard",
+            "level": {
+                "blue": [
+                    "Collector: Walker"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Combat Action",
+                    "Reaper: Combat"
+                ],
+                "red": [
+                    "Bloodlust: Combat",
+                    "Ironclad: Walker",
+                    "Slippery"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Doctor Stormcrow",
+            "level": {
+                "blue": [
+                    "Hold your nose"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Combat Action",
+                    "Zombie link"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Sir Chauncey",
+            "level": {
+                "blue": [
+                    "Swordmaster"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "Frenzy: Melee"
+                ],
+                "red": [
+                    "+1 die: Melee",
+                    "+1 free Combat Action",
+                    "Roll 6: +1 die Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Grom",
+            "level": {
+                "blue": [
+                    "Barbarian"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 Damage: Melee",
+                    "Shove"
+                ],
+                "red": [
+                    "+1 free Melee Action",
+                    "+1 to dice roll: Melee",
+                    "Bloodlust: Melee"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Thalia",
+            "level": {
+                "blue": [
+                    "Bloodlust: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "+1 free Melee Action"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "Shove"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Benson",
+            "level": {
+                "blue": [
+                    "Starts with a Sword"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Born leader"
+                ],
+                "red": [
+                    "+1 Damage with Sword",
+                    "Lucky",
+                    "Shove"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Homer",
+            "level": {
+                "blue": [
+                    "Tactician"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Combat",
+                    "+1 free Move Action"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 free Combat Action",
+                    "Hit & run"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Ostokar",
+            "codename": "Ostokar the Pale",
+            "level": {
+                "blue": [
+                    "Zombie link"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Move Action",
+                    "Spellcaster"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Magic",
+                    "Hit & run"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Black Plague",
+                "code": "BP"
+            }
+        },
+        {
+            "name": "Theo",
+            "level": {
+                "blue": [
+                    "Sprint"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Melee",
+                    "+1 to dice roll: Ranged"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Charge",
+                    "Marksman"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Wulfsburg",
+                "code": "WB"
+            }
+        },
+        {
+            "name": "Ariane",
+            "level": {
+                "blue": [
+                    "Jump"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Move Action",
+                    "+1 free Melee Action"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 to dice roll: Ranged",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Wulfsburg",
+                "code": "WB"
+            }
+        },
+        {
+            "name": "Morrigan",
+            "level": {
+                "blue": [
+                    "Reaper: Combat"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Spellcaster"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 to dice roll: Magic",
+                    "Bloodlust: Combat"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Wulfsburg",
+                "code": "WB"
+            }
+        },
+        {
+            "name": "Karl",
+            "level": {
+                "blue": [
+                    "+1 die: Magic"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Combat Action",
+                    "Spellcaster"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 max Range",
+                    "Marksman"
+                ]
+            },
+            "box": {
+                "name": "Zombicide: Wulfsburg",
+                "code": "WB"
+            }
+        },
+        {
+            "name": "Tak \"Spellbones\" Trooblood",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "?"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Kirag and Thorg",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "?"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Bjorn the Barbarian",
+            "level": {
+                "blue": [
+                    "Bloodlust: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 Damage: Melee",
+                    "+1 free Melee Action"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 to dice roll: Melee",
+                    "Shove"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Elias the Wizard",
+            "level": {
+                "blue": [
+                    "+1 free Magic Action"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Magic",
+                    "Spellbook"
+                ],
+                "red": [
+                    "+1 die: Combat",
+                    "+1 to dice roll: Combat",
+                    "Spellcaster"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Whisper the Rogue",
+            "level": {
+                "blue": [
+                    "+1 Damage: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 free Melee Action",
+                    "Hit & run"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "+1 free Move Action",
+                    "Reaper: Combat"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Owen the Paladin",
+            "level": {
+                "blue": [
+                    "Taunt"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "Bloodlust: Melee",
+                    "Born leader"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Regeneration",
+                    "Zombie link"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Siegfried the Dwarf Berserker",
+            "level": {
+                "blue": [
+                    "Frenzy: Combat"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 die: Combat",
+                    "Bloodlust: Melee"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 free Combat Action",
+                    "Taunt"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Sybil the Ranger",
+            "level": {
+                "blue": [
+                    "Super strength"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Combat",
+                    "Charge"
+                ],
+                "red": [
+                    "+1 free Combat Action",
+                    "Barbarian",
+                    "Shove"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Mila the Barbarian",
+            "level": {
+                "blue": [
+                    "Bloodlust: Melee"
+                ],
+                "yellow": [
+                    "+1 Action"
+                ],
+                "orange": [
+                    "+1 to dice roll: Melee",
+                    "Reaper: Melee"
+                ],
+                "red": [
+                    "+1 Damage: Melee",
+                    "+1 free Combat Action",
+                    "Jump"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Ajax the Sorcerer",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "?"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Zoe the Dwarf",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "?"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Azrael the High Elf",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "?"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        },
+        {
+            "name": "Myriam the Witch",
+            "level": {
+                "blue": [
+                    "?"
+                ],
+                "yellow": [
+                    "?"
+                ],
+                "orange": [
+                    "?",
+                    "?"
+                ],
+                "red": [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            "box": {
+                "name": "?",
+                "code": "XX"
+            }
+        }
+    ]
+}

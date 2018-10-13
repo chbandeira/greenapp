@@ -20,6 +20,7 @@ export class PrintComponent implements OnInit {
   localSettings: Settings;
   lang: any;
   printOption: string;
+  loading = '';
 
   constructor(
     private survivorService: SurvivorService,
@@ -62,6 +63,7 @@ export class PrintComponent implements OnInit {
   }
 
   savePdf(i: number, doc: jsPDF) {
+    this.loading = this.lang['loading'];
     html2canvas(document.querySelector('#content' + i)).then(canvas => {
       doc.addImage(canvas.toDataURL('image/png'), 'JPEG', 0, 0);
       i++;
@@ -69,6 +71,7 @@ export class PrintComponent implements OnInit {
         doc.addPage();
         this.savePdf(i, doc);
       } else {
+        this.loading = '';
         doc.save(this.printOption + '.pdf');
       }
     });
@@ -77,7 +80,12 @@ export class PrintComponent implements OnInit {
   addAllSurvivors() {
     this.survivorService.survivors()
       .subscribe(data => {
-        this.survivors = data;
+        this.survivors = [];
+        data.forEach(item => {
+          if (item['box']['name'] !== '?') {
+            this.survivors.push(item);
+          }
+        });
         this.survivors.forEach(survivor => this.loadSkillsSurvivor(survivor));
         this.groupSurvivors = [];
         this.sliceGroupOfSurvivors();

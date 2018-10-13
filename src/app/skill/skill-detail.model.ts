@@ -1,4 +1,5 @@
 export class SkillDetail {
-    title = '';
-    description = '';
+    title: string;
+    description: string;
+    gameEffect?: string;
 }

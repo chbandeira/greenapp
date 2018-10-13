@@ -14,6 +14,7 @@ export class PrintSkillComponent implements OnInit {
   @Input() skillContent: SkillContent;
   @Input() localSettings: Settings;
   @Input() colorLevel: string;
+  @Input() lang: any;
   skillDetail: SkillDetail;
 
   constructor() { }
@@ -25,9 +26,13 @@ export class PrintSkillComponent implements OnInit {
       this.skillDetail.title = this.skillContent.en.title :
       this.skillDetail.title = this.skillContent.pt.title;
 
-    this.localSettings.skillDescriptionLanguage === 'en' ?
-      this.skillDetail.description = this.skillContent.en.description :
+    if (this.localSettings.skillDescriptionLanguage === 'en') {
+      this.skillDetail.description = this.skillContent.en.description;
+      this.skillDetail.gameEffect = this.skillContent.en.gameEffect;
+    } else {
       this.skillDetail.description = this.skillContent.pt.description;
+      this.skillDetail.gameEffect = this.skillContent.pt.gameEffect;
+    }
   }
 
 }

@@ -10,14 +10,7 @@ export class WikiService {
   constructor(private http: HttpClient) { }
 
   background(survivorName: string): Observable<any> {
-    return this.http.get('/wiki/' + this.replaceName(survivorName), { responseType: 'text' });
+    return this.http.get('/wiki/' + survivorName.replace(' ', '_'), { responseType: 'text' });
   }
 
-  private replaceName(survivorName: string): string {
-    let name = survivorName;
-    if (survivorName.includes('(Ultimate)')) {
-      name = 'Ultimate_' + survivorName.replace(' (Ultimate)', '');
-    }
-    return name.replace(' ', '_');
-  }
 }

@@ -1,6 +1,6 @@
-import { SkillDetail } from './skill-detail.model';
+import { SkillContent } from './skill-content.model';
 
 export interface Skill {
     name: string;
-    detail: SkillDetail;
+    content: SkillContent;
 }
