@@ -39,8 +39,11 @@ export class SkillService {
   deleteSurvivorLocalSkill(survivorName: string) {
     const localSkills: LocalSkills[] = this.loadLocalSkills();
     const survivorLocalSkills: LocalSkills = localSkills.find(item => item.name === survivorName);
-    localSkills.splice(localSkills.indexOf(survivorLocalSkills), 1);
-    localStorage.setItem('skills', JSON.stringify(localSkills));
+    const indexSurvivalLocal = localSkills.indexOf(survivorLocalSkills);
+    if (indexSurvivalLocal > -1) {
+      localSkills.splice(indexSurvivalLocal, 1);
+      localStorage.setItem('skills', JSON.stringify(localSkills));
+    }
   }
 
   loadLocalSkills(): LocalSkills[] {
@@ -60,8 +63,12 @@ export class SkillService {
   deleteLocalSkill(survivorName: string, skillLevel: SkillLevel) {
     const localSkills: LocalSkills[] = this.loadLocalSkills();
     const survivorLocalSkills: LocalSkills = localSkills.find(item => item.name === survivorName);
-    survivorLocalSkills.skillLevels.splice(survivorLocalSkills.skillLevels.indexOf(skillLevel), 1);
-    localStorage.setItem('skills', JSON.stringify(localSkills));
+    const skillToRemove = survivorLocalSkills.skillLevels.find(item => item.color === skillLevel.color && item.skill === skillLevel.skill);
+    const indexSkillLevel = survivorLocalSkills.skillLevels.indexOf(skillToRemove);
+    if (indexSkillLevel > -1) {
+      survivorLocalSkills.skillLevels.splice(indexSkillLevel, 1);
+      localStorage.setItem('skills', JSON.stringify(localSkills));
+    }
   }
 
   resetLocalSkills() {

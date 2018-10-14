@@ -57,7 +57,7 @@ export class PrintComponent implements OnInit {
   }
 
   downloadPdf() {
-    const doc = new jsPDF();
+    const doc = new jsPDF('p', 'mm', 'a4');
     const i = 0;
     this.savePdf(i, doc);
   }
@@ -65,7 +65,11 @@ export class PrintComponent implements OnInit {
   savePdf(i: number, doc: jsPDF) {
     this.loading = this.lang['loading'];
     html2canvas(document.querySelector('#content' + i)).then(canvas => {
-      doc.addImage(canvas.toDataURL('image/png'), 'JPEG', 0, 0);
+      var imgWidth = 210;   
+      var imgHeight = canvas.height * imgWidth / canvas.width;  
+      const contentDataURL = canvas.toDataURL('image/png')  
+      var position = 0;  
+      doc.addImage(contentDataURL, 'PNG', 0, position, imgWidth, imgHeight);
       i++;
       if (i < this.groupSurvivors.length) {
         doc.addPage();

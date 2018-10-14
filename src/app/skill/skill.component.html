@@ -1,6 +1,6 @@
 <div class="card-body text-dark">
   <h6 class="card-title">
-    <input type="checkbox" [disabled]="isDisabled()" [checked]="isChecked()" (change)="checkSkill($event)">
+    <input type="checkbox" [disabled]="disabled" [checked]="checked" (change)="checkSkill($event)">
     {{skillDetail.title}}
     <span *ngIf="skillContent?.exclusive == 'GH'" class="badge badge-pill badge-gh">GH</span>
     <span *ngIf="skillContent?.exclusive == 'BP'" class="badge badge-pill badge-bp">BP</span>

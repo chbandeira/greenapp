@@ -20,6 +20,8 @@ export class SkillComponent implements OnInit {
   @Input() lang: any;
 
   skillDetail: SkillDetail;
+  disabled: boolean;
+  checked: boolean;
 
   constructor(private skillService: SkillService) { }
 
@@ -38,6 +40,9 @@ export class SkillComponent implements OnInit {
       this.skillDetail.description = this.skillContent.pt.description;
       this.skillDetail.gameEffect = this.skillContent.pt.gameEffect;
     }
+
+    this.checked = this.isChecked();
+    this.disabled = this.isDisabled();
   }
 
   isChecked(): boolean {
