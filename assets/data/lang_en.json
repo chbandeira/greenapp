@@ -27,7 +27,7 @@
     "add": "Add",
     "remove": "Remove",
     "print": "Print",
-    "text7": "Watch out! Downloading all survivors can be more than 300 MB. It would be better to download from a PC.",
+    "text7": "Downloading all survivors may consume 8MB to 25MB.",
     "text8": "You need to add survivors.",
     "downloadPdf": "Download PDF",
     "text9": "All survivors",
@@ -38,5 +38,6 @@
     "close": "Close",
     "gameEffect": "Game effect",
     "references": "References",
-    "text11": "See more on"
+    "text11": "See more on",
+    "wait": "Wait..."
 }
