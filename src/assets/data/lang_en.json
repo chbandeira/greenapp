@@ -27,7 +27,7 @@
     "add": "Add",
     "remove": "Remove",
     "print": "Print",
-    "text7": "Downloading all survivors may consume 8MB to 25MB.",
+    "text7": "Downloading all survivors may consume up to 50MB.",
     "text8": "You need to add survivors.",
     "downloadPdf": "Download PDF",
     "text9": "All survivors",

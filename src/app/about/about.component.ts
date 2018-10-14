@@ -4,7 +4,6 @@ import { SettingsService } from '../settings/settings.service';
 import { SurvivorService } from '../survivor/survivor.service';
 import { Survivor } from '../survivor/survivor.model';
 import { LangService } from '../core/lang.service';
-import { Observable } from 'rxjs';
 
 @Component({
   selector: 'zga-about',
@@ -13,7 +12,7 @@ import { Observable } from 'rxjs';
 })
 export class AboutComponent implements OnInit {
 
-  version = '1.0.0-beta';
+  version = '1.0.1-beta';
   localSettings: Settings;
   survivors: Survivor[];
   nameSurvivors: string;
