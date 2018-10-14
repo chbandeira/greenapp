@@ -1,0 +1,669 @@
+{
+    "backgrounds": [
+        {
+            "nameSurvivor": "Clovis",
+            "text1": "“The end of the world? The end of yours, not mine!”\n",
+            "text2": "Clovis’ love of the law led him to become a paladin long ago. As years passed, he learned the hard way that the law is rarely black & white. Shades of grey coloured his perceptions, especially in the many deeds done to keep his lord’s hands clean. Now civilisation is crumbling, and the lords can do naught but cower. Clovis has at last realised that justice and glory are more than a shiny shield and serving the nobility. Real honour is gained through deeds, not by lordly fiat.\n"
+        },
+        {
+            "nameSurvivor": "Nelly",
+            "text1": "“Life and risk, my friend: they go hand in hand.”\n",
+            "text2": "Never quite able to get ahead, Nelly found herself stuck in the life of a tavern wench from an early age. She avoided the usual traps such young women often fell victim to, such as becoming a mistress for some petty noble, or working in some brothel. Ever a dreamer, bright-eyed Nelly craved something more, but didn’t really know what, or how to get it. Until the zombies appeared. Turns out bashing grabby patrons in the head with full tankards isn’t too much different than bashing grabby zombies with a club. A natural with just about any weapon, Nelly has found her purpose in life: Zombicide!\n"
+        },
+        {
+            "nameSurvivor": "Baldric",
+            "text1": "“Knowledge is power. Magic is simply a tool.”\n",
+            "text2": "Baldric was a brilliant adventurer. Mighty, mysterious, and powerful, his magical might became legendary. Yet he always valued his research skills over his magical prowess. Knowing what spell to use against the right kind of opponent gave him the edge that let him live to a ripe old age. His magic academy continued to preach this doctrine, despite heavy criticism from his magical peers that wanted arcane knowledge to remain ‘occult’ and hidden. All that changed with the horde’s invasion. Now he travels where needed, teach anyone that wants to learn, and blasting any zombie that dares show its face.\n"
+        },
+        {
+            "nameSurvivor": "Ann",
+            "text1": "“Zombies? Bah! They’re no match for a true predator.”\n",
+            "text2": "Years ago, young Ann was the sole survivor of her slaughtered village, the victims of a neighbouring lord’s depredations. She escaped into the wilderness where, starving and freezing, she was found by a barbarian hunting party. They couldn’t bring young Ann with them, but they took her to a nearby convent where she grew up, and learned her array of survivalist skills from the convent library and extended treks into the wilds. Over time, Ann become wise to the ways of the hinterlands, and now, with the zombie threat on the rise, she returns to civilised lands to hunt this new, formidable prey.\n"
+        },
+        {
+            "nameSurvivor": "Silas",
+            "text1": "“Zombies are an insult to life and beauty. I’m here to set things right.”\n",
+            "text2": "Elves lead very long lives… unless they get slaughtered by zombies. This is something Silas has tried to hammer into his elven lords’ collective head. Silas urged action. Swift action! But, elves measure their lives in centuries, not decades. The debate about what constitutes a proper response could take several more years. That’s not good enough for Silas. He’s decided that he’ll take the fight to the horde personally, do some good in the world, and maybe even save a few lives in the process. Only by uniting all the races can the free peoples hope to stem the undead tide.\n"
+        },
+        {
+            "nameSurvivor": "Samson",
+            "text1": "“Step back, lads. This be a Dwarf’s job.”\n",
+            "text2": "Samson finds human notions of dwarven craftsmanship infinitely amusing. It’s the same metal, the same techniques, the same designs (mostly), but put a few dwarven runes on a sword or hammer, and humans will act like it’s made of magic! They swing faster, hit harder, and even hold the line longer. Samson earned quite a bit of coin selling his ‘dwarven’ weapons, though he never deceived anyone about their qualities. He was just a highly competent smith who happened to be a dwarf. But now, with the zombie apocalypse in full swing, he’s happy to ‘improve’ any weapon he can find with ‘that dwarven touch’.\n"
+        },
+        {
+            "nameSurvivor": "Tucker",
+            "text1": "“Salvation is about faith. And an axe. Well, more axe than faith. In fact, it’s pretty much the axe.”\n",
+            "text2": "There is more than one way to protect your flock, and the Father Tucker knows almost all of them. The bodies must be saved so that the souls may be saved, after all, and in a time of rampaging armies as well as monstrous necromancers, Tucker has learned to use all of the weapons at his disposal to protect his flock. Bandits, heathens, zombies – all would be wise to fear Father Tucker, for he will do everything he can to stop them, and his axe is as strong as his faith.\n"
+        },
+        {
+            "nameSurvivor": "Glynda",
+            "text1": "“Did you call me a GIRL?”\n",
+            "text2": "Glynda comes from the Battlestout clan, a large family of warriors, and every one of them learned from an early age how to fight. Humans might look down on dwarves – that’s easy to do when you only come up to most humans’ chests – but they don’t look down on her for very long. And nobody calls her «girl» more than once.\n"
+        },
+        {
+            "nameSurvivor": "Gowan",
+            "text1": "“I’m going to outlive you all. And I’ll kill you again, if I have to.”\n",
+            "text2": "Gowan was born in a filthy hut, lived in a filthy hut, and nearly died there when the zombies attacked. He was the only man of his village to survive their vicious, mindless attack, and, when the dust had settled, he took a sword off of a dead soldier and went about killing his former friends and kin a second time as they rose as zombies. He has been wandering the land ever since, looking for a place to call home. But everywhere he goes, death seems to follow behind.\n"
+        },
+        {
+            "nameSurvivor": "Arnaud",
+            "text1": "“I only LOOK fat.”\n",
+            "text2": "Lord Arnaud was a petty noble, without lands of his own, the son of a wealthy merchant and famous explorer. As such, he mingled in the upper echelons of society, yet always chafed at the lack of a title. Fortune favoured him when he chanced to snare the hand of a destitute count’s daughter. It was a win for everyone. He got his title, and she got his money. Alas for Arnaud, he was only one week married when the zombie hordes descended on the kingdom. Determined not to let a lifetime of effort go to waste, Arnaud has decided not to flee with his family, and has taken up arms against the undead menace.\n"
+        },
+        {
+            "nameSurvivor": "Lucas",
+            "text1": "“I’ll do what I have to, wherever that might lead.”\n",
+            "text2": "Lucas has lost almost everything he once had, and that is a far fall indeed for a man once renowned and rich, titled, and landed. Before the necromancers cast their evil over the land, Lucas was caught out in a scheme to betray the King. He was stripped of everything and cast out to live in the forest. He knows some people will suspect him of being in cahoots with the necromancers. He also knows that defeating them is his best chance to get back into the King’s good graces. He’ll do whatever it takes to get his life back.\n"
+        },
+        {
+            "nameSurvivor": "King Mortimer",
+            "text1": "“We shall quest to slay the zombies. We will not rest until all of them are slain!”\n",
+            "text2": "King Mortimer is a mighty lord – or, at least he was. His kingdom was not known for much and his benevolent rule, such as it was, consisted mostly of ignoring his subjects in favour of quests of one sort or another. When the necromancers brought forth their plague of shambling creatures, King Mortimer and his knights were eager to fight this new menace. They will ride – or jog – into battle over and over again, until the last of the zombie menace is dead!\n"
+        },
+        {
+            "nameSurvivor": "James",
+            "text1": "“The solution will be obvious – when we find it.”\n",
+            "text2": "Brother James is a monk who, perhaps, thinks too much. At least, the fathers of his former abbey definitely felt that way. He asks inopportune questions, he looks in the wrong places, and he is never one to take no for an answer. Hardly the best traits in a humble monk! However, for a zombie hunter, one that has read some of the secret texts hidden away in the deep corners of the abbey library, asking questions may be exactly what keeps him alive.\n"
+        },
+        {
+            "nameSurvivor": "William",
+            "text1": "“I serve, my Lord.”\n",
+            "text2": "All William wanted was to be left alone in his northern home with his wife and children. He’d fought in enough battles as a young man. He’d done his service for his king and his country and earned the lordship of House Bleak. But now the battle has come to him again, and he does as he has to. William is a staunchly loyal, honourable man, and deadly with a sword, but he had grown old, and swinging around steel is a young man’s game. As long as there are zombies to kill, though, he will do as he must.\n"
+        },
+        {
+            "nameSurvivor": "Danton",
+            "text1": "“They can kill us, but we won’t stay dead!”\n",
+            "text2": "Danton has not had an easy life, nay, nor would it be the life he would want. His people have been in perpetual revolution; Danton, it’s said, was born kicking and hadn’t stopped since. He’s a violent man, an angry man, and the necromancers have taken more from him than any man can count, especially Danton. But Danton is also a stout fighter and a charismatic man; where he yells, other men follow. He could lead an army against the zombies; some say he could even lead the zombies, if they would but listen a minute.\n"
+        },
+        {
+            "nameSurvivor": "Troy",
+            "text1": "“I’m just here to kill all these dead S.O.B.s.”\n",
+            "text2": "Troy doesn’t belong in this kingdom, and he never really meant to get into the zombie-slaying business at all. But now that he’s here, now that he has no option but to swing his sword around rather than swinging around bales of hay, well, he’s going to be the best zombie-slayer there is. Maybe win himself a princess in the process, a small castle… There’s something to be said for being a hero, Troy is discovering, especially when it comes with lovely wenches and pocketfuls of gold. Of course, he has to survive all the zombies first.\n"
+        },
+        {
+            "nameSurvivor": "Evil Troy",
+            "text1": "“I’m the evil one!”\n",
+            "text2": "The necromancers have performed many experiments in their quest for the perfect evil, the perfect zombie. One of the worst things they managed was a simulacrum of a living being. This golem remembers everything the original human, Troy, knew; he has all of Troy’s skills. But he is as undead as a zombie, as angry as a raging bull, and as absolutely evil as it is possible to be. Evil Troy is a nasty piece of work, to put it shortly, intent on killing anything – human, zombie, or necromancer – that gets in his way.\n"
+        },
+        {
+            "nameSurvivor": "Lord Falstaff",
+            "text1": "“You ever wonder what hell is like? This. This is hell.”\n",
+            "text2": "Lord Falstaff commanded a small rural territory; his castle perched far up on a craggy mountain. That was before the zombies came. He was a good lord and protector to his people – but the necromancers and their creatures were more than he could fight against. And while he was fighting and losing, the monsters found Lord Falstaff’s young bride. There are some that say the man who came down from the mountain after that night was a different person: bloodthirsty, violent, ruthless. Nobody says any of that to his face, however. No-one says anything at all to his face.\n"
+        },
+        {
+            "nameSurvivor": "Morgan",
+            "text1": "“Stand aside! I can deal with these fiends!”\n",
+            "text2": "The third son of a knight, Morgan was always too poor to be a knight, too strong to be a scholar, and too smart to be a thug. What magic he could find was second-hand stuff, gleaned from sneaking into old castles and stealing from necromancers. He knows enough magic to get by, but in a pinch, his staff is a wonderful mace and his dagger will slow down even a zombie. Morgan always dreamed of advising a king. Now his best bet may be saving one’s life.\n"
+        },
+        {
+            "nameSurvivor": "Xuxa",
+            "text1": "“Tell me which way the zombies went and we’ll only rob you a little.”\n",
+            "text2": "Xuxa leads a bandit crew, a great troupe of scum and villains that makes its way across the land, pillaging and stealing and never staying in one place long enough to get caught. It’s barbaric, but hey, it’s a living.  Or, at least, it was. Then the zombies started cutting in on their business. Xuxa isn’t really into humanitarian causes, but she’s very into turning a profit, and if the creatures are going to get in the way of that, she’s going to get in their way in return.\n"
+        },
+        {
+            "nameSurvivor": "Sir Montalban",
+            "text1": "“It’s not so much running away as it is beating a strategic retreat.”\n",
+            "text2": "Sir Montalban is not the bravest knight in the kingdom, although he’s probably not the most cowardly. He knows how to use his sword, that’s for certain, especially in carving a mighty exit. He earned his sword and spurs in a peaceful time, and was content to sit guard at his Lord’s castle, making sure no errant peasants wandered through the long-since-rusted-open gates. But then the zombies came. And Brave Sir Montalban fought his way all the way through a retreat. He’s a good man to have at your back in a fight – especially to carve your escape.\n"
+        },
+        {
+            "nameSurvivor": "Bob",
+            "text1": "“The thing about dead people is, they’re extremely flammable. And the thing about zombies is that in essence, they are dead people.”\n",
+            "text2": "Bob is a wizard of limited magical skills and great theatricality. He learned when he was young that sleight-of-hand and misdirection would go a great distance when scholarly learning and magical talent failed. As such, he has dressed the role and carried on in the manner of a great magician, while much of what he does is not magic at all. On the other hand, he’s quite good at small fire spells, and, if you make sure the zombies aren’t shambling towards anything important (like the church, or a haymow), fire does a world of good against the creatures.\n"
+        },
+        {
+            "nameSurvivor": "Scowl",
+            "text1": "“Necromancers get nightmares too. I’ m the reason.”\n",
+            "text2": "Scowl is a man obsessed with eradicating the zombie threat, more so than many other survivors. He hardly rests, he barely eats, and he speaks of nothing except the most expeditious paths to victory against the undead hordes. To him, killing zombies only addresses the symptom. To truly stem the tide, the necromancers themselves must be destroyed. A favorite strategy is to track these fiends to their lairs and sanctums. Though these are often filled with minions, traps, and other horrors, Scowl points out that the necromancers are also trapped in there with him, a nightmare scenario for any cabal.\n"
+        },
+        {
+            "nameSurvivor": "Sir Gilbert",
+            "text1": "“And that is why, you see, zombies are just chickens without feathers; we must cut off the head and then keep chopping.”\n",
+            "text2": "Sir Gilbert is a loyal knight and a clever one, although some say he has been hit on the head a few times too many. He was fighting battles when he was a young squire, and he’ll continue fighting battles, so he says, even when he is past death himself. In this day and age, with the dead rising all around him, it no longer sounds like such a strange thing to say – even if Sir Gilbert sometimes claims he’ll be fighting as a dead squid and not a dead man.\n"
+        },
+        {
+            "nameSurvivor": "Lady Faye",
+            "text1": "“Zombies are just the symptom, but I will be the cure.”\n",
+            "text2": "Lady Faye was driven from her home, sent far into the woods to escape the evil necromancers. A soft noblewoman, she thought she would die, and if the huntsmen who lived deep in the forest had not found her, it is likely she would have perished. They did more than feed her and house her, however; they taught her. If Faye’s land is to be saved from the zombie menace, she is going to have to slay all of the necromancers one by one, and she is ready to do exactly that.\n"
+        },
+        {
+            "nameSurvivor": "Doctor Stormcrow",
+            "text1": "“A most remarkable infection.”\n",
+            "text2": "Doctor Stormcrow is in this fight for the research. An expert on every form of infectious disease existant, the sheer virulence of the zombie plague staggers him with its sordid beauty. He’ s convinced that while magic is at the core of the initial outbreak, the subsequent spreading infection has wholly natural elements. He cites the Creeping Death and the Bloody Flux as his sources (which have slain untold hundreds of thousands when left unchecked), in addition to the complete lack of magical emanations seen in most mobile zombies. If he can prove his theorems (and develop a cure), perhaps the necromancers can be deprived of their seemingly limitless hordes.\n"
+        },
+        {
+            "nameSurvivor": "Sir Beauregard",
+            "text1": "“I will kill them all, and send them back to their creator.”\n",
+            "text2": "Sir Beauregard was a young man when this began. Other knights teased him, calling him Beauregard the Pure, Beauregard the Chaste, even the more so when the wenches of the village were particularly accommodating to a pretty-faced young man. He has aged horribly since the zombies first showed up, losing much of his naiveté and hope for life. He had to cut his way out of the castle, mowing down zombies that had once been peasants – and village wenches. Now Sir Beauregard’s eyes are shadowed, and he has vowed to true purity until the scourge of zombies is ended.\n"
+        },
+        {
+            "nameSurvivor": "Grom",
+            "text1": "“What to wear, what to wear? My sword, or my axe?”\n",
+            "text2": "The son of a very wealthy family, Grom hails from the tropical south, a region of volcanic island chains, dense jungles, and fearsome predators. Life was easy, until he found himself a castaway after a mighty storm wrecked the family yacht. With his (soon to be) friend Thalia, the maid’ s daughter, as the only survivors, they managed to eke out an existence for nearly five years before rescue. Now, dissatisfied with ‘ the good life’, Grom and Thalia have set out to see the world. The pair are known for their acerbic barbs and mutual antagonism.  Strangers might think them a couple, but could not be more wrong about these companions. Wherever they go, trouble follows. It seemed natural that they bring some of that trouble to the Necromancers and their zombie horde.\n"
+        },
+        {
+            "nameSurvivor": "Sir Chauncey",
+            "text1": "“It might be dead but it’s not minced yet!”\n",
+            "text2": "Brave Sir Chauncey is a brave knight, not afraid to get his gloves dirty or his sword bloody. Indeed, someone would say he enjoys it. Sir John is known for being the first into any battle and the last to leave, the most violent of the knights and yet, somehow, the one who has survived the longest. He will attack just about every problem with his sword, dive into battles he has nothing to do with, and come out of it smelling of roses – and blood.\n"
+        },
+        {
+            "nameSurvivor": "Benson",
+            "text1": "“How many more must I kill?”\n",
+            "text2": "Benson has crusaded. He has fought in wars. He has shed blood, time and again, taken life after life, in the pursuit of all that is right and true, in service of god and king. Benson has been fighting for so long, sometimes it seems he cannot remember not fighting. He had hoped he could come home to the countryside, to his wife and his children, to rest for a time, but along the way, he encountered the zombie hordes. He has many more challenges to meet before he may finally see his home, but he will meet them honorably.\n"
+        },
+        {
+            "nameSurvivor": "Thalia",
+            "text1": "“Armour? Ha! This is a costume. Big difference, my friend.”\n",
+            "text2": "Daughter to a maid in the Grom family’ s service, Thalia was shipwrecked with the ‘ prodigal son’  Grom on a desert island for nearly five years. After rescue, she discovered she had no taste for the life of luxury that Grom’ s family offered. She wanted to earn her own way in the world, and Grom tagged along. As the brains of the pair (and sometimes the muscle), Thalia’ s wit and cunning have gotten them out of more scrapes than she can easily count. An expert in turning psychological weak points against her opponents, she often relies on the ‘ pretty girl’  ruse to lull marks and enemies into a false sense of security. But, none of that works on zombies, alas. When the hordes attacked, they’ d been at a costume ball, working to ‘ acquire’  a treasure map from the city mayor. Now, Thalia would trade just about any treasure for a decent suit of armour.\n"
+        },
+        {
+            "nameSurvivor": "Theo",
+            "text1": "“I’m here for the people. Cities are a blight.”\n",
+            "text2": "Theo lived as a ranger, surviving in the wilds by with and skill, usually far from any city. Thus, his first clue that anything was amiss were the zombie wulfz, who sought prey simply to kill, not solely to feed. He’d never seen this kind of infection, and it reeked of torment and dark magic. Something wicked had happened in Wulfsburg, and he soon came to learn the truth. Now he’s on a new quest: to find a cure for the zombie plague, and prevent the blight from spreading too far into his beloved forests.\n"
+        },
+        {
+            "nameSurvivor": "Ariane",
+            "text1": "“So, where is the law now?”\n",
+            "text2": "An orphan of the streets, Ariane grew up tough and agile, always one step ahead of the constables. She joined the Guilds of course, often working for more than one. The one job she took towards the end was the one she wished she could take back. She’d been hired to thieve the keys to the city, meaning the actual master keys held by the mayor alone. Her client, alas, proved to be a necromancer. She escaped his death trap, however, survived the invasion, and now offers her help to anyone willing to stand up to the menace. No one knows about her dirty little secret. … As yet.\n"
+        },
+        {
+            "nameSurvivor": "Karl",
+            "text1": "“You could learn this, you know. It’s not just ‘all in the wrist’.”\n",
+            "text2": "Karl’s time as a war engineer hardened him into a veteran of many battles. He often worked closely with the King’s siege wizards, enough to learn that their mysticism and rituals disguised an underlying theorems and arcane laws. Magic is a science! His unorthodox viewpoint, and considerable success, nearly saw him imprisoned. But then the invasion occurred, and the city needed anyone and everyone that could conjure fire from mana as the zombies flooded the streets. Now he believes the only chance humanity has of surviving the Dark Times is to spread his doctrine.\n"
+        },
+        {
+            "nameSurvivor": "Morrigan",
+            "text1": "“Dirty fighting, you say? Let me show you about life and death.”\n",
+            "text2": "As a bodyguard to the dark elf ambassador to Wolfsburg, Morrigan knew all about paranoia. Her people are regarded with suspicion at the best of times, and the threat of assassination haunted her every step. Alas, the ambassador chose to stand and fight the zombie horde. Morrigan alone survived. Now, far from home, and suffering from the loss of honour that died with the ambassador, Morrigan begins her new life, where her fellow survivors have learned to see past their prejudices and appreciate the advice and sword arm this skilled veteran offers.\n"
+        },
+        {
+            "nameSurvivor": "Rocco",
+            "text1": "“I never understood the term 'bullseye'. Bulls are easy. They often just stand there.” \n",
+            "text2": "Rocco's skill with the crossbow (and recurved bow, and throwing knives, and even rocks) allowed him to survive when so many others fell in the initial wave of orcish zombies. Growing up in a mummer's troupe, he discovered the joy of archery and knife-throwing at an early age, and demonstrated incredible natural aptitude for both. He regrets the Green Horde and black plague, though it has given him plenty of opportunity for practice. He often dreams of one day taking 'the most perfect shot in all history' though he's somewhat vague as to its definition. \n"
+        },
+        {
+            "nameSurvivor": "Thomas",
+            "text1": "“Ironically, this has made my job much simpler.” \n",
+            "text2": "Rooting out witchcraft, black sorcery, and foul necromancy was once Thomas's daily bread. He feels some responsibly for the rising black plague, as preventing just such a catastrophe is within a witch hunter's purview. Yet, it originated far, far from civilisation, and Thomas worked primarily in cities and nearby countryside. For now, he sees his primary task as defending the survivors against this vile necromantic green tide. Despite their vast numbers, the orcish (and human) necromancers still occasionally send their agents into survivor enclaves, and Thomas remains vigilant against such threats. \n"
+        },
+        {
+            "nameSurvivor": "Jeanne",
+            "text1": "\"Cut off the head and the body dies. At least, that's how it used to work.\"\n",
+            "text2": "Jeanne has battled orcs since she joined the army. She proved her mettle in raids and skirmishes, battles and war. She really thought she'd seen the worst the orcs could offer. She was wrong. Hers was the first regiment struck by the Green Horde, and she was the sole survivor, owing to a bit of luck and a lot of swordplay. She quickly realised that while the orcs made for powerful zombies, they were even dumber than before. Striking at the necromancers wielding their puppets was the best way to cut their strings.\n"
+        },
+        {
+            "nameSurvivor": "Cassius",
+            "text1": "\"Bloody zombies don't appreciate my showmanship at all.\"\n",
+            "text2": "The roaring crowds and endless adoration drove Cassius to great feats in the fighting pits. His victory against the Seven Hounds (men who wore dog masks and fought with pack tactics) is still spoken of with great enthusiasm by those survivors who witnessed the day. Yet, he finds his talents somewhat wasted these days. Gone are the crowds, replaced by shambling hordes. There's still plenty of battle and blood, of course, but zombies don't cheer, and they certainly don't throw roses. Cassius wants nothing more than to eradicate them all, so he can get back to his proper place in the arena.\n"
+        },
+        {
+            "nameSurvivor": "Kelsey",
+            "text1": "\"I say, would you be a good fellow and duck? Most kind.\"\n",
+            "text2": "<BOOM!!>\n\"Much better\""
+        },
+        {
+            "nameSurvivor": "Ryan John",
+            "text1": "\"My art promotes peace, understanding, and goodwill. Except for zombies. No, those have got to go.\"\n",
+            "text2": "Ryan John was a brilliant poet and writer whose works have been performed and recited at palaces, estates, taverns, and wayside inns across the realm. Besides writing, his other passion was swordplay. Now that the green horde has struck and the black plague is sweeping across the land, he finds the survivors need his uplifting writing more than ever, and his sword more than he’d like. Still, while his original training was for practice and sport, the shift to warrior was no great stretch. \n"
+        },
+        {
+            "nameSurvivor": "Hyg",
+            "text1": "\"Raid west, I said. Find great riches, I said. Bah! Don't tell her, but I should have listened to the wife.\"\n",
+            "text2": "Husband to Hyld, and war-leader for his clan, Hyg argued long and eloquently for the right to raid lands west of the great mountains, having discovered hidden paths through their forbidding heights. Yet, when they arrived, what did his warband find? Zombies! Orc zombies, no less! Hyg and Hyld are the only survivors of the once mighty warband, and they desperately wish to return home, fearing the devastation the black plague may have wrought in their absence. \n"
+        },
+        {
+            "nameSurvivor": "Hyld",
+            "text1": "\"Raid west, he said. Find great riches, he said. That hairy oaf never listens!\"\n",
+            "text2": "Wife to Hyg, and shieldmaiden of remarkable skill, Hyld argued against her husband's desires to raid the lands west across the great mountains. Besides the late season and threat of early snows, Hyld had a vision of a great darkness sweeping over the world. Naturally, and to his lament, Hyg dismissed this as nonsense. He has since apologised to her on bent knee, which would be all well and good, if they weren't completely surrounded by orc zombies. Now they fight to return home, fearing the worst. \n"
+        },
+        {
+            "nameSurvivor": "Gannicus",
+            "text1": "\"No biting. That's bad sportsmanship.\" \n",
+            "text2": "The gladiator known as Gannicus made quite a name for himself in the pits. He took to hearth the maxim that warriors make their weapons a part of their body. Thus, while he can use just about any blade he picks up, he chooses his fists whenever possible. In his long career, Gannicus remained undefeated. In fact, he was mere days away from the greatest fight of his life when the green horde descended. He unleashes his fury on the zombie menace whenever and wherever possible. Just get him in reach of a necromancer and see what happens.\n"
+        },
+        {
+            "nameSurvivor": "Badger",
+            "text1": "\"'Annoyed' be my natural state, buddy.\" \n",
+            "text2": "It's no surprise that for a people that exalt brewing as their highest art brawling comes in a close second. While every dwarven man, woman, and child knows how to throw a good punch, the professional brawlers take his national pastime to new heights. 'Badger' Brummuin made a name for himself at formal brawls in cities and towns throughout the dwarven deeplands. Then the zombies came. Rank-and-file zombies present him little challenge, and orc zombies only marginally more so. His true delight is slugging it out, dwarf-to-monster with abominations. Like his namesake, there's no enemy too big to fight. \n"
+        },
+        {
+            "nameSurvivor": "Billy",
+            "text1": "“I always joked about leaving the country. This is not how I imagined it”\n",
+            "text2": "Though a very young man, Billy's skill with shield and mace are undeniable, and when it comes to protecting his friends, his bravery knows no bounds. None of his little band were noble-born, yet all lived in proximity to their lord's lands. While the lord himself was a just, respectable count, his son was a notorious bully that crossed paths with Billy and his friends all-too-often. More than once Billy stood between his friends and danger, and now the habit comes naturally. \n"
+        },
+        {
+            "nameSurvivor": "Lividia",
+            "text1": "“This isn't my blood.”\n",
+            "text2": "Warchief Lividia's nomadic tribe inhabited the dusty badlands and deserts northeast of the western kingdoms, and were among the first hit by the rising Green Horde. While one might think nomads relatively immune to the slow-moving shambling hordes, there are only so many oases and safe harbours in the deserts, and all of them have been overrun. Warchief Lividia has journeyed to the western kingdoms, only to find them in even more dire straits. She believes her blade is needed more desperately here, and hopes to return to her people with allies at her back soon. \n"
+        },
+        {
+            "nameSurvivor": "Anton Guffen",
+            "text1": "“No, it's not made of iron. Do you see any rust?”\n",
+            "text2": "Anton Guffen is arguably the most brilliant enchanter of his civilisation. He specialised in everything from self-cleaning clothing to self-wielding weapons to explosive ballista bolts and projectiles. His weaponised enchantments led the kingdom to victory after victory and made Anton a very weathly man. Guffen Tower even rivaled the king's for height and splendor. The green horde changed everything. Now Anton dons his finest creation, an enchanted armor with incredible capabilities that turns him into almost a one-man army. In the battle against the black plague, he'll need it.\n"
+        },
+        {
+            "nameSurvivor": "Sir Schwarz",
+            "text1": "“Papers, please”\n",
+            "text2": "Sir Schwarz was once guardian of the palace gates. He was renowned for his steadfast resolve, combative prowess, and unflinching adherence to any orders given. Thus, when the green horde descended on the capital, Sir Schwarz guarded his gate, and only his gate. The palace was ransacked via the other three gates, but in front of the eastern portcullis a vast mound of zombie corpses served as a new bulwark. Some believed that Sir Schwarz is a kind of golem. He is never seen without his armour, never seems to sleep, and can sustain truly shocking wounds with no apparent debility. \n"
+        },
+        {
+            "nameSurvivor": "Liam",
+            "text1": "“Zombies are bad, but... well, I've seen some things”",
+            "text2": "Liam has always been something of a loner. He enjoys spending time with his friends well enough, but he was knnown to vanish, sometimes for weeks at a time. In the beginning, everyone was concerned with his disappearances, none moreso than his parents. Yet, he always returned, and never really spoke about where he'd been or what he'd been up to. As such, Liam now displays a surprising array of talents one might ordinarily associate with a thief. He can open locks, spirit items from people's pockets, and almost even hide in plain sight!"
+        },
+        {
+            "nameSurvivor": "Countess Ordelia",
+            "text1": "“Of course I fight in heels. Good lords, use your eyes man! I'm short”\n",
+            "text2": "Despite her slight stature, Countess Ordelia's presence can fill a room. Before the black plague, she commanded troops in the field to combat the orc hordes, and won more victories than many other commanders combined. She's renowned for her sharp tongue and razor wit, which was fearsome for her enemies at court and a delight for her friends everywhere. Now, among the ruins of civilisation, where she speaks, people listen. And if they want to escape the green horde's depredations, she may be their only hope.\n"
+        },
+        {
+            "nameSurvivor": "The Deathmaster",
+            "text1": "“Nothing I enjoy more than working with my axe.”\n",
+            "text2": "The Deathmaster's name is clearly an affectation, yet few can pass it off without looking ridiculous. One need only see him in action to understand that it's no hollow boast. The Deathmaster came to these lands in search of new music, strange enough. He had no notion of becoming a skald himself, but he could and would go great distances to hear something new. He hated nothing more than making such arduous journeys only to hear the exact same edda being performed with only slight variations. If the poser was egregious enought, the Deathmaster would take matters into his own hands. \n"
+        },
+        {
+            "nameSurvivor": "Zee",
+            "text1": "\"They called me a prodigy who could conquer a kingdom. All I ever really wanted were my pastries.\"\n",
+            "text2": "The wizards that raised Zee were increasingly stunned by her inborn magical talents. She need only glace at a spell's workings to grasp its essence, which is vital to spellcasting. However, if she must 'wing it', the results are massive headaches and burst blood vessels. Her natural command of sorcery has allowed her ragtag group to survive the green horde far longer than anyone believed possible. Indeed, the group would be lost without Zee.  \n"
+        },
+        {
+            "nameSurvivor": "Grayson Grüber",
+            "text1": "\"We battle that which is unfixed, mutating, and ultimately indestructible.\"\n",
+            "text2": "There are few wizards as formidable as Grayson Grüber in the battle against the green horde. His command of destructive magics exceeds dedicated elementalists many years his senior. Where he walks, charred, frozen, or disintegrated zombies lie strewn in his wake. Unfortunately, there are few wizards as dour and gloomy. Tragically, when the black plague struck, Grüber was away from the capital, and his long-standing (and unrequited) love was lost in the initial invasion. However, while Grüber may believe their cause is ultimately doomed, he will fight to his last breath in the name of vengeance.  \n"
+        },
+        {
+            "nameSurvivor": "Spearhead",
+            "text1": "\"Check me out! WOOO!!\"\n",
+            "text2": "He might have areal name, or he might not, but Spearhead certainly lives up to his chosen moniker. Few seasoned warriors seem so keen to leap into the fray with little regard for their own safety. Indeed, Spearhead is happiest with other survivors around to witness his reckless deeds. His people are barbarians that once roamed the deserts and badlands northeast of the western kingdoms, and thus, they were among the first hit by the surging green horde. While some may survive in isolated pockets across the badlands, Spearhead and his warchief have journeyed west seeking allies against the horde. Alas, they've found all too few.  \n"
+        },
+        {
+            "nameSurvivor": "Ultimate Baldric",
+            "text1": "\"From a numerical standpoint, teaching everyone in the world to read is actually possible now.\"\n",
+            "text2": "Baldric's long adventuring career was defined by his quest for knowledge. When delving a dungeon or journeying to distant lands, he would spend months researching every aspect, and making his findings public. He always contended that the more people knew about their world, the safer it would be. When the black plague struck, Baldric feared little for his own survival, and lamented that he could not convey his knowledge to the masses. They might have stemmed the tide before it began. It has since been his mission to spread knowledge everywhere he journeys.  \n"
+        },
+        {
+            "nameSurvivor": "Ultimate Ann",
+            "text1": "\"Blessed are the peacemakers. But, we're not at peace.\"\n",
+            "text2": "Behind the nun's habit and stern mask lurks the heart of a true berserker. Since the initial black plague, Ann has fought alongside her companions through thick and thin, desperate and hungry. Her survivalist skills proved invaluable to the tight-knit band of adventurers in the early days, and her combat prowess served even better. With the green menace on the rise in the west, and the black plague showing no signs of slowing, the group looks to Ann for her level head in the wilds, and her raging blades in combat.  \n"
+        },
+        {
+            "nameSurvivor": "Ultimate Clovis",
+            "text1": "\"I'm not dumb enough to wish the enemy was smarter, but their predictability presents no real tactical challenge.\"\n",
+            "text2": "Clovis looks like a man more apt to use his forehead for a battering ram, but that skull conceals a tactical mind like few others. His tactical plans and strategies have led the companions to victory time and time again. He especially relishes going up against necromancers who have at least a passing knowledge of warfare and its arts. Yet, when the time comes, he's more than capable of wading into the fray, blades swinging, sending zombie heads flying.  \n"
+        },
+        {
+            "nameSurvivor": "Ultimate Nelly",
+            "text1": "\"As one, ladies and lads! We fight as one!\"\n",
+            "text2": "Nelly has come a long way from serving ales in the local pub. When the black plague brought the first zombies she discovered talents she never knew she had. She would never have wished for the horrifying apocalypse that's descended on the land, yet she's proud of the woman she's become. She doesn't see herself as the heart of her adventuring group, but her gift for inspiration continually surprises even those that know her best. When it comes to rallying survivors, Nelly's gifts and unflagging spirit bring out the best in everyone.  \n"
+        },
+        {
+            "nameSurvivor": "Ultimate Samson",
+            "text1": "\"Zombie killin' be like workin' the forge. Lots o' hammer work! ...Lots messier though.\"\n",
+            "text2": "Samson's first love is smithing, and his second love is zombicide. The group owes their superior arms and armour to Samson's talents, and their survival to his martial skills. Now that the black plague has spread to the orc tribes, Samson can indulge yet another passion: killing orcs. While not a traditional enemy to the dwarves, the orcs in Samson's homeland were a constant nemesis to his clan, and old enmities die hard. Samson also serves as the group's defacto father figure, and they rely on his sound judgement and level head at all times.  \n"
+        },
+        {
+            "nameSurvivor": "Ultimate Silas",
+            "text1": "\"I'd never have wished this on anyone, but plague has ever been a means by which new institutions grow.\"\n",
+            "text2": "While Silas' people still debate entering the war (elven lands have yet to be seriously affected), Silas has spent his time on the front lines, gathering survivors and plying his bow in their defence. He argues that if all nations were one, and if all were united in common cause, nothing like the black plague could ever have occurred. He may very well be right. Yet, his notion of government is one that the rich and powerful fear with every fiber of their being. He calls it 'democracy'.  \n"
+        },
+        {
+            "nameSurvivor": "Fylguria",
+            "text1": "\"Nature roars in fury against these abominations. I am her voice.\"\n",
+            "text2": "While the elven high lords still debate entry into the war against the black plague, the druidic orders have heard the earth's agony at the tread of undead feet, and from among them Fylguria has answered. Her command of the natural elements makes her an unstoppable force and a potent ally against the green horde. She wishes only that her order had responded sooner, as necromantic magic saps the natural energies she summons to battle them. Yet, as the battle grows, so does her powers. \n"
+        },
+        {
+            "nameSurvivor": "Lorentz",
+            "text1": "\"Don't wander off the road unless I say it's safe.\"\n",
+            "text2": "While his manner is somewhat abrupt, and he can be somewhat less than empathetic towards his companions, Lorentz wishes only that they keep safe and out of harm's way. From a very young age Lorentz trained with his father to become a hunter and woodsman, and now those skills have been put to the ultimate test: keeping the companions out of the horde's ever-widening path. While he's most at-home in the wilderness, Lorentz's archery skills are just as adept at felling orcs as wild game. He generally forages most of the food the companions need, although Zee's pastry obsession leaves him confounded.  \n"
+        },
+        {
+            "nameSurvivor": "Princess Ayla",
+            "text1": "\"My people have a saying: Don't kill if you can wound. But, since zombie are already dead...\"\n",
+            "text2": "Princess Ayla hails from a distant land island that is practically a utopian paradise. Yet, while her people have long avoided contact with the world at large, the black plague is cause for concern for all free-willed peoples. As such, Princess Ayla, their mightiest warrior, lends her blade against the green horde. As a veteran of many battles, she advises striking directly at the necromancers behind the plague. In fact, in studying their grand designs, she senses there may be one particular mastermind, always directing the bigger picture.  \n"
+        },
+        {
+            "nameSurvivor": "Asmodeus",
+            "text1": "\"Alliteration almost always annoys the artistically archaic.\"\n",
+            "text2": "Once known for his imaginative and anti-establishment plays and poems, the bard call Asmodeus has turned his barbed wit towards the green horde with a passion. It's not that the zombies understand his utterances in combat, but they possess a cadence and flow that draw in his fellow survivors, allowing them all to fight almost as one. Rumour holds that he was horribly disfigured in the opening days of the black plague. When asked, Asmodeus himself simply grins, and remains, as ever, an enigma.  \n"
+        },
+        {
+            "nameSurvivor": "Katelyn",
+            "text1": "\"A weapon for every occasion.\"\n",
+            "text2": "One might think Katelyn brings a few too many blades to the fight against the Green Horde, but then she usually ends up employing them all in any given engagement. A bow for range, long blades for open areas, short blades for close in, and as many daggers as she can carry. Before the black plague struck the Green Horde she'd been a weaponsmith's apprentice, and when the army was shattered and the towns and cities overrun, she and her master took everything they could carry. Alas, he master did not survive, and she now carries the burden alone. \n"
+        },
+        {
+            "nameSurvivor": "Solveig",
+            "text1": "\"Legends from my homeland speak of 'choosers of the slain'. What would they make of the zombie horde, I wonder?\"\n",
+            "text2": "Solveig was a caraveneer, journeying south from her wintry homeland. Her stock consisted largely of cloth, tools, some well-preserved mead, and, most importantly, arms and armour. She'd heard of the war aginst the orcs, and she was relieved when her well-armed caravan made it to the capital. Unfortunately, before she could return home, the black plague struck, and money suddenly lost all importance. Like all her people Solveig is a trained warrior, skilled with shield and blade. She never thought to put it to much use, but everything has changed. \n"
+        },
+        {
+            "nameSurvivor": "Doran",
+            "text1": "\"Why the blade? Blades don't need to recharge.\"\n",
+            "text2": "Once a battlemage in the royal army, Doran now fights alongside the remnants of humanity for their very survival. While Doran can cast spells along with the best of wizards, he prefers his blade for close-in action. In the war against the orcs he learned the value of sharp steel, especially in protracted battles when the mind grows weary, and channelling spellpower becomes a herculean effort. A sword arm may tire as well, but adrenaline works better fuelling muscles than spells. Doran is always ready to teach a little wizardry in exchange for lessons in bladework. \n"
+        },
+        {
+            "nameSurvivor": "Kabral",
+            "text1": "\"I've got my mother's manners. I also have my father's face. It's in my pack.\"\n",
+            "text2": "Kabral was raised on a distant farmstead, itself one of the first casualties to the rising Green Horde. His mother brought him up as human as she could, not really knowing the orcish way. When she passed, he remained at the farm, a valuable hand, made so by his great strength and stamina, and in no small part, his natural talents as a warrior. When the Green Horde descended, this time as zombies, Kabral's valiant defence let most of the people escape to relative safety. \n"
+        },
+        {
+            "nameSurvivor": "Genevieve",
+            "text1": "“All right. You have to the count of three to show me you’re still breathing. One… Two…”\n",
+            "text2": "Genevieve is taking absolutely no guff from anyone. When the zombies attacked her home in the dead of night, she held them off while still in her nightclothes. Now that she’s in her armor and well-armed, it’s going to take a siege engine to stop her. Genevieve is a crack shot with her crossbow. She can take down a man, a boar, or a zombie from fifty yards. If they manage to get too close to shoot, she has been known to take a head clear off with her machete. Genevieve is in this war to win it.\n"
+        },
+        {
+            "nameSurvivor": "Inquisitor Mizar",
+            "text1": "“There is a writ for this. There is a writ for everything of importance. But there is also a scythe, for times that do not deserve a writ.”\n",
+            "text2": "Inquisitor Mizar knows more than a little about the ways of death, dying, and the undead. His order has been studying necromancy – in order to wipe it out – for far longer than this current crop of necromancers has been around. They know all the secrets. They know all of the ritae. And they will bring a proper and holy death to everything that needs to die. With his scythe and his will, with his prayers and his ritae, Inquisitor Mizar will bring death where it is needed, and stave it off where it is not yet welcome.\n"
+        },
+        {
+            "nameSurvivor": "Klom",
+            "text1": "“C’mon if you think you’re tough enough.”\n",
+            "text2": "Klom isn’t afraid of Zombies. He’s not afraid of anything – except spiders, but he’ll never own up to that one. He was a tough son-of-a-gun, a fighter and a bandit, long before the zombies started overrunning his camp. Once those pests showed up, well, then he just had something else to fight. With his flail in hand, Klom can stop just about anything. And if that doesn’t work, he’ll just stomp them. He’s taken a few trophies in his day, but the others tend to complain about rotting zombie heads. Maybe fingers won’t bother them as much?\n"
+        },
+        {
+            "nameSurvivor": "Lord Bazak",
+            "text1": "“Forward! Forward to victory! Ever onward!”\n",
+            "text2": "Lord Bazak is in this battle for the long haul. He knows – or, at least, he’s heard rumors – of some of the antics of the necromancers, and he knows they won’t be stopped easily. He’s seen firsthand what the zombies can do. They managed to drive them off when they attacked Lord Bazak’s lands, but only at the cost of several lives, and the even harder price of putting down those dead that rose as undead. Lord Bazak plans to move through the land like a plow, pushing the zombies before him and his warriors until there are no undead and no necromancers remaining.\n"
+        },
+        {
+            "nameSurvivor": "The Blackheart",
+            "text1": "“Rise, ancestors, and aid us.”\n",
+            "text2": "The Blackheart has been the shaman of his tribe since he was a young man, since their last shaman vanished. He has given so much of his life to the magic, he looks as much one of the dead as of the living. He can speak to those dead – the further he gets from youth, the easier the dead are to talk to. But the zombies are neither dead nor alive, and the Blackheart finds them repulsive and terrifying. Dead that are not dead… they have to go.\n"
+        },
+        {
+            "nameSurvivor": "Cyrine",
+            "text1": "“Water and air, earth and fire, all are repulsed by the undead menace.”\n",
+            "text2": "In another world, a world where she made different choices, Cyrine could have ended up a necromancer. Her art is so very different from necromancy – and yet its roots are intertwined with those of the death art. In another world, Cyrine may have been free, not chained to her master and to her art. She may have commanded zombies instead of dragons of air and will and fire. This world, however, sees her fighting those necromancers. And if she is to pay for her decisions with chains, well, she will not be the only one to pay.\n"
+        },
+        {
+            "nameSurvivor": "Carol Black-Oak",
+            "text1": "“These wretched souls didn’t deserve this. Not even the orcs.”\n",
+            "text2": "As a highly devout individual, Carol Black-Oak finds the black plague particularly vile. Not only has it killed countless numbers, but their souls may well be trapped within these undead husks. The mages and priests among the survivors can’t say either way, as their animation could be due to a number of foul energies. Carol won’t take that chance. She sees it as her holy cause to free the souls trapped within these withered, shambling husks, and send those responsible screaming down to the netherworld. \n"
+        },
+        {
+            "nameSurvivor": "Tola",
+            "text1": "“Dis ‘old ting is pants. Won’ find ‘aught but gubbins fer suppa.” \n",
+            "text2": "Where once Tola would’ve happily butchered any of them for their loot, now he fights alongside the survivors against the rising green horde. For the survivor’s part, the renegade orc is a welcome addition. They just wish they could understand anything he says. His dialect of common is unknown in the west, and though the words sound like common, they’re not ordered in any sane manner. Tola himself has no complaints with days of endless battle, save that there’s rarely enough scavenged food to eat his fill. \n"
+        },
+        {
+            "nameSurvivor": "Cardinal Birmbauer",
+            "text1": "\"I believe the power of the Gods can persuade mankind to do terrible things, just as I believe the barrel of my gun can persuade them to be good again.\"\n",
+            "text2": "Once a peaceful priest with his own small neighbourhood church, Cardinal Reginald Birmbauer turned away from his life of piety when the goddess he worshipped abandoned him in his time of need - the temple he had built with his own hands consumed by giant space worms. Determined to move on with his life and to make a difference in the world, Reginald dusted off his old runeshot blunderbuss and joined the underground resistance to fight against the forces of evil that were spreading throughout The Great City of Gateway. He is a ballistics expert and an unmatched scholar of theology.\n"
+        },
+        {
+            "nameSurvivor": "Kendra",
+            "text1": "\"Our great city's leaders have gone astray - I can no longer watch as our wizards are carted away to prison or worse - now is the time for disobedience with a vengeance.\"\n",
+            "text2": "Once a loyal officer of the Gateway City Guard, Kendra's loyalties switched when she could no longer, in good conscience, execute the orders of the Chancellor and his Inquisitors whose sole objectives is to mercilessly crush the Wizard Uprising. Kendra was mainly responsible for beating back the Drueggar Horde from the city walls, a cause she believed to be just and righteous, but when her talents were recognised by her superiors, she was given new tasks relating to raids on resistance hideouts and such. It became too much to bear when she was forced to arrest and witness the execution of one of her childhood friends. From then on she vowed to fight only for the resistance. \n"
+        },
+        {
+            "nameSurvivor": "Bjorn",
+            "text1": "Crossover character, B-sieged",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Khaz Maghur",
+            "text1": "Crossover character, B-sieged",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Orobox",
+            "text1": "Crossover character, B-sieged",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Lugh",
+            "text1": "Crossover character, B-sieged",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Eileen",
+            "text1": "Crossover character, B-sieged",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Myrinia",
+            "text1": "Crossover character, B-sieged",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Osvith",
+            "text1": "Crossover character, B-sieged",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Kador",
+            "text1": "Crossover character, B-sieged",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Sylvia",
+            "text1": "“Sometimes, if I’m lucky, they try to run away before I kill them.”",
+            "text2": "Captain Sylvia Samedi is a sharp one. She’s always had to be. She ran away from home as a child and signed up with a pirate ship bound for warmer places. By the time the «ship’s boy» turned out to be a girl, she’d proven herself capable; by the time the zombies started menacing the mainland, she’d been captain of her own ship for a year. You can’t steal from people if there’s nothing left, and Captain Sylvia encountered more than a couple ships sailed by dead people. She’ll end them all, if she can, and smile while she does it."
+        },
+        {
+            "nameSurvivor": "Julian",
+            "text1": "“That one looks like it might have some gold. I’ll take care of it.”",
+            "text2": "Julian was doing pretty well for himself. The cities were growing full and fat, and a fat city is a great place for someone who lives by skimming off the top. A few coins here, a jewel or two there, and you are living like a king and working about as much as an alley cat. Julian had a great life – and then the zombies overran the cities. It’s hard to pick the pocket of a brainless monster. So first, he has to kill them. Then he can steal from them. And, on the bright side, the zombies never report his crimes to the city watch."
+        },
+        {
+            "nameSurvivor": "Paul",
+            "text1": "“I’m just here to do the job I came to do. Pass the whisky.”",
+            "text2": "Paul the Huntsman was content wasting his life away in drink and, occasionally, hunting. He’d crawled into a bottle in a cabin in the woods and was there to stay. Then the zombies came. They came slowly, a few at a time through the thick underbrush. And he chopped through them like old logs. It wasn’t until one of them nearly killed him that the Huntsman clambered out of the bottle. Since he’d love to climb back in, he plans to kill them all and go back to drinking."
+        },
+        {
+            "nameSurvivor": "Piper",
+            "text1": "“Growl!! Growl, I say!  That’s your only warning!”",
+            "text2": "When the zombies attacked, those few who survived had many different reactions. Some cowered, some fought, and some… well, lost it. Piper believes she has become a werewolf. The fact that real werewolves keep their afflictions hidden doesn’t matter to her. She says mankind needs all the help they can get, and they should get over the fact that sometimes she fights on all fours. Fortunately, this ‘transformation’ seems to occur only in her own mind, and in battle she uses her paired blades to furious effect. If she wants to call them her ‘claws’ and a double-bladed attack her ‘bite’, then so much the better."
+        },
+        {
+            "nameSurvivor": "Gregoire",
+            "text1": "“Sure, I howl at the moon. It’s good for the soul.”",
+            "text2": "Gregoire once did battle for his king in one of the many great wars against the northern kingdoms. Though he began as a lowly footman, his prowess and natural talents (and unwavering luck) brought him much fame and glory. He refused elevation as a knight, however. His only wish was to return home to the girl he had left behind. Yet, the war had been long, and the girl’s family had married her away. The loss of one so dear, the memory of whom had kept him going throughout the war, twisted his mind in an unusual way. Gregoire ‘went feral’ to a degree, and became a hermit, choosing to live far from civilised lands in the deep woods. He’s no werewolf, as some have thought, but the hardship of living day to day became the only thing keeping him alive. But now, with the zombie threat, he has returned to living lands. Where is more difficult to survive than in an undead-choked city?"
+        },
+        {
+            "nameSurvivor": "Ygraine",
+            "text1": "\"Some good warhores would be perfect for this. But just try finding living beasts in this zombie-infested wasteland.\"",
+            "text2": "Ygraine's people have long had an affinity with horses, and were known for breeding the strongest, fastest, noblest beasts seen in any kingdom. Ygraine herself was a shieldmaiden of many battles, and was at home in the saddle as on her own two feet. Alas, the black plague has scattered the great herds to the winds, and Ygraine's people along with them. She fights now afoot alongside her fellow survivors, and would trade an entire kingdom for a horse."
+        },
+        {
+            "nameSurvivor": "The Marquis",
+            "text1": "\"At last, an art form where I truly excel.\"",
+            "text2": "Few nobles promoted writing, music, fashion, sculpting, and painting more than the Marquis de Roget. While he himself possessed little in the way of these talents, the Marquis had exquisite taste in all areas, and the means to finance their creators. No, the only true talent the Marquis possessed was swordplay. He is one of the few survivors from the aristocracy, thanks entirely to his bladework. Now the Marquis travels the land with his fellow survivors, seeking safe refuge where the arts may flourish once more."
+        },
+        {
+            "nameSurvivor": "Earl Jaimie",
+            "text1": "\"All great tales must come to an end. Let me tell you what happens!\"",
+            "text2": "InfEarl Jaimie was a wealthy noble from that far-off (and strangely named) land of Dhüm. He's traveled the world, collecting books and stories, watching mummer's shows and stage plays, and he especially enjoys riddles. Unfortunately he also loves sharing the endings with anyone that listens, and thus came by his somewhat ignominious title. Now, trapped in the west by the black plague and green tide threatening to overwhelm humanity, Earl Jaime fights alongside his fellow survivors. He only wishes he knew how this would end.ormation"
+        },
+        {
+            "nameSurvivor": "Sigrun",
+            "text1": "\"Wait, they're rising from their graves? You mean I get to kill them twice!??\"",
+            "text2": "For a woman of blood with an axe to grind, the black plague striking the green horde could not have been a greater blessing. Sigrun has battled the orcs since a very young age. When her nomadic tribe unknowingly travelled through orc territory, the greenskins descended en masse and slaughtered any they couldn't take captive. Sigrun eventually escaped and has dedicated her life towards hunting and slaying orcs anywhere she can find them. While the black plague is a horrible menace, she can't conceal at least a little glee in hacking them up a second time."
+        },
+        {
+            "nameSurvivor": "Zanzibar",
+            "text1": "\"With a flick of the wrist I can produce a kind of magic that will give these necromancers a sheer heart attack.\"",
+            "text2": "Zanzibar's amazing magical powers were only surpassed by his showmanship. He was as comfortable entertaining a crowd as he was handling an ogre battle or a dragon attack (and those made for quite a spectacle). You'd think the black plague would put a damper on his spirits, but even under pressure and just trying to keep himself alive, Zanzibar's powers lost none of their flair. The show must go on, as he loves to say. While the necromancers may want to live forever, Zanzibar just wants to become a legend."
+        },
+        {
+            "nameSurvivor": "North the Halfling",
+            "text1": "“Don't hide from curiosity! Throw open the door! ...Well, unless you hear zombies behind it.”",
+            "text2": "North's true name is somewhat unpronounceable by humans, so he shortened it for his friends' benefit. As he was born with an unerring sense of direction (even on the darkest nights or beneath thick clouds), the moniker fits perfectly. If there's a beating heart to their ragtag group, it's North. His song and stories keep them going, no matter the odds. North wanted nothing more than to journey the world, see new sights, and meet everyone he could find. THe zombie menace has not deterred his ambitions."
+        },
+        {
+            "nameSurvivor": "Brannog",
+            "text1": "\"King? King o' what? Ain't nothin' left to be king of!\"",
+            "text2": "Brannog Steelgraves was once lord and king of a mighty dwarven city-state beneath the northern mountains. His rule was as peaceful as any dwarven government can be (meaning only four wars in two decades as opposed to a dozen), and he was hailed as one of the wisest, most benevolent kings dwarven kind had ever known. Yet, when the black plague struck, their small kingdom was taken completely unawares. Overnight the mountains were drowned beneath the green horde, and King Brannog and his family were forced to flee. Now he pays the orcs back in kind, one crushed skull at a time."
+        },
+        {
+            "nameSurvivor": "Finarton",
+            "text1": "\"We killed all our wizards for good reason. Now I have to clean this up!\"",
+            "text2": "Finarton is grumpy. He likes his mountains. He likes his solitude. But most of all he likes peace and quiet. The black plague (and now the green horde) has brought him anything but. The orcs were noisy neighbours to being with, and now they seek out living flesh day and night. If Finarton has one thing, it's a lot of living flesh. Giant society has no wizards after a similar incident in the distant past, remembered only by oral tradition among the giant folk. He suggests humankind use their own rather drastic method of prevention."
+        },
+        {
+            "nameSurvivor": "Brix Moonshine",
+            "text1": "\"Ares and I bring you tidings from the elven kingdoms! ...Ares? My friend. The giant spider standing right there. Why can't you humans ever see him??\"",
+            "text2": "Lord Brix has long served as a liaison between the western kingdoms and the elven courts. When the green horde began their wars in earnest, Lord Brix returned to his homeland to urge strong support for their human allies. An ambush by plague-bearing orcs left Lord Brix as the only survivor, and suffering a severe concussion. While his faculties all seem intact, he now constantly speaks to and references a giant spider companion named 'Ares'. While invisibility magic is not unknown, it would seem that Ares is but a figment of Lord Brix's imagination. Perhaps that's a good thing, as the last thing anyone needs on top of the black plague is an infestation of giant, invisible spiders!"
+        },
+        {
+            "nameSurvivor": "Ostokar",
+            "text1": "“This, this is not how you do things. This is not the way it is done.”",
+            "text2": "Ostokar has studied the ways of the dead for the lifetimes of several humans. He knows dozens of ways they can be raised, many ways they can be spoken to. He knows more about the dead than any human necromancer could even hope to know. He has ventured forth from his cave and his boneyards to look into these human dead-raisers, to see if they have anything he can learn from (unlikely), and to see if there is anything to be done to stop them."
+        },
+        {
+            "nameSurvivor": "Kirag and Thorg",
+            "text1": "“Watch your hands ‘round him. ‘E bites.”",
+            "text2": "Kirag’s clan of dwarves were feared as the most successful raiders across the western lands. They specialised in hit-and-run tactics, and lightning strikes at villages, towns, and caravans who would never believe dwarves could train or use mounts effectively. Direwolves were common, horses less so, giant boars, and so on.  Yet, none were as exotic as Kirag’s own Thorg. They found him in a wizard’s tower. Obviously Thorg was some kind of giant, but had been crossed with stranger things. Yet, as a pair, Kirag and Thorg are inseparable, and potent warriors against the black plague."
+        },
+        {
+            "nameSurvivor": "Tak \"Spellbones\" Trooblood",
+            "text1": "\"Let's get this revolution business over with soon, so I can get back to my work - bones don't talk to just anybody, ya know?\"",
+            "text2": "Paleomancy is the study of ancient bones, and the ability to invoke powerful magic derived from those bones. Tak Trooblood is perhaps the most famous and successful practitioner of this type of magic today. Using his vast knowledge of extinct animals, and drawing upon his own very impressive collection of ancient bones, Tak can call forth the power of little-known magical creatures that once roamed the landscape of the Known World. The authorities of Gateway have declared him a heretic and forced him to close the doors to his beloved Museum of Magical Beasts. Shortly thereafter Tak went underground and joined forces with the resistance."
+        },
+        {
+            "nameSurvivor": "Bjorn the Barbarian",
+            "text1": "“Cowards! Come face a man who hides not behind bricks or stone! Face Bjorn and die!”",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Siegfried the Dwarf Berserker",
+            "text1": "“If you are looking for your death, fear not...for you have found it!”",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Elias the Wizard",
+            "text1": "\"Azuriman...napheas...zondrobah! Back! Back vile thing to whence you came!\"",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Whisper the Rogue",
+            "text1": "\"Shhhh... no one can hear you. Or cares.\"",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Owen the Paladin",
+            "text1": "“Through me, the Light. Through the Light, victory.”",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Sybil the Ranger",
+            "text1": "“I've have been killing monsters since before your grandparents were children. Stand aside.”",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Mila the Barbarian",
+            "text1": "\"By the blood of my kind and the fires of their hearths, the Darkness will fall.\"",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Azrael the High Elf",
+            "text1": "\"For crown and country!\"",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Myriam the Witch",
+            "text1": "“How can you hope to succeed against the combined might of the universe in my hands?”",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Ajax the Sorcerer",
+            "text1": "\"Bow. Bow before the might of Ajax!\"",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Zoe the Dwarf",
+            "text1": "“Missus? Missus! I'll show you who's the missus here!”",
+            "text2": "Crossover character, Massive Darkness"
+        },
+        {
+            "nameSurvivor": "Johannes",
+            "text1": "Johannes used to make his living as an Engineer. In fact, he was one of the smartest in his field. He’s is a man of science and his inventions made people’s lives easier. That was before the plague hit. Now, his inventions keep people alive. He’s able to take even the most mundane objects and turn them into weapons, an incredibly helpful skill to have during these dark times. Johannes has used his resourcefulness and ingenuity to survive up until this point, but to keep going, he’s going to need a little help from his friends.",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Asim",
+            "text1": "Asim is a traveler and businessman at heart. In his previous life, before the plague, he sold goods around the world. However, when the Orcs came, Asim decided to stand and fight rather than run. To everyone’s surprise, he turned out to be a skilled warrior with a number of kills under his belt. Asim found a new meaning to life amongst all of this death. He once thought he’d return to his homeland as soon as an opportunity presented itself, but now he might fight on with his new allies. The future is an open road for him.",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Seli",
+            "text1": "Seli’s story is a mystery, even to her. She was found on a mound of corpses with a nasty blow to her head. At first, it seemed as if she had developed amnesia, but it’s actually much worse. Seli can’t seem to form memories past a few days. It could be a curse, a result of her injury, or some other cause, but everyday she awakes in a group of total strangers. Luckily, that ailment hasn’t affected her fighting skills. Seli is an amazing athlete and a skilled assassin. The Survivors in her party are just going to have to make sure she knows they’re on HER side.",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Megan",
+            "text1": "Megan grew up as an heir to a family of thieves. She displayed a sharp mind at an early age, with an almost unquenchable thirst for learning. Magic was the subject that interested her the most, and with the support of her family, she devoured every magical book she could get her hands on. It wasn't long before she set off for an adventurer’s life as a unique kind of mercenary. She was deep in Orc territory when the plague hit. The temptation to turn to dark magic was strong, but she’s avoided it so far. Her goal is to work with other Survivors to wipe out the Necromancer threat… and hopefully to avoid turning to the dark.",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Rolf",
+            "text1": "Rolf grew up too impulsive to be a good farmer and too hotheaded to be a good soldier. The only path left him was as an Orc hunter, which actually suited him just fine. His role was to defend the border and punish any Orc that dared stray out of their territory. Sure, the life span of an Orc hunter wasn’t usually that long, but Rolf proved to be especially skilled at it. When the zombie Orcs attacked, Rolf was on the frontline. He saw, firsthand, many of his fellow hunters fall. But he was resolved to keep fighting, and in the end, he managed to escape the Green Horde. Now, driven by hate and a need for revenge, Rolf scours the countryside in search of Survivors or zombie Orcs. Good news if you’re the former, and bad if you’re the latter.",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Berin",
+            "text1": "Berin has never been one to shy away from adventure. He will take on any task for the right price. He was hired by a local Lord to take on the Orcs that were raiding his fields. Berin accepted the challenge and faced the Orcs head on. He made short work of them, too, until the plague hit. Berin’s party quickly got reduced, until he was the only one left standing. He’s seen his fair share of death and destruction along the way, but that hasn’t sapped his love of battle. He’s on the lookout to join other Survivors and avenge the deaths of his comrades.",
+            "text2": ""
+        },
+        {
+            "nameSurvivor": "Johrgrund",
+            "text1": "“Death is too weak to carry me!”",
+            "text2": "Giants are strong and hardy, with limitless endurance. They’re also dumb as the stone they seem made of. Johrgrund the Giant had the misfortune of attacking Korin and Ruff one day, as they traveled the forest road that Johrgrund considered his. Ruff easily defeated the giant, destroying the creature’s hand in the process. Korin wished to slay Johrgrund, but Ruff thought that would be a waste. Johrgrund swore his everlasting loyalty to Ruff, and has since become his faithful follower. Ruff also forged a giant morningstar to replace Johrgrun’s right hand. The giant couldn’t be happier with the trade."
+        },
+        {
+            "nameSurvivor": "Ruff Ghanor",
+            "text1": "“My powers are a tool. Tools are neither good nor evil.”",
+            "text2": "Discovered as an abandoned child in a cave, Ruff was clearly a prodigy. Hard-working, quick to learn, and imbued with a talent for warfare, the monks that raised Ruff were not wrong to call him a prodigy. Most surprising of all, however, was his bizarre magical talent to create what could only be called earthquakes with his bare hands. The Prior, leader of the monastery, saw that he had the makings of a true dragonslayer on his hands, and raised Ruff with the specific goal of freeing all the known lands from the tyrant dragon Zamir."
+        },
+        {
+            "nameSurvivor": "Korin",
+            "text1": "“Dragonslayer, eh? And yet, I can still out-drink him.”",
+            "text2": "Korin was the son of a local guardsman, and often stole away to the monastery to study (which he didn’t like) and train in combat (which he very much did like). Although their relationship was antagonistic at first, Korin’s good nature and natural ebullience soon made them fast friends. Although Ruff’s abilities now surpass Korin’s by a vast gulf, the two remain constant companions, with Korin serving as the anchor when Ruff falters and a cheerful counterpoint when Ruff falls into fits of despair."
+        },
+        {
+            "nameSurvivor": "The Prior",
+            "text1": "“Lazy saint! We need you!”",
+            "text2": "It was the Prior that first identified the young Ruff as a descendant of a line of kings called the Ghanor. The Prior considers Ruff a gift from Saint Arnold himself, and with Ruff’s astounding powers, the Prior knew Ruff would be the one to defeat the tyrant dragon Zamir. Although the Prior’s past has been clouded in mystery, he eventually opened up to Ruff, revealing that he was half-hobgoblin, and had once been a warrior in Zamir’s brutal army. It was this experience that convinced the Prior that destroying Zamir would be his life’s mission."
+        },
+        {
+            "nameSurvivor": "Cul’Nar",
+            "text1": "“Mine is a holy road.”",
+            "text2": "Cul’Nar secretly belongs to the Earth Mother cult. His position as a bodyguard and executioner to the elite of the Great City rely on his keeping this a secret. Alas, his devotion to that ancient religion was discovered. Exposed and hunted through the city, Cul’Nar had little choice but to cut a bloody swath through those who dared oppose him. Now, guided by his goddess’s whispers in his ear, Cul’Nar walks a solitary path towards destiny."
+        },
+        {
+            "nameSurvivor": "Jorvak",
+            "text1": "“I have a new pack now, though I do miss the old one.”",
+            "text2": "Jorvak was left on a hillside at birth where it was expected he’d be taken by the wild dogs. Instead, he became one of them in a very literal sense. He learned to hunt and fight alongside his four-legged brethren. Alas, one fateful day, he was captured by scouts from the Tyrant King’s war host. He spoke no language, and it amused the Tyrant to see a man who would be a dog. The Tyrant ordered that he be put into the army with the other ‘dogs of war’. Since then, Jorvak has proven himself time and again as one of their most capable warriors."
+        },
+        {
+            "nameSurvivor": "Gurbak",
+            "text1": "“Their mistake was giving me weapons that can’t be taken from me.”",
+            "text2": "Gurbak was cast from his tribe for crimes he didn’t commit. Cast into a wilderness unfamiliar to him, far from his tribe’s territory, he would certainly have perished of exposure and hunger, but he was taken up by a slaver’s caravan and sold into the Grand Arena. He became a Champion of great renown, one of the most feared in the arena. Rioting in the city led to his eventual escape, and now he stalks the world, searching for all who have wronged him."
+        },
+        {
+            "nameSurvivor": "Sha’Keel",
+            "text1": "“My blade will speak for me.”",
+            "text2": "A spawn of the TYRANT, Sha’Keel was noted for her ferocity after killing three of her sisters in the breeding pits of the red tower. Spared from the TYRANTS harem, her skill with the blade was rewarded with a position in the house guard. After biting out her commanders throat she was made dumb by the priests and their knives and sent out away to the furthest borders of the TYRANTS lands. She now wanders the wastes, her weapons for hire. Her hatred of authority undimmed."
+        },
+        {
+            "nameSurvivor": "Antha the Witch",
+            "text1": "“I foresaw your actions.”",
+            "text2": "Antha was born with the second sight, and has developed her vision and her connection to the Otherworld as a young child. She saw the threat of the zombies coming, and she has seen the paths that this can take. There are a few roads coming that lead only in blood and tears and death. She has come from her home to block off those roads, knowing that the very act of her travel changes some of the paths. But there are still so many dark paths ahead."
+        },
+        {
+            "nameSurvivor": "Lady Grimm",
+            "text1": "“Go.”",
+            "text2": "They call her Lady Grimm, the other knights, the peasants, her lord. Nobody has asked her what her name is, but neither has she volunteered it. She volunteers almost nothing, says almost nothing. Since the day she showed up at the fort, half-drowned and wearing a ruined arming jacket, her eye and face marred by a livid cut, she has been mysterious and quiet. But she has also been fierce, the strongest defender of the fort, the first into any fray. Zombies stop moving when she hits them with her war hammer, and don’t get up again."
+        },
+        {
+            "nameSurvivor": "Redcap Rodney",
+            "text1": "“Heh. Any last words? Heh, heh.”",
+            "text2": "There will always be criminals to execute, and Redcap Rodney’s headsman’s axe will always be ready. Always, that is, except when the scourge of zombies pushes into the cities, wiping out criminals and the lawful alike, threatening the very survival of humanity and, more importantly, threatening Rodney’s comfortable state of employment. For the moment, Rodney has moved from decapitating criminals to decapitating zombies. The swing is a little different, the results a little more messy, but his hood was already red. A hundred or a thousand zombies worth of blood won’t dye it – or his hands – any darker."
+        },
+        {
+            "nameSurvivor": "Cadence",
+            "text1": "“You ruined my life. I’m going to destroy yours.”",
+            "text2": "Cadence didn’t mean to go feral. When her family was wiped out by the necromancers, she only meant to flee into the woods for a day or two. She knew how to shoot – any self-respecting huntsman’s daughter would – and how to live off the woods. Her father taught all of them, daughters and sons. Now the rest of them are dead, and just Cadence, the baby of the family, remains. She has lived in the forest for months, practicing her shooting, surviving off her wits. Now she’s ready for revenge."
+        }
+    ]
+}
