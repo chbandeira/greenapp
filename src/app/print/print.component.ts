@@ -21,6 +21,9 @@ export class PrintComponent implements OnInit {
   lang: any;
   printOption: string;
   loading = '';
+  styleProgress: string;
+  valuenowProgress: number;
+  downloadPdfDisabled: boolean;
 
   constructor(
     private survivorService: SurvivorService,
@@ -44,10 +47,12 @@ export class PrintComponent implements OnInit {
 
   private setPrintOptionAllSurvivors() {
     this.printOption = this.lang['text9'];
+    this.downloadPdfDisabled = false;
   }
 
   private setPrintOptionOnlySurvivorsSaved() {
     this.printOption = this.lang['text10'];
+    this.downloadPdfDisabled = false;
   }
 
   private sliceGroupOfSurvivors() {
@@ -57,19 +62,22 @@ export class PrintComponent implements OnInit {
   }
 
   downloadPdf() {
+    this.valuenowProgress = 0;
+    this.styleProgress = '0%';
+    this.loading = this.lang['loading'];
     const doc = new jsPDF('p', 'mm', 'a4');
     const i = 0;
     this.savePdf(i, doc);
   }
 
   savePdf(i: number, doc: jsPDF) {
-    this.loading = this.lang['loading'];
+    this.valuenowProgress = ((i + 1) / this.groupSurvivors.length * 100) | 0;
+    this.styleProgress = `${this.valuenowProgress}%`;
     html2canvas(document.querySelector('#content' + i)).then(canvas => {
-      var imgWidth = 210;   
-      var imgHeight = canvas.height * imgWidth / canvas.width;  
-      const contentDataURL = canvas.toDataURL('image/png')  
-      var position = 0;  
-      doc.addImage(contentDataURL, 'PNG', 0, position, imgWidth, imgHeight);
+      const imgWidth = 208;
+      const imgHeight = canvas.height * imgWidth / canvas.width;
+      const contentDataURL = canvas.toDataURL('image/jpeg');
+      doc.addImage(contentDataURL, 'JPEG', 0, 1, imgWidth, imgHeight);
       i++;
       if (i < this.groupSurvivors.length) {
         doc.addPage();
@@ -82,6 +90,7 @@ export class PrintComponent implements OnInit {
   }
 
   addAllSurvivors() {
+    this.downloadPdfDisabled = true;
     this.survivorService.survivors()
       .subscribe(data => {
         this.survivors = [];
@@ -98,6 +107,7 @@ export class PrintComponent implements OnInit {
   }
 
   addOnlySurvivorsSaved() {
+    this.downloadPdfDisabled = true;
     this.survivorService.localSurvivors()
       .subscribe(data => {
         this.survivors = data;

@@ -27,7 +27,7 @@
     "add": "Adicionar",
     "remove": "Remover",
     "print": "Imprimir",
-    "text7": "Cuidado! Baixar todos os sobreviventes pode ser mais que 300 MB. Seria melhor baixar de um PC.",
+    "text7": "Baixar todos os sobreviventes pode consumir cerca de 8MB até 25MB.",
     "text8": "Você precisa adicionar sobreviventes.",
     "downloadPdf": "Baixar PDF",
     "text9": "Todos os sobreviventes",
@@ -38,5 +38,6 @@
     "close": "Fechar",
     "gameEffect": "Efeito do jogo",
     "references": "Referências",
-    "text11": "Mais detalhes em"
+    "text11": "Mais detalhes em",
+    "wait": "Aguarde..."
 }

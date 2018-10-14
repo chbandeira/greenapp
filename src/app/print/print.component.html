@@ -15,12 +15,18 @@
       {{lang?.text10}}
     </label>
     <label class="m-2" (click)="addAllSurvivors()">
-      <input type="radio" name="options" id="option2" autocomplete="off" > 
+      <input type="radio" name="options" id="option2" autocomplete="off">
       {{lang?.text9}}
     </label>
   </div>
-  <button *ngIf="survivors.length > 0" class="btn btn-info m-2" (click)="downloadPdf()">{{lang?.downloadPdf}}</button>
-  <span *ngIf="loading != ''"> <i class="fas fa-clock"></i> {{loading}}</span>
+  <button *ngIf="survivors.length > 0" class="btn btn-info m-2" [class.disabled]="downloadPdfDisabled" (click)="downloadPdf()">{{lang?.downloadPdf}}</button>
+
+  <span *ngIf="downloadPdfDisabled"> <i class="fas fa-clock"></i> {{lang?.wait}} </span>
+  <span *ngIf="loading != ''"> <i class="fas fa-clock"></i> {{loading}} </span>
+  <div *ngIf="loading != ''" class="progress m-2">
+    <div class="progress-bar progress-bar-striped" role="progressbar" [style.width]="styleProgress"
+      [class.aria-valuenow]="valuenowProgress" aria-valuemin="0" aria-valuemax="100">{{valuenowProgress}}%</div>
+  </div>
 
   <div class="m-2">{{lang?.survivors}} ({{survivors.length}})</div>
   <div *ngIf="survivors.length === 0" class="m-2"><i class="fas fa-exclamation-triangle text-warning"></i>
@@ -33,7 +39,8 @@
       <div *ngFor="let survivor of group" class="col-6">
 
         <div class="d-flex justify-content-between text-light bg-dark pl-1 pr-1 mb-1">
-          <strong>{{survivor.name}}</strong> <zga-badge [survivor]="survivor"></zga-badge>
+          <strong>{{survivor.name}}</strong>
+          <zga-badge [survivor]="survivor"></zga-badge>
         </div>
         <div *ngFor="let skill of survivor.level.skillBlue" class="font-skill text-justify">
           <zga-print-skill [colorLevel]="'blue'" [skillContent]="skill" [localSettings]="localSettings" [lang]="lang"></zga-print-skill>
