@@ -1,7 +1,7 @@
 {
     "about": "Sobre",
     "versionapp": "Versão do APP",
-    "text1": "Este aplicativo foi desenvolvido para agilizar a leitura das habilidades de cada sobrevivente que o jogador esteja utilizando nos jogos Zombicide Green Horde e Zombicide Black Plague.",
+    "text1": "Este aplicativo foi desenvolvido para agilizar a leitura das habilidades de cada sobrevivente que o jogador esteja utilizando nos jogos Zombicide Green Horde e Zombicide Black Plague. Se quiser reportar problemas, pode entrar em contato pelo email.",
     "text2": "As configurações e informações de sobreviventes são salvas diretamente no armazenamento local do navegador do dispositivo.",
     "by": "Desenvolvido por",
     "icons": "Ícones",
@@ -36,5 +36,6 @@
     "wiki": "Wiki",
     "loading": "Carregando...",
     "close": "Fechar",
-    "gameEffect": "Efeito do jogo"
+    "gameEffect": "Efeito do jogo",
+    "references": "Referências"
 }
