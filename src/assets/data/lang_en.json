@@ -1,7 +1,7 @@
 {
     "about": "About",
     "versionapp": "APP Version",
-    "text1": "This application was designed to make it easier to read the abilities of each survivor the player is using on the games Zombicide Green Horde and Zombicide Black Plague.",
+    "text1": "This application was designed to make easier to read the abilities of each survivor that the player is using on the games Zombicide Green Horde and Zombicide Black Plague in addition to show their background. If you want to report bugs, you can contact me by email.",
     "text2": "Settings and survivors information are saved directly to the local storage of device browser.",
     "by": "Developed by",
     "icons": "Icons",
@@ -10,8 +10,8 @@
     "example": "Example",
     "survivors": "Survivors",
     "settings": "Settings",
-    "text5": "App for Zombicide Green Horde (and Black Plague too).",
-    "text6": "Go to the menu above to configure the App language and see your Survivor(s).",
+    "text5": "For reading the skills of survivors of the Zombicide Green Horde (and Black Plague as well).",
+    "text6": "Go to the menu above to configure the language and see your Survivor(s).",
     "appLanguage": "App Language",
     "skillTitleLanguage": "Skill title language",
     "skillDescriptionLanguage": "Skill description language",
@@ -36,5 +36,7 @@
     "wiki": "Wiki",
     "loading": "Loading...",
     "close": "Close",
-    "gameEffect": "Game effect"
+    "gameEffect": "Game effect",
+    "references": "References",
+    "text11": "See more on"
 }
