@@ -7,8 +7,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LangService {
 
-  private _dataLangEn = '../../assets/data/lang_en.json';
-  private _dataLangPt = '../../assets/data/lang_pt.json';
+  private _dataLangEn = './assets/data/lang_en.json';
+  private _dataLangPt = './assets/data/lang_pt.json';
 
   constructor(private http: HttpClient) { }
 

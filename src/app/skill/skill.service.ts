@@ -11,7 +11,7 @@ import { Skill } from './skill.model';
 })
 export class SkillService {
 
-  private _dataSkill = '../../assets/data/skills.json';
+  private _dataSkill = './assets/data/skills.json';
 
   constructor(private http: HttpClient) { }
 

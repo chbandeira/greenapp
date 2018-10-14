@@ -10,7 +10,7 @@ export class WikiService {
   constructor(private http: HttpClient) { }
 
   background(survivorName: string): Observable<any> {
-    return this.http.get('/wiki/' + survivorName.replace(' ', '_'), { responseType: 'text' });
+    return this.http.get('http://zbp.wikia.com/wiki/' + survivorName.replace(' ', '_'), { responseType: 'text' });
   }
 
 }

@@ -10,7 +10,7 @@ import { SkillService } from '../skill/skill.service';
 })
 export class SurvivorService {
 
-  private _dataSurvivors = '../../assets/data/survivors.json';
+  private _dataSurvivors = './assets/data/survivors.json';
 
   constructor(
     private http: HttpClient,

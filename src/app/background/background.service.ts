@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class BackgroundService {
 
-  private _dataBackground = '../../assets/data/backgrounds_en.json';
+  private _dataBackground = './assets/data/backgrounds_en.json';
 
   constructor(private http: HttpClient) { }
 
