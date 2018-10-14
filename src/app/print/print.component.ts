@@ -71,7 +71,7 @@ export class PrintComponent implements OnInit {
   }
 
   savePdf(i: number, doc: jsPDF) {
-    this.valuenowProgress = ((i + 1) / this.groupSurvivors.length * 100) | 0;
+    this.valuenowProgress = Math.trunc(((i + 1) / this.groupSurvivors.length * 100));
     this.styleProgress = `${this.valuenowProgress}%`;
     html2canvas(document.querySelector('#content' + i)).then(canvas => {
       const imgWidth = 208;
