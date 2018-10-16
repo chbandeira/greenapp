@@ -204,11 +204,11 @@
 			"name": "+1 die: Ranged",
 			"content": {
 				"en": {
-					"title": "+1 dado: Alcance",
+					"title": "+1 die: Ranged",
 					"description": "The Survivor’s Ranged weapons roll an extra die for Ranged Actions. Dual Ranged weapons each gain a die, for a total of +2 dice per Dual Ranged Action."
 				},
 				"pt": {
-					"title": "+1 die: Ranged",
+					"title": "+1 dado: Alcance",
 					"description": "As armas de Alcance do Sobrevivente rolam um dado extra em Ações de Alcance. Armas de Alcance Duplas ganham um dado extra cada uma, totalizando +2 dados por Ação de Alcance Dupla."
 				}
 			}
