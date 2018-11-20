@@ -12,7 +12,7 @@ import { LangService } from '../core/lang.service';
 })
 export class AboutComponent implements OnInit {
 
-  version = '1.0.1-beta';
+  version = '1.1.0';
   localSettings: Settings;
   survivors: Survivor[];
   nameSurvivors: string;

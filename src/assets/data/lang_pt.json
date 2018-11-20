@@ -39,5 +39,9 @@
     "gameEffect": "Efeito do jogo",
     "references": "Referências",
     "text11": "Mais detalhes em",
-    "wait": "Aguarde..."
+    "wait": "Aguarde...",
+    "quantity": "Quantidade",
+    "random": "Aleatório",
+    "shuffle": "Sortear",
+    "select": "Selecionar"
 }

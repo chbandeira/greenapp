@@ -1,7 +1,7 @@
 # ZombicideGreenApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.0.
-This App is to make survivor skills on board game Zombicide Green Horde (and Black Plague too) faster to see.
+This App is to make easier to look at survivor skills for board games Zombicide Green Horde (and Black Plague too).
 
 ## Development server
 

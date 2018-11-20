@@ -6,14 +6,41 @@
 </nav>
 
 <form [formGroup]="formSurvivors" novalidate>
-  <div class="form-group d-flex flex-row mb-3 mr-2 ml-2">
-    <select class="form-control mr-1" id="comboboxSurvivors" formControlName="comboboxSurvivors">
-      <option></option>
-      <option *ngFor="let survivor of comboboxSurvivors" value="{{survivor.name}}">{{survivor.name}} ({{survivor.box}})</option>
-    </select>
-    <button type="button" class="btn btn-success" [class.disabled]="isComboboxSurvivorClean()" (click)="addSurvivor()">
-      {{lang?.add}}
-    </button>
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="tab-1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1"
+        aria-selected="true">{{lang?.select}}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="tab-2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">
+        {{lang?.random}}
+      </a>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active mt-3" id="tab1" role="tabpanel" aria-labelledby="tab-1">
+      <div class="form-group d-flex flex-row mb-3 mr-2 ml-2">
+        <select class="form-control mr-1" id="comboboxSurvivors" formControlName="comboboxSurvivors">
+          <option></option>
+          <option *ngFor="let survivor of comboboxSurvivors" value="{{survivor.name}}">{{survivor.name}}
+            ({{survivor.box}})</option>
+        </select>
+        <button type="button" class="btn btn-success" [class.disabled]="isComboboxSurvivorClean()" (click)="addSurvivor()">
+          {{lang?.add}}
+        </button>
+      </div>
+    </div>
+    <div class="tab-pane fade mt-3" id="tab2" role="tabpanel" aria-labelledby="tab-2">
+      <div class="form-group d-flex flex-row mb-3 mr-2 ml-2">
+        <select class="form-control mr-1 ml-1" id="comboboxQuantity" formControlName="comboboxQuantity">
+          <option value="" disabled>{{lang?.quantity}}</option>
+          <option *ngFor="let item of items; index as i" value="{{i+1}}">{{i+1}}</option>
+        </select>
+        <button type="button" class="btn btn-success" [class.disabled]="isQuantityEmpty()" (click)="randomSurvivor()">
+          {{lang?.shuffle}}
+        </button>
+      </div>
+    </div>
   </div>
 </form>
 
@@ -43,7 +70,8 @@
           <i class="fas fa-dice-one"></i> 0 - 6
         </div>
         <div *ngFor="let skill of survivor.level.skillBlue">
-          <zga-skill [colorLevel]="'blue'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings" [lang]="lang"></zga-skill>
+          <zga-skill [colorLevel]="'blue'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings"
+            [lang]="lang"></zga-skill>
         </div>
       </div>
 
@@ -52,7 +80,8 @@
           <i class="fas fa-dice-two mr-1"></i> 7 - 18
         </div>
         <div *ngFor="let skill of survivor.level.skillYellow">
-          <zga-skill [colorLevel]="'yellow'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings" [lang]="lang"></zga-skill>
+          <zga-skill [colorLevel]="'yellow'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings"
+            [lang]="lang"></zga-skill>
         </div>
       </div>
 
@@ -61,7 +90,8 @@
           <i class="fas fa-dice-three"></i> 19 - 42
         </div>
         <div *ngFor="let skill of survivor.level.skillOrange">
-          <zga-skill [colorLevel]="'orange'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings" [lang]="lang"></zga-skill>
+          <zga-skill [colorLevel]="'orange'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings"
+            [lang]="lang"></zga-skill>
         </div>
       </div>
 
@@ -70,7 +100,8 @@
           <i class="fas fa-dice-four"></i> 43+
         </div>
         <div *ngFor="let skill of survivor.level.skillRed">
-          <zga-skill [colorLevel]="'red'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings" [lang]="lang"></zga-skill>
+          <zga-skill [colorLevel]="'red'" [skillContent]="skill" [survivorName]="survivor.name" [localSettings]="localSettings"
+            [lang]="lang"></zga-skill>
         </div>
       </div>
     </div>

@@ -20,6 +20,7 @@ export class SurvivorComponent implements OnInit {
   survivorsSelected: Survivor[];
   comboboxSurvivors = [];
   lang: any;
+  items = Array(12);
 
   constructor(
     private survivorService: SurvivorService,
@@ -54,7 +55,8 @@ export class SurvivorComponent implements OnInit {
 
   private clearComboboxSurvivors() {
     this.formSurvivors = this.formBuilder.group({
-      comboboxSurvivors: ''
+      comboboxSurvivors: '',
+      comboboxQuantity: ''
     });
   }
 
@@ -81,5 +83,22 @@ export class SurvivorComponent implements OnInit {
 
   isComboboxSurvivorClean(): boolean {
     return this.formSurvivors.value['comboboxSurvivors'] === '';
+  }
+
+  isQuantityEmpty(): boolean {
+    return this.formSurvivors.value['comboboxQuantity'] === '';
+  }
+
+  randomSurvivor() {
+    for (let i = 0; i < this.formSurvivors.value['comboboxQuantity'];) {
+      const survivor = this.survivors[Math.floor(Math.random() * this.survivors.length)];
+      const survivorFound = this.survivorsSelected.find(item => item.name === survivor.name);
+      if (survivor && !survivorFound) {
+        this.survivorsSelected.push(survivor);
+        this.survivorService.save(survivor);
+        this.survivorService.loadSkillsSurvivor(survivor);
+        i++;
+      }
+    }
   }
 }
