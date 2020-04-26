@@ -1,10 +1,25 @@
 # ZombicideGreenApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.0.
-
 This App is to make easier to look at survivor skills for board games Zombicide Green Horde (and Black Plague too).
 
+## Languages and Frameworks
+
+- TypeScript
+- JavaScript
+- HTML
+- CSS
+- Bootstrap
+- Angular
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.0.
+
+## Samples
+
 See the PWA running on GitPages https://chbandeira.github.io/greenapp/
+
+<img src="https://github.com/chbandeira/greenapp/blob/master/src/assets/img/GHSample1.jpg">
+<img src="https://github.com/chbandeira/greenapp/blob/master/src/assets/img/GHSample2.jpg">
+<img src="https://github.com/chbandeira/greenapp/blob/master/src/assets/img/GHSample3.jpg">
 
 ## Development server
 
